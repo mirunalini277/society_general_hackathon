@@ -1,0 +1,580 @@
+﻿application,dependency_id,library,version,dependency_type,cve_id,cvss,severity,patch_available,exploitability,description,fixed_version,affected_version_range
+Customer Portal,APP001_D01,Spring Boot,1.0.0,Direct,CVE-2025-1078,8.4,Medium,True,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_D01,Spring Boot,1.0.0,Direct,CVE-2025-1132,7.3,Medium,False,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_D02,React,3.2.1,Direct,CVE-2025-1148,8.7,Medium,False,Medium,Synthetic record,latest,3.2.1
+Customer Portal,APP001_D04,FastAPI,3.0.0,Direct,CVE-2025-1127,8.6,Medium,False,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_D04,FastAPI,3.0.0,Direct,CVE-2025-1174,5.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_D06,PostgreSQL JDBC,2.0.0,Direct,CVE-2025-1059,8.2,Medium,False,Medium,Synthetic record,latest,2.0.0
+Customer Portal,APP001_D06,PostgreSQL JDBC,2.0.0,Direct,CVE-2025-1136,6.0,Medium,False,Medium,Synthetic record,latest,2.0.0
+Customer Portal,APP001_D07,MySQL Connector,3.2.1,Direct,CVE-2025-1080,8.9,Medium,True,Medium,Synthetic record,latest,3.2.1
+Customer Portal,APP001_T01,Jetty,2.17.1,Transitive,CVE-2025-1011,5.7,Medium,True,Medium,Synthetic record,latest,2.17.1
+Customer Portal,APP001_T01,Jetty,2.17.1,Transitive,CVE-2025-1015,7.3,Medium,False,Medium,Synthetic record,latest,2.17.1
+Customer Portal,APP001_T02,OkHttp,3.2.1,Transitive,CVE-2025-1020,4.7,Medium,False,Medium,Synthetic record,latest,3.2.1
+Customer Portal,APP001_T02,OkHttp,3.2.1,Transitive,CVE-2025-1058,4.8,Medium,False,Medium,Synthetic record,latest,3.2.1
+Customer Portal,APP001_T03,SLF4J,1.0.0,Transitive,CVE-2025-1097,5.7,Medium,False,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_T03,SLF4J,1.0.0,Transitive,CVE-2025-1187,8.5,Medium,False,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_T04,BouncyCastle,1.5.0,Transitive,CVE-2025-1100,9.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+Customer Portal,APP001_T04,BouncyCastle,1.5.0,Transitive,CVE-2025-1111,4.8,Medium,True,Medium,Synthetic record,latest,1.5.0
+Customer Portal,APP001_T05,Gson,3.0.0,Transitive,CVE-2025-1079,9.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_T05,Gson,3.0.0,Transitive,CVE-2025-1134,9.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_T06,Gson,2.0.0,Transitive,CVE-2025-1129,7.7,Medium,True,Medium,Synthetic record,latest,2.0.0
+Customer Portal,APP001_T08,Commons IO,1.0.0,Transitive,CVE-2025-1140,6.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_T08,Commons IO,1.0.0,Transitive,CVE-2025-1161,6.3,Medium,False,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_T11,Tomcat,1.0.0,Transitive,CVE-2025-1048,9.5,Medium,True,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_T12,Gson,3.2.1,Transitive,CVE-2025-1150,6.4,Medium,True,Medium,Synthetic record,latest,3.2.1
+Customer Portal,APP001_T14,SLF4J,3.2.1,Transitive,CVE-2025-1112,9.2,Medium,False,Medium,Synthetic record,latest,3.2.1
+Customer Portal,APP001_T15,SLF4J,1.5.0,Transitive,CVE-2025-1013,6.7,Medium,False,Medium,Synthetic record,latest,1.5.0
+Customer Portal,APP001_T15,SLF4J,1.5.0,Transitive,CVE-2025-1133,3.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+Customer Portal,APP001_T17,JUnit5,3.0.0,Transitive,CVE-2025-1149,8.5,Medium,True,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_T17,JUnit5,3.0.0,Transitive,CVE-2025-1160,9.6,Medium,False,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_T18,Lodash,3.2.1,Transitive,CVE-2025-1190,4.9,Medium,True,Medium,Synthetic record,latest,3.2.1
+Customer Portal,APP001_T19,BouncyCastle,2.14.1,Transitive,CVE-2025-1197,5.9,Medium,True,Medium,Synthetic record,latest,2.14.1
+Customer Portal,APP001_T20,Jetty,3.2.1,Transitive,CVE-2025-1027,6.1,Medium,True,Medium,Synthetic record,latest,3.2.1
+Customer Portal,APP001_T21,Jackson,3.2.1,Transitive,CVE-2025-1179,5.3,Medium,False,Medium,Synthetic record,latest,3.2.1
+Customer Portal,APP001_T22,SLF4J,2.17.1,Transitive,CVE-2025-1186,5.1,Medium,False,Medium,Synthetic record,latest,2.17.1
+Customer Portal,APP001_T23,Jackson,3.0.0,Transitive,CVE-2025-1026,5.4,Medium,False,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_T23,Jackson,3.0.0,Transitive,CVE-2025-1089,6.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_T26,Gson,3.0.0,Transitive,CVE-2025-1079,9.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_T26,Gson,3.0.0,Transitive,CVE-2025-1134,9.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_T27,SnakeYAML,1.0.0,Transitive,CVE-2024-3001,8.8,High,True,High,Known vulnerability in SnakeYAML,2.0.0,1.0.0
+Customer Portal,APP001_T27,SnakeYAML,1.0.0,Transitive,CVE-2025-1066,4.5,Medium,True,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_T30,SLF4J,3.2.1,Transitive,CVE-2025-1112,9.2,Medium,False,Medium,Synthetic record,latest,3.2.1
+Customer Portal,APP001_T31,Jackson,1.0.0,Transitive,CVE-2025-1178,8.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_T32,Log4j,2.14.1,Transitive,CVE-2021-44228,10.0,Critical,True,High,Known vulnerability in Log4j,2.17.1,2.14.1
+Customer Portal,APP001_T32,Log4j,2.14.1,Transitive,CVE-2025-1073,8.1,Medium,True,Medium,Synthetic record,latest,2.14.1
+Customer Portal,APP001_T32,Log4j,2.14.1,Transitive,CVE-2025-1168,8.2,Medium,True,Medium,Synthetic record,latest,2.14.1
+Customer Portal,APP001_T33,Guava,3.0.0,Transitive,CVE-2025-1176,6.1,Medium,False,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_T34,BouncyCastle,1.5.0,Transitive,CVE-2025-1100,9.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+Customer Portal,APP001_T34,BouncyCastle,1.5.0,Transitive,CVE-2025-1111,4.8,Medium,True,Medium,Synthetic record,latest,1.5.0
+Customer Portal,APP001_T36,SLF4J,1.0.0,Transitive,CVE-2025-1097,5.7,Medium,False,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_T36,SLF4J,1.0.0,Transitive,CVE-2025-1187,8.5,Medium,False,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_T37,OpenSSL,3.0.0,Transitive,CVE-2025-1145,8.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_T38,Jackson,1.0.0,Transitive,CVE-2025-1178,8.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_T39,Tomcat,3.0.0,Transitive,CVE-2025-1194,5.7,Medium,True,Medium,Synthetic record,latest,3.0.0
+Customer Portal,APP001_T40,Gson,1.0.0,Transitive,CVE-2025-1055,4.4,Medium,False,Medium,Synthetic record,latest,1.0.0
+Customer Portal,APP001_T40,Gson,1.0.0,Transitive,CVE-2025-1109,3.8,Medium,True,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_D01,Spring Boot,1.5.0,Direct,CVE-2025-1075,7.0,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_D04,FastAPI,2.14.1,Direct,CVE-2025-1153,8.7,Medium,True,Medium,Synthetic record,latest,2.14.1
+Payment Gateway,APP002_D05,Kafka Client,3.0.0,Direct,CVE-2025-1033,4.7,Medium,False,Medium,Synthetic record,latest,3.0.0
+Payment Gateway,APP002_D05,Kafka Client,3.0.0,Direct,CVE-2025-1042,8.8,Medium,True,Medium,Synthetic record,latest,3.0.0
+Payment Gateway,APP002_D05,Kafka Client,3.0.0,Direct,CVE-2025-1050,4.7,Medium,False,Medium,Synthetic record,latest,3.0.0
+Payment Gateway,APP002_D05,Kafka Client,3.0.0,Direct,CVE-2025-1056,6.7,Medium,True,Medium,Synthetic record,latest,3.0.0
+Payment Gateway,APP002_D06,PostgreSQL JDBC,3.0.0,Direct,CVE-2025-1104,5.9,Medium,False,Medium,Synthetic record,latest,3.0.0
+Payment Gateway,APP002_D07,MySQL Connector,2.0.0,Direct,CVE-2025-1122,7.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+Payment Gateway,APP002_D07,MySQL Connector,2.0.0,Direct,CVE-2025-1139,4.2,Medium,False,Medium,Synthetic record,latest,2.0.0
+Payment Gateway,APP002_D09,Netty,1.0.0,Direct,CVE-2025-1116,7.3,Medium,False,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T01,JUnit5,2.17.1,Transitive,CVE-2025-1156,9.1,Medium,True,Medium,Synthetic record,latest,2.17.1
+Payment Gateway,APP002_T03,Log4j,3.2.1,Transitive,CVE-2025-1043,8.3,Medium,False,Medium,Synthetic record,latest,3.2.1
+Payment Gateway,APP002_T03,Log4j,3.2.1,Transitive,CVE-2025-1065,9.4,Medium,False,Medium,Synthetic record,latest,3.2.1
+Payment Gateway,APP002_T03,Log4j,3.2.1,Transitive,CVE-2025-1086,4.2,Medium,True,Medium,Synthetic record,latest,3.2.1
+Payment Gateway,APP002_T04,SLF4J,1.5.0,Transitive,CVE-2025-1013,6.7,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T04,SLF4J,1.5.0,Transitive,CVE-2025-1133,3.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T06,BouncyCastle,2.0.0,Transitive,CVE-2025-1018,6.2,Medium,False,Medium,Synthetic record,latest,2.0.0
+Payment Gateway,APP002_T06,BouncyCastle,2.0.0,Transitive,CVE-2025-1146,7.9,Medium,False,Medium,Synthetic record,latest,2.0.0
+Payment Gateway,APP002_T06,BouncyCastle,2.0.0,Transitive,CVE-2025-1183,8.8,Medium,False,Medium,Synthetic record,latest,2.0.0
+Payment Gateway,APP002_T08,Commons IO,1.5.0,Transitive,CVE-2025-1113,6.6,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T09,Gson,3.0.0,Transitive,CVE-2025-1079,9.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Payment Gateway,APP002_T09,Gson,3.0.0,Transitive,CVE-2025-1134,9.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Payment Gateway,APP002_T10,Axios,1.5.0,Transitive,CVE-2025-1017,6.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T10,Axios,1.5.0,Transitive,CVE-2025-1120,3.3,Medium,True,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T11,Gson,1.0.0,Transitive,CVE-2025-1055,4.4,Medium,False,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T11,Gson,1.0.0,Transitive,CVE-2025-1109,3.8,Medium,True,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T12,Jackson,2.17.1,Transitive,CVE-2025-1119,5.8,Medium,False,Medium,Synthetic record,latest,2.17.1
+Payment Gateway,APP002_T13,Gson,1.0.0,Transitive,CVE-2025-1055,4.4,Medium,False,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T13,Gson,1.0.0,Transitive,CVE-2025-1109,3.8,Medium,True,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T14,Jackson,1.5.0,Transitive,CVE-2025-1005,5.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T14,Jackson,1.5.0,Transitive,CVE-2025-1130,8.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T14,Jackson,1.5.0,Transitive,CVE-2025-1199,5.5,Medium,True,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T15,Tomcat,3.0.0,Transitive,CVE-2025-1194,5.7,Medium,True,Medium,Synthetic record,latest,3.0.0
+Payment Gateway,APP002_T16,Guava,3.0.0,Transitive,CVE-2025-1176,6.1,Medium,False,Medium,Synthetic record,latest,3.0.0
+Payment Gateway,APP002_T17,SnakeYAML,1.5.0,Transitive,CVE-2025-1173,7.1,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T18,SLF4J,1.5.0,Transitive,CVE-2025-1013,6.7,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T18,SLF4J,1.5.0,Transitive,CVE-2025-1133,3.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T19,BouncyCastle,2.17.1,Transitive,CVE-2025-1025,6.9,Medium,False,Medium,Synthetic record,latest,2.17.1
+Payment Gateway,APP002_T19,BouncyCastle,2.17.1,Transitive,CVE-2025-1057,5.0,Medium,True,Medium,Synthetic record,latest,2.17.1
+Payment Gateway,APP002_T19,BouncyCastle,2.17.1,Transitive,CVE-2025-1082,5.2,Medium,False,Medium,Synthetic record,latest,2.17.1
+Payment Gateway,APP002_T20,Tomcat,1.0.0,Transitive,CVE-2025-1048,9.5,Medium,True,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T21,Lodash,3.0.0,Transitive,CVE-2025-1164,7.7,Medium,True,Medium,Synthetic record,latest,3.0.0
+Payment Gateway,APP002_T22,JUnit5,2.0.0,Transitive,CVE-2025-1054,6.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+Payment Gateway,APP002_T23,Tomcat,1.5.0,Transitive,CVE-2025-1096,8.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T23,Tomcat,1.5.0,Transitive,CVE-2025-1191,4.2,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T23,Tomcat,1.5.0,Transitive,CVE-2025-1196,6.1,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T24,Jackson,1.0.0,Transitive,CVE-2025-1178,8.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T25,SnakeYAML,2.0.0,Transitive,CVE-2025-1019,4.7,Medium,True,Medium,Synthetic record,latest,2.0.0
+Payment Gateway,APP002_T25,SnakeYAML,2.0.0,Transitive,CVE-2025-1137,9.6,Medium,False,Medium,Synthetic record,latest,2.0.0
+Payment Gateway,APP002_T26,BouncyCastle,1.0.0,Transitive,CVE-2025-1090,9.0,Medium,True,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T26,BouncyCastle,1.0.0,Transitive,CVE-2025-1162,7.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T27,OkHttp,1.5.0,Transitive,CVE-2025-1115,5.9,Medium,True,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T29,Log4j,3.2.1,Transitive,CVE-2025-1043,8.3,Medium,False,Medium,Synthetic record,latest,3.2.1
+Payment Gateway,APP002_T29,Log4j,3.2.1,Transitive,CVE-2025-1065,9.4,Medium,False,Medium,Synthetic record,latest,3.2.1
+Payment Gateway,APP002_T29,Log4j,3.2.1,Transitive,CVE-2025-1086,4.2,Medium,True,Medium,Synthetic record,latest,3.2.1
+Payment Gateway,APP002_T30,Gson,1.0.0,Transitive,CVE-2025-1055,4.4,Medium,False,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T30,Gson,1.0.0,Transitive,CVE-2025-1109,3.8,Medium,True,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T31,OpenSSL,2.14.1,Transitive,CVE-2025-1037,9.5,Medium,True,Medium,Synthetic record,latest,2.14.1
+Payment Gateway,APP002_T31,OpenSSL,2.14.1,Transitive,CVE-2025-1128,6.7,Medium,False,Medium,Synthetic record,latest,2.14.1
+Payment Gateway,APP002_T32,Guava,2.17.1,Transitive,CVE-2025-1088,7.9,Medium,True,Medium,Synthetic record,latest,2.17.1
+Payment Gateway,APP002_T33,Tomcat,1.5.0,Transitive,CVE-2025-1096,8.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T33,Tomcat,1.5.0,Transitive,CVE-2025-1191,4.2,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T33,Tomcat,1.5.0,Transitive,CVE-2025-1196,6.1,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T34,Guava,3.0.0,Transitive,CVE-2025-1176,6.1,Medium,False,Medium,Synthetic record,latest,3.0.0
+Payment Gateway,APP002_T35,Tomcat,1.0.0,Transitive,CVE-2025-1048,9.5,Medium,True,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T36,Gson,1.5.0,Transitive,CVE-2025-1085,6.6,Medium,True,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T36,Gson,1.5.0,Transitive,CVE-2025-1095,7.8,Medium,False,Medium,Synthetic record,latest,1.5.0
+Payment Gateway,APP002_T37,Lodash,3.2.1,Transitive,CVE-2025-1190,4.9,Medium,True,Medium,Synthetic record,latest,3.2.1
+Payment Gateway,APP002_T38,Jackson,2.14.1,Transitive,CVE-2025-1105,4.3,Medium,False,Medium,Synthetic record,latest,2.14.1
+Payment Gateway,APP002_T39,Tomcat,1.0.0,Transitive,CVE-2025-1048,9.5,Medium,True,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T40,BouncyCastle,1.0.0,Transitive,CVE-2025-1090,9.0,Medium,True,Medium,Synthetic record,latest,1.0.0
+Payment Gateway,APP002_T40,BouncyCastle,1.0.0,Transitive,CVE-2025-1162,7.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+HRMS,APP003_D01,Spring Boot,1.5.0,Direct,CVE-2025-1075,7.0,Medium,False,Medium,Synthetic record,latest,1.5.0
+HRMS,APP003_D02,React,1.0.0,Direct,CVE-2025-1008,5.9,Medium,True,Medium,Synthetic record,latest,1.0.0
+HRMS,APP003_D02,React,1.0.0,Direct,CVE-2025-1125,3.1,Medium,True,Medium,Synthetic record,latest,1.0.0
+HRMS,APP003_D03,Express,2.17.1,Direct,CVE-2025-1117,8.8,Medium,True,Medium,Synthetic record,latest,2.17.1
+HRMS,APP003_D03,Express,2.17.1,Direct,CVE-2025-1163,4.0,Medium,False,Medium,Synthetic record,latest,2.17.1
+HRMS,APP003_D03,Express,2.17.1,Direct,CVE-2025-1172,3.6,Medium,False,Medium,Synthetic record,latest,2.17.1
+HRMS,APP003_D05,Kafka Client,2.0.0,Direct,CVE-2025-1101,9.0,Medium,False,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_D05,Kafka Client,2.0.0,Direct,CVE-2025-1147,7.9,Medium,True,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_D07,MySQL Connector,3.0.0,Direct,CVE-2025-1064,7.1,Medium,False,Medium,Synthetic record,latest,3.0.0
+HRMS,APP003_D07,MySQL Connector,3.0.0,Direct,CVE-2025-1099,5.1,Medium,True,Medium,Synthetic record,latest,3.0.0
+HRMS,APP003_D08,Redis Client,3.0.0,Direct,CVE-2025-1102,9.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+HRMS,APP003_D08,Redis Client,3.0.0,Direct,CVE-2025-1159,8.1,Medium,True,Medium,Synthetic record,latest,3.0.0
+HRMS,APP003_D09,Netty,2.0.0,Direct,CVE-2025-1040,3.0,Medium,False,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_D09,Netty,2.0.0,Direct,CVE-2025-1124,8.5,Medium,False,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_D09,Netty,2.0.0,Direct,CVE-2025-1181,3.4,Medium,False,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_D10,Hibernate,1.0.0,Direct,CVE-2025-1169,9.4,Medium,True,Medium,Synthetic record,latest,1.0.0
+HRMS,APP003_T03,Jackson,3.2.1,Transitive,CVE-2025-1179,5.3,Medium,False,Medium,Synthetic record,latest,3.2.1
+HRMS,APP003_T05,Tomcat,3.2.1,Transitive,CVE-2025-1014,7.6,Medium,True,Medium,Synthetic record,latest,3.2.1
+HRMS,APP003_T06,OkHttp,2.0.0,Transitive,CVE-2025-1094,6.1,Medium,False,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_T06,OkHttp,2.0.0,Transitive,CVE-2025-1114,3.6,Medium,True,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_T06,OkHttp,2.0.0,Transitive,CVE-2025-1135,3.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_T07,Gson,3.2.1,Transitive,CVE-2025-1150,6.4,Medium,True,Medium,Synthetic record,latest,3.2.1
+HRMS,APP003_T08,Commons IO,2.14.1,Transitive,CVE-2025-1044,5.7,Medium,False,Medium,Synthetic record,latest,2.14.1
+HRMS,APP003_T09,Jackson,3.2.1,Transitive,CVE-2025-1179,5.3,Medium,False,Medium,Synthetic record,latest,3.2.1
+HRMS,APP003_T10,OpenSSL,2.0.0,Transitive,CVE-2025-1077,4.1,Medium,True,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_T12,Axios,1.5.0,Transitive,CVE-2025-1017,6.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+HRMS,APP003_T12,Axios,1.5.0,Transitive,CVE-2025-1120,3.3,Medium,True,Medium,Synthetic record,latest,1.5.0
+HRMS,APP003_T13,JUnit5,2.0.0,Transitive,CVE-2025-1054,6.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_T15,Axios,1.0.0,Transitive,CVE-2025-1047,3.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+HRMS,APP003_T17,Commons IO,1.5.0,Transitive,CVE-2025-1113,6.6,Medium,False,Medium,Synthetic record,latest,1.5.0
+HRMS,APP003_T19,Tomcat,2.17.1,Transitive,CVE-2025-1188,4.4,Medium,True,Medium,Synthetic record,latest,2.17.1
+HRMS,APP003_T20,Guava,1.5.0,Transitive,CVE-2025-1067,5.3,Medium,False,Medium,Synthetic record,latest,1.5.0
+HRMS,APP003_T20,Guava,1.5.0,Transitive,CVE-2025-1071,6.0,Medium,False,Medium,Synthetic record,latest,1.5.0
+HRMS,APP003_T20,Guava,1.5.0,Transitive,CVE-2025-1103,9.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+HRMS,APP003_T21,BouncyCastle,1.0.0,Transitive,CVE-2025-1090,9.0,Medium,True,Medium,Synthetic record,latest,1.0.0
+HRMS,APP003_T21,BouncyCastle,1.0.0,Transitive,CVE-2025-1162,7.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+HRMS,APP003_T23,SLF4J,1.0.0,Transitive,CVE-2025-1097,5.7,Medium,False,Medium,Synthetic record,latest,1.0.0
+HRMS,APP003_T23,SLF4J,1.0.0,Transitive,CVE-2025-1187,8.5,Medium,False,Medium,Synthetic record,latest,1.0.0
+HRMS,APP003_T24,Tomcat,3.0.0,Transitive,CVE-2025-1194,5.7,Medium,True,Medium,Synthetic record,latest,3.0.0
+HRMS,APP003_T25,Commons IO,1.5.0,Transitive,CVE-2025-1113,6.6,Medium,False,Medium,Synthetic record,latest,1.5.0
+HRMS,APP003_T26,Gson,2.14.1,Transitive,CVE-2025-1021,9.0,Medium,False,Medium,Synthetic record,latest,2.14.1
+HRMS,APP003_T26,Gson,2.14.1,Transitive,CVE-2025-1023,4.1,Medium,False,Medium,Synthetic record,latest,2.14.1
+HRMS,APP003_T26,Gson,2.14.1,Transitive,CVE-2025-1092,6.8,Medium,True,Medium,Synthetic record,latest,2.14.1
+HRMS,APP003_T26,Gson,2.14.1,Transitive,CVE-2025-1126,4.7,Medium,False,Medium,Synthetic record,latest,2.14.1
+HRMS,APP003_T28,OpenSSL,2.17.1,Transitive,CVE-2025-1151,8.4,Medium,True,Medium,Synthetic record,latest,2.17.1
+HRMS,APP003_T28,OpenSSL,2.17.1,Transitive,CVE-2025-1157,3.4,Medium,False,Medium,Synthetic record,latest,2.17.1
+HRMS,APP003_T31,Log4j,2.0.0,Transitive,CVE-2025-1093,7.2,Medium,True,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_T32,Axios,2.0.0,Transitive,CVE-2025-1051,6.2,Medium,True,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_T33,Log4j,3.0.0,Transitive,CVE-2025-1084,7.0,Medium,False,Medium,Synthetic record,latest,3.0.0
+HRMS,APP003_T35,Commons IO,1.5.0,Transitive,CVE-2025-1113,6.6,Medium,False,Medium,Synthetic record,latest,1.5.0
+HRMS,APP003_T36,Commons IO,2.0.0,Transitive,CVE-2025-1101,7.5,High,True,High,Known vulnerability in Commons IO,2.1.0,2.0.0
+HRMS,APP003_T36,Commons IO,2.0.0,Transitive,CVE-2025-1108,6.5,Medium,False,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_T36,Commons IO,2.0.0,Transitive,CVE-2025-1131,9.7,Medium,True,Medium,Synthetic record,latest,2.0.0
+HRMS,APP003_T37,BouncyCastle,2.17.1,Transitive,CVE-2025-1025,6.9,Medium,False,Medium,Synthetic record,latest,2.17.1
+HRMS,APP003_T37,BouncyCastle,2.17.1,Transitive,CVE-2025-1057,5.0,Medium,True,Medium,Synthetic record,latest,2.17.1
+HRMS,APP003_T37,BouncyCastle,2.17.1,Transitive,CVE-2025-1082,5.2,Medium,False,Medium,Synthetic record,latest,2.17.1
+HRMS,APP003_T38,Guava,1.0.0,Transitive,CVE-2025-1032,4.5,Medium,False,Medium,Synthetic record,latest,1.0.0
+HRMS,APP003_T38,Guava,1.0.0,Transitive,CVE-2025-1034,4.1,Medium,False,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_D01,Spring Boot,3.2.1,Direct,CVE-2025-1063,4.9,Medium,False,Medium,Synthetic record,latest,3.2.1
+Inventory Service,APP004_D02,React,3.0.0,Direct,CVE-2025-1029,7.8,Medium,False,Medium,Synthetic record,latest,3.0.0
+Inventory Service,APP004_D02,React,3.0.0,Direct,CVE-2025-1189,5.8,Medium,True,Medium,Synthetic record,latest,3.0.0
+Inventory Service,APP004_D03,Express,1.0.0,Direct,CVE-2025-1152,3.3,Medium,False,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_D04,FastAPI,1.0.0,Direct,CVE-2025-1110,4.8,Medium,True,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_D04,FastAPI,1.0.0,Direct,CVE-2025-1184,8.7,Medium,False,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_D07,MySQL Connector,2.0.0,Direct,CVE-2025-1122,7.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+Inventory Service,APP004_D07,MySQL Connector,2.0.0,Direct,CVE-2025-1139,4.2,Medium,False,Medium,Synthetic record,latest,2.0.0
+Inventory Service,APP004_D09,Netty,1.0.0,Direct,CVE-2025-1116,7.3,Medium,False,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_T01,JUnit5,2.17.1,Transitive,CVE-2025-1156,9.1,Medium,True,Medium,Synthetic record,latest,2.17.1
+Inventory Service,APP004_T02,BouncyCastle,1.0.0,Transitive,CVE-2025-1090,9.0,Medium,True,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_T02,BouncyCastle,1.0.0,Transitive,CVE-2025-1162,7.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_T03,Jetty,3.2.1,Transitive,CVE-2025-1027,6.1,Medium,True,Medium,Synthetic record,latest,3.2.1
+Inventory Service,APP004_T04,Tomcat,2.17.1,Transitive,CVE-2025-1188,4.4,Medium,True,Medium,Synthetic record,latest,2.17.1
+Inventory Service,APP004_T05,OkHttp,3.2.1,Transitive,CVE-2025-1020,4.7,Medium,False,Medium,Synthetic record,latest,3.2.1
+Inventory Service,APP004_T05,OkHttp,3.2.1,Transitive,CVE-2025-1058,4.8,Medium,False,Medium,Synthetic record,latest,3.2.1
+Inventory Service,APP004_T06,Jackson,1.0.0,Transitive,CVE-2025-1178,8.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_T08,Guava,1.5.0,Transitive,CVE-2025-1067,5.3,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T08,Guava,1.5.0,Transitive,CVE-2025-1071,6.0,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T08,Guava,1.5.0,Transitive,CVE-2025-1103,9.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T09,Guava,2.0.0,Transitive,CVE-2025-1155,3.0,Medium,True,Medium,Synthetic record,latest,2.0.0
+Inventory Service,APP004_T10,Jackson,1.5.0,Transitive,CVE-2025-1005,5.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T10,Jackson,1.5.0,Transitive,CVE-2025-1130,8.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T10,Jackson,1.5.0,Transitive,CVE-2025-1199,5.5,Medium,True,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T11,Jackson,2.17.1,Transitive,CVE-2025-1119,5.8,Medium,False,Medium,Synthetic record,latest,2.17.1
+Inventory Service,APP004_T12,Lodash,1.5.0,Transitive,CVE-2025-1060,7.2,Medium,True,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T12,Lodash,1.5.0,Transitive,CVE-2025-1076,7.2,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T12,Lodash,1.5.0,Transitive,CVE-2025-1185,4.7,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T12,Lodash,1.5.0,Transitive,CVE-2025-1195,3.5,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T13,Jackson,3.2.1,Transitive,CVE-2025-1179,5.3,Medium,False,Medium,Synthetic record,latest,3.2.1
+Inventory Service,APP004_T14,Gson,3.0.0,Transitive,CVE-2025-1079,9.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Inventory Service,APP004_T14,Gson,3.0.0,Transitive,CVE-2025-1134,9.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Inventory Service,APP004_T16,SnakeYAML,1.5.0,Transitive,CVE-2025-1173,7.1,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T18,Tomcat,1.0.0,Transitive,CVE-2025-1048,9.5,Medium,True,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_T22,Lodash,1.5.0,Transitive,CVE-2025-1060,7.2,Medium,True,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T22,Lodash,1.5.0,Transitive,CVE-2025-1076,7.2,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T22,Lodash,1.5.0,Transitive,CVE-2025-1185,4.7,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T22,Lodash,1.5.0,Transitive,CVE-2025-1195,3.5,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T23,OpenSSL,2.0.0,Transitive,CVE-2025-1077,4.1,Medium,True,Medium,Synthetic record,latest,2.0.0
+Inventory Service,APP004_T24,Log4j,3.0.0,Transitive,CVE-2025-1084,7.0,Medium,False,Medium,Synthetic record,latest,3.0.0
+Inventory Service,APP004_T25,Gson,1.0.0,Transitive,CVE-2025-1055,4.4,Medium,False,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_T25,Gson,1.0.0,Transitive,CVE-2025-1109,3.8,Medium,True,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_T26,OpenSSL,2.17.1,Transitive,CVE-2025-1151,8.4,Medium,True,Medium,Synthetic record,latest,2.17.1
+Inventory Service,APP004_T26,OpenSSL,2.17.1,Transitive,CVE-2025-1157,3.4,Medium,False,Medium,Synthetic record,latest,2.17.1
+Inventory Service,APP004_T27,Guava,2.14.1,Transitive,CVE-2025-1052,6.3,Medium,False,Medium,Synthetic record,latest,2.14.1
+Inventory Service,APP004_T27,Guava,2.14.1,Transitive,CVE-2025-1175,3.2,Medium,True,Medium,Synthetic record,latest,2.14.1
+Inventory Service,APP004_T28,Jackson,3.2.1,Transitive,CVE-2025-1179,5.3,Medium,False,Medium,Synthetic record,latest,3.2.1
+Inventory Service,APP004_T29,OkHttp,2.0.0,Transitive,CVE-2025-1094,6.1,Medium,False,Medium,Synthetic record,latest,2.0.0
+Inventory Service,APP004_T29,OkHttp,2.0.0,Transitive,CVE-2025-1114,3.6,Medium,True,Medium,Synthetic record,latest,2.0.0
+Inventory Service,APP004_T29,OkHttp,2.0.0,Transitive,CVE-2025-1135,3.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+Inventory Service,APP004_T31,Gson,1.5.0,Transitive,CVE-2025-1085,6.6,Medium,True,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T31,Gson,1.5.0,Transitive,CVE-2025-1095,7.8,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T32,Gson,1.5.0,Transitive,CVE-2025-1085,6.6,Medium,True,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T32,Gson,1.5.0,Transitive,CVE-2025-1095,7.8,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T35,Guava,2.14.1,Transitive,CVE-2025-1052,6.3,Medium,False,Medium,Synthetic record,latest,2.14.1
+Inventory Service,APP004_T35,Guava,2.14.1,Transitive,CVE-2025-1175,3.2,Medium,True,Medium,Synthetic record,latest,2.14.1
+Inventory Service,APP004_T36,Commons IO,1.5.0,Transitive,CVE-2025-1113,6.6,Medium,False,Medium,Synthetic record,latest,1.5.0
+Inventory Service,APP004_T37,Jackson,2.17.1,Transitive,CVE-2025-1119,5.8,Medium,False,Medium,Synthetic record,latest,2.17.1
+Inventory Service,APP004_T38,Lodash,3.2.1,Transitive,CVE-2025-1190,4.9,Medium,True,Medium,Synthetic record,latest,3.2.1
+Inventory Service,APP004_T39,Gson,1.0.0,Transitive,CVE-2025-1055,4.4,Medium,False,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_T39,Gson,1.0.0,Transitive,CVE-2025-1109,3.8,Medium,True,Medium,Synthetic record,latest,1.0.0
+Inventory Service,APP004_T40,Axios,2.0.0,Transitive,CVE-2025-1051,6.2,Medium,True,Medium,Synthetic record,latest,2.0.0
+Finance API,APP005_D04,FastAPI,2.17.1,Direct,CVE-2025-1016,7.8,Medium,True,Medium,Synthetic record,latest,2.17.1
+Finance API,APP005_D05,Kafka Client,1.0.0,Direct,CVE-2025-1083,9.2,Medium,False,Medium,Synthetic record,latest,1.0.0
+Finance API,APP005_D07,MySQL Connector,3.2.1,Direct,CVE-2025-1080,8.9,Medium,True,Medium,Synthetic record,latest,3.2.1
+Finance API,APP005_D08,Redis Client,3.2.1,Direct,CVE-2025-1061,5.7,Medium,True,Medium,Synthetic record,latest,3.2.1
+Finance API,APP005_D09,Netty,1.5.0,Direct,CVE-2025-1081,5.0,Medium,True,Medium,Synthetic record,latest,1.5.0
+Finance API,APP005_T01,Jackson,2.14.1,Transitive,CVE-2025-1105,4.3,Medium,False,Medium,Synthetic record,latest,2.14.1
+Finance API,APP005_T02,Jackson,2.17.1,Transitive,CVE-2025-1119,5.8,Medium,False,Medium,Synthetic record,latest,2.17.1
+Finance API,APP005_T03,Lodash,2.14.1,Transitive,CVE-2025-1045,3.4,Medium,True,Medium,Synthetic record,latest,2.14.1
+Finance API,APP005_T06,Commons IO,3.0.0,Transitive,CVE-2025-1193,4.6,Medium,False,Medium,Synthetic record,latest,3.0.0
+Finance API,APP005_T07,JUnit5,1.5.0,Transitive,CVE-2025-1074,4.2,Medium,True,Medium,Synthetic record,latest,1.5.0
+Finance API,APP005_T07,JUnit5,1.5.0,Transitive,CVE-2025-1177,5.8,Medium,False,Medium,Synthetic record,latest,1.5.0
+Finance API,APP005_T09,SLF4J,3.2.1,Transitive,CVE-2025-1112,9.2,Medium,False,Medium,Synthetic record,latest,3.2.1
+Finance API,APP005_T11,Jackson,2.14.1,Transitive,CVE-2025-1105,4.3,Medium,False,Medium,Synthetic record,latest,2.14.1
+Finance API,APP005_T12,Commons IO,2.14.1,Transitive,CVE-2025-1044,5.7,Medium,False,Medium,Synthetic record,latest,2.14.1
+Finance API,APP005_T13,SnakeYAML,1.5.0,Transitive,CVE-2025-1173,7.1,Medium,False,Medium,Synthetic record,latest,1.5.0
+Finance API,APP005_T15,SLF4J,1.0.0,Transitive,CVE-2025-1097,5.7,Medium,False,Medium,Synthetic record,latest,1.0.0
+Finance API,APP005_T15,SLF4J,1.0.0,Transitive,CVE-2025-1187,8.5,Medium,False,Medium,Synthetic record,latest,1.0.0
+Finance API,APP005_T16,Jetty,3.2.1,Transitive,CVE-2025-1027,6.1,Medium,True,Medium,Synthetic record,latest,3.2.1
+Finance API,APP005_T17,Lodash,1.0.0,Transitive,CVE-2025-1154,7.3,Medium,True,Medium,Synthetic record,latest,1.0.0
+Finance API,APP005_T18,JUnit5,2.0.0,Transitive,CVE-2025-1054,6.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+Finance API,APP005_T20,Jetty,3.2.1,Transitive,CVE-2025-1027,6.1,Medium,True,Medium,Synthetic record,latest,3.2.1
+Finance API,APP005_T21,OkHttp,2.0.0,Transitive,CVE-2025-1094,6.1,Medium,False,Medium,Synthetic record,latest,2.0.0
+Finance API,APP005_T21,OkHttp,2.0.0,Transitive,CVE-2025-1114,3.6,Medium,True,Medium,Synthetic record,latest,2.0.0
+Finance API,APP005_T21,OkHttp,2.0.0,Transitive,CVE-2025-1135,3.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+Finance API,APP005_T22,Gson,2.0.0,Transitive,CVE-2025-1129,7.7,Medium,True,Medium,Synthetic record,latest,2.0.0
+Finance API,APP005_T24,Lodash,2.0.0,Transitive,CVE-2025-1069,8.4,Medium,True,Medium,Synthetic record,latest,2.0.0
+Finance API,APP005_T26,Jackson,1.0.0,Transitive,CVE-2025-1178,8.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+Finance API,APP005_T27,Tomcat,2.14.1,Transitive,CVE-2025-1107,6.0,Medium,True,Medium,Synthetic record,latest,2.14.1
+Finance API,APP005_T28,Tomcat,3.2.1,Transitive,CVE-2025-1014,7.6,Medium,True,Medium,Synthetic record,latest,3.2.1
+Finance API,APP005_T29,OkHttp,3.2.1,Transitive,CVE-2025-1020,4.7,Medium,False,Medium,Synthetic record,latest,3.2.1
+Finance API,APP005_T29,OkHttp,3.2.1,Transitive,CVE-2025-1058,4.8,Medium,False,Medium,Synthetic record,latest,3.2.1
+Finance API,APP005_T30,JUnit5,1.5.0,Transitive,CVE-2025-1074,4.2,Medium,True,Medium,Synthetic record,latest,1.5.0
+Finance API,APP005_T30,JUnit5,1.5.0,Transitive,CVE-2025-1177,5.8,Medium,False,Medium,Synthetic record,latest,1.5.0
+Finance API,APP005_T31,Tomcat,2.14.1,Transitive,CVE-2025-1107,6.0,Medium,True,Medium,Synthetic record,latest,2.14.1
+Finance API,APP005_T32,SnakeYAML,1.5.0,Transitive,CVE-2025-1173,7.1,Medium,False,Medium,Synthetic record,latest,1.5.0
+Finance API,APP005_T33,Gson,2.0.0,Transitive,CVE-2025-1129,7.7,Medium,True,Medium,Synthetic record,latest,2.0.0
+Finance API,APP005_T36,Jackson,3.0.0,Transitive,CVE-2025-1026,5.4,Medium,False,Medium,Synthetic record,latest,3.0.0
+Finance API,APP005_T36,Jackson,3.0.0,Transitive,CVE-2025-1089,6.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Finance API,APP005_T39,SnakeYAML,1.0.0,Transitive,CVE-2024-3001,8.8,High,True,High,Known vulnerability in SnakeYAML,2.0.0,1.0.0
+Finance API,APP005_T39,SnakeYAML,1.0.0,Transitive,CVE-2025-1066,4.5,Medium,True,Medium,Synthetic record,latest,1.0.0
+Identity Service,APP006_D01,Spring Boot,3.2.1,Direct,CVE-2025-1063,4.9,Medium,False,Medium,Synthetic record,latest,3.2.1
+Identity Service,APP006_D02,React,1.0.0,Direct,CVE-2025-1008,5.9,Medium,True,Medium,Synthetic record,latest,1.0.0
+Identity Service,APP006_D02,React,1.0.0,Direct,CVE-2025-1125,3.1,Medium,True,Medium,Synthetic record,latest,1.0.0
+Identity Service,APP006_D03,Express,1.0.0,Direct,CVE-2025-1152,3.3,Medium,False,Medium,Synthetic record,latest,1.0.0
+Identity Service,APP006_D04,FastAPI,3.0.0,Direct,CVE-2025-1127,8.6,Medium,False,Medium,Synthetic record,latest,3.0.0
+Identity Service,APP006_D04,FastAPI,3.0.0,Direct,CVE-2025-1174,5.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Identity Service,APP006_D07,MySQL Connector,2.14.1,Direct,CVE-2025-1046,4.1,Medium,False,Medium,Synthetic record,latest,2.14.1
+Identity Service,APP006_D08,Redis Client,3.2.1,Direct,CVE-2025-1061,5.7,Medium,True,Medium,Synthetic record,latest,3.2.1
+Identity Service,APP006_D09,Netty,3.2.1,Direct,CVE-2025-1118,3.8,Medium,True,Medium,Synthetic record,latest,3.2.1
+Identity Service,APP006_D09,Netty,3.2.1,Direct,CVE-2025-1142,3.6,Medium,False,Medium,Synthetic record,latest,3.2.1
+Identity Service,APP006_D09,Netty,3.2.1,Direct,CVE-2025-1158,3.5,Medium,False,Medium,Synthetic record,latest,3.2.1
+Identity Service,APP006_D10,Hibernate,3.0.0,Direct,CVE-2025-1030,5.6,Medium,False,Medium,Synthetic record,latest,3.0.0
+Identity Service,APP006_D10,Hibernate,3.0.0,Direct,CVE-2025-1144,4.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Identity Service,APP006_D10,Hibernate,3.0.0,Direct,CVE-2025-1167,6.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Identity Service,APP006_T02,JUnit5,2.0.0,Transitive,CVE-2025-1054,6.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T03,OkHttp,2.0.0,Transitive,CVE-2025-1094,6.1,Medium,False,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T03,OkHttp,2.0.0,Transitive,CVE-2025-1114,3.6,Medium,True,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T03,OkHttp,2.0.0,Transitive,CVE-2025-1135,3.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T04,Guava,2.17.1,Transitive,CVE-2025-1088,7.9,Medium,True,Medium,Synthetic record,latest,2.17.1
+Identity Service,APP006_T05,BouncyCastle,3.2.1,Transitive,CVE-2025-1087,4.0,Medium,True,Medium,Synthetic record,latest,3.2.1
+Identity Service,APP006_T06,Commons IO,2.0.0,Transitive,CVE-2025-1101,7.5,High,True,High,Known vulnerability in Commons IO,2.1.0,2.0.0
+Identity Service,APP006_T06,Commons IO,2.0.0,Transitive,CVE-2025-1108,6.5,Medium,False,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T06,Commons IO,2.0.0,Transitive,CVE-2025-1131,9.7,Medium,True,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T07,BouncyCastle,2.14.1,Transitive,CVE-2025-1197,5.9,Medium,True,Medium,Synthetic record,latest,2.14.1
+Identity Service,APP006_T08,Axios,2.0.0,Transitive,CVE-2025-1051,6.2,Medium,True,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T10,Guava,1.0.0,Transitive,CVE-2025-1032,4.5,Medium,False,Medium,Synthetic record,latest,1.0.0
+Identity Service,APP006_T10,Guava,1.0.0,Transitive,CVE-2025-1034,4.1,Medium,False,Medium,Synthetic record,latest,1.0.0
+Identity Service,APP006_T11,Commons IO,2.14.1,Transitive,CVE-2025-1044,5.7,Medium,False,Medium,Synthetic record,latest,2.14.1
+Identity Service,APP006_T12,Lodash,2.0.0,Transitive,CVE-2025-1069,8.4,Medium,True,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T13,Guava,2.14.1,Transitive,CVE-2025-1052,6.3,Medium,False,Medium,Synthetic record,latest,2.14.1
+Identity Service,APP006_T13,Guava,2.14.1,Transitive,CVE-2025-1175,3.2,Medium,True,Medium,Synthetic record,latest,2.14.1
+Identity Service,APP006_T14,OkHttp,3.2.1,Transitive,CVE-2025-1020,4.7,Medium,False,Medium,Synthetic record,latest,3.2.1
+Identity Service,APP006_T14,OkHttp,3.2.1,Transitive,CVE-2025-1058,4.8,Medium,False,Medium,Synthetic record,latest,3.2.1
+Identity Service,APP006_T16,Jackson,3.0.0,Transitive,CVE-2025-1026,5.4,Medium,False,Medium,Synthetic record,latest,3.0.0
+Identity Service,APP006_T16,Jackson,3.0.0,Transitive,CVE-2025-1089,6.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Identity Service,APP006_T18,Jetty,2.17.1,Transitive,CVE-2025-1011,5.7,Medium,True,Medium,Synthetic record,latest,2.17.1
+Identity Service,APP006_T18,Jetty,2.17.1,Transitive,CVE-2025-1015,7.3,Medium,False,Medium,Synthetic record,latest,2.17.1
+Identity Service,APP006_T19,OpenSSL,1.0.0,Transitive,CVE-2023-9999,9.1,Critical,True,High,Known vulnerability in OpenSSL,3.0.0,1.0.0
+Identity Service,APP006_T19,OpenSSL,1.0.0,Transitive,CVE-2025-1070,9.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Identity Service,APP006_T19,OpenSSL,1.0.0,Transitive,CVE-2025-1166,7.7,Medium,False,Medium,Synthetic record,latest,1.0.0
+Identity Service,APP006_T21,Gson,3.0.0,Transitive,CVE-2025-1079,9.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Identity Service,APP006_T21,Gson,3.0.0,Transitive,CVE-2025-1134,9.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Identity Service,APP006_T22,Guava,2.0.0,Transitive,CVE-2025-1155,3.0,Medium,True,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T23,Guava,2.17.1,Transitive,CVE-2025-1088,7.9,Medium,True,Medium,Synthetic record,latest,2.17.1
+Identity Service,APP006_T24,Guava,2.0.0,Transitive,CVE-2025-1155,3.0,Medium,True,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T27,Jackson,2.0.0,Transitive,CVE-2025-1192,5.0,Medium,False,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T29,Lodash,3.2.1,Transitive,CVE-2025-1190,4.9,Medium,True,Medium,Synthetic record,latest,3.2.1
+Identity Service,APP006_T31,Guava,3.0.0,Transitive,CVE-2025-1176,6.1,Medium,False,Medium,Synthetic record,latest,3.0.0
+Identity Service,APP006_T32,OpenSSL,1.0.0,Transitive,CVE-2023-9999,9.1,Critical,True,High,Known vulnerability in OpenSSL,3.0.0,1.0.0
+Identity Service,APP006_T32,OpenSSL,1.0.0,Transitive,CVE-2025-1070,9.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Identity Service,APP006_T32,OpenSSL,1.0.0,Transitive,CVE-2025-1166,7.7,Medium,False,Medium,Synthetic record,latest,1.0.0
+Identity Service,APP006_T33,Commons IO,2.0.0,Transitive,CVE-2025-1101,7.5,High,True,High,Known vulnerability in Commons IO,2.1.0,2.0.0
+Identity Service,APP006_T33,Commons IO,2.0.0,Transitive,CVE-2025-1108,6.5,Medium,False,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T33,Commons IO,2.0.0,Transitive,CVE-2025-1131,9.7,Medium,True,Medium,Synthetic record,latest,2.0.0
+Identity Service,APP006_T34,Lodash,2.14.1,Transitive,CVE-2025-1045,3.4,Medium,True,Medium,Synthetic record,latest,2.14.1
+Identity Service,APP006_T36,Jackson,1.5.0,Transitive,CVE-2025-1005,5.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Identity Service,APP006_T36,Jackson,1.5.0,Transitive,CVE-2025-1130,8.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Identity Service,APP006_T36,Jackson,1.5.0,Transitive,CVE-2025-1199,5.5,Medium,True,Medium,Synthetic record,latest,1.5.0
+Identity Service,APP006_T37,SLF4J,2.17.1,Transitive,CVE-2025-1186,5.1,Medium,False,Medium,Synthetic record,latest,2.17.1
+Identity Service,APP006_T38,Jackson,1.0.0,Transitive,CVE-2025-1178,8.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+Identity Service,APP006_T39,Jackson,2.17.1,Transitive,CVE-2025-1119,5.8,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_D03,Express,2.17.1,Direct,CVE-2025-1117,8.8,Medium,True,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_D03,Express,2.17.1,Direct,CVE-2025-1163,4.0,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_D03,Express,2.17.1,Direct,CVE-2025-1172,3.6,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_D04,FastAPI,2.17.1,Direct,CVE-2025-1016,7.8,Medium,True,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_D07,MySQL Connector,2.14.1,Direct,CVE-2025-1046,4.1,Medium,False,Medium,Synthetic record,latest,2.14.1
+Analytics Platform,APP007_D08,Redis Client,1.5.0,Direct,CVE-2025-1091,4.9,Medium,True,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_D09,Netty,3.2.1,Direct,CVE-2025-1118,3.8,Medium,True,Medium,Synthetic record,latest,3.2.1
+Analytics Platform,APP007_D09,Netty,3.2.1,Direct,CVE-2025-1142,3.6,Medium,False,Medium,Synthetic record,latest,3.2.1
+Analytics Platform,APP007_D09,Netty,3.2.1,Direct,CVE-2025-1158,3.5,Medium,False,Medium,Synthetic record,latest,3.2.1
+Analytics Platform,APP007_D10,Hibernate,3.0.0,Direct,CVE-2025-1030,5.6,Medium,False,Medium,Synthetic record,latest,3.0.0
+Analytics Platform,APP007_D10,Hibernate,3.0.0,Direct,CVE-2025-1144,4.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Analytics Platform,APP007_D10,Hibernate,3.0.0,Direct,CVE-2025-1167,6.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Analytics Platform,APP007_T01,Tomcat,1.0.0,Transitive,CVE-2025-1048,9.5,Medium,True,Medium,Synthetic record,latest,1.0.0
+Analytics Platform,APP007_T02,Lodash,1.5.0,Transitive,CVE-2025-1060,7.2,Medium,True,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T02,Lodash,1.5.0,Transitive,CVE-2025-1076,7.2,Medium,False,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T02,Lodash,1.5.0,Transitive,CVE-2025-1185,4.7,Medium,False,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T02,Lodash,1.5.0,Transitive,CVE-2025-1195,3.5,Medium,False,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T03,Lodash,3.2.1,Transitive,CVE-2025-1190,4.9,Medium,True,Medium,Synthetic record,latest,3.2.1
+Analytics Platform,APP007_T04,Gson,3.2.1,Transitive,CVE-2025-1150,6.4,Medium,True,Medium,Synthetic record,latest,3.2.1
+Analytics Platform,APP007_T05,Jackson,1.0.0,Transitive,CVE-2025-1178,8.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+Analytics Platform,APP007_T06,JUnit5,2.17.1,Transitive,CVE-2025-1156,9.1,Medium,True,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T07,Guava,2.17.1,Transitive,CVE-2025-1088,7.9,Medium,True,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T09,BouncyCastle,2.17.1,Transitive,CVE-2025-1025,6.9,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T09,BouncyCastle,2.17.1,Transitive,CVE-2025-1057,5.0,Medium,True,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T09,BouncyCastle,2.17.1,Transitive,CVE-2025-1082,5.2,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T10,Tomcat,1.5.0,Transitive,CVE-2025-1096,8.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T10,Tomcat,1.5.0,Transitive,CVE-2025-1191,4.2,Medium,False,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T10,Tomcat,1.5.0,Transitive,CVE-2025-1196,6.1,Medium,False,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T11,BouncyCastle,1.0.0,Transitive,CVE-2025-1090,9.0,Medium,True,Medium,Synthetic record,latest,1.0.0
+Analytics Platform,APP007_T11,BouncyCastle,1.0.0,Transitive,CVE-2025-1162,7.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Analytics Platform,APP007_T12,Jackson,2.17.1,Transitive,CVE-2025-1119,5.8,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T13,Gson,1.5.0,Transitive,CVE-2025-1085,6.6,Medium,True,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T13,Gson,1.5.0,Transitive,CVE-2025-1095,7.8,Medium,False,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T14,Commons IO,1.0.0,Transitive,CVE-2025-1140,6.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Analytics Platform,APP007_T14,Commons IO,1.0.0,Transitive,CVE-2025-1161,6.3,Medium,False,Medium,Synthetic record,latest,1.0.0
+Analytics Platform,APP007_T16,Axios,2.17.1,Transitive,CVE-2025-1068,8.7,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T17,SLF4J,1.5.0,Transitive,CVE-2025-1013,6.7,Medium,False,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T17,SLF4J,1.5.0,Transitive,CVE-2025-1133,3.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T18,SLF4J,2.17.1,Transitive,CVE-2025-1186,5.1,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T20,Lodash,2.14.1,Transitive,CVE-2025-1045,3.4,Medium,True,Medium,Synthetic record,latest,2.14.1
+Analytics Platform,APP007_T21,Axios,1.5.0,Transitive,CVE-2025-1017,6.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T21,Axios,1.5.0,Transitive,CVE-2025-1120,3.3,Medium,True,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T23,Lodash,1.0.0,Transitive,CVE-2025-1154,7.3,Medium,True,Medium,Synthetic record,latest,1.0.0
+Analytics Platform,APP007_T25,OpenSSL,2.17.1,Transitive,CVE-2025-1151,8.4,Medium,True,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T25,OpenSSL,2.17.1,Transitive,CVE-2025-1157,3.4,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T26,Gson,3.2.1,Transitive,CVE-2025-1150,6.4,Medium,True,Medium,Synthetic record,latest,3.2.1
+Analytics Platform,APP007_T27,OpenSSL,2.14.1,Transitive,CVE-2025-1037,9.5,Medium,True,Medium,Synthetic record,latest,2.14.1
+Analytics Platform,APP007_T27,OpenSSL,2.14.1,Transitive,CVE-2025-1128,6.7,Medium,False,Medium,Synthetic record,latest,2.14.1
+Analytics Platform,APP007_T28,OpenSSL,3.0.0,Transitive,CVE-2025-1145,8.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Analytics Platform,APP007_T29,Commons IO,1.5.0,Transitive,CVE-2025-1113,6.6,Medium,False,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T31,Jackson,1.0.0,Transitive,CVE-2025-1178,8.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+Analytics Platform,APP007_T34,OpenSSL,1.0.0,Transitive,CVE-2023-9999,9.1,Critical,True,High,Known vulnerability in OpenSSL,3.0.0,1.0.0
+Analytics Platform,APP007_T34,OpenSSL,1.0.0,Transitive,CVE-2025-1070,9.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Analytics Platform,APP007_T34,OpenSSL,1.0.0,Transitive,CVE-2025-1166,7.7,Medium,False,Medium,Synthetic record,latest,1.0.0
+Analytics Platform,APP007_T36,Gson,3.0.0,Transitive,CVE-2025-1079,9.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Analytics Platform,APP007_T36,Gson,3.0.0,Transitive,CVE-2025-1134,9.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Analytics Platform,APP007_T37,BouncyCastle,2.17.1,Transitive,CVE-2025-1025,6.9,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T37,BouncyCastle,2.17.1,Transitive,CVE-2025-1057,5.0,Medium,True,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T37,BouncyCastle,2.17.1,Transitive,CVE-2025-1082,5.2,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T38,Log4j,3.0.0,Transitive,CVE-2025-1084,7.0,Medium,False,Medium,Synthetic record,latest,3.0.0
+Analytics Platform,APP007_T39,BouncyCastle,1.5.0,Transitive,CVE-2025-1100,9.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T39,BouncyCastle,1.5.0,Transitive,CVE-2025-1111,4.8,Medium,True,Medium,Synthetic record,latest,1.5.0
+Analytics Platform,APP007_T40,BouncyCastle,2.17.1,Transitive,CVE-2025-1025,6.9,Medium,False,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T40,BouncyCastle,2.17.1,Transitive,CVE-2025-1057,5.0,Medium,True,Medium,Synthetic record,latest,2.17.1
+Analytics Platform,APP007_T40,BouncyCastle,2.17.1,Transitive,CVE-2025-1082,5.2,Medium,False,Medium,Synthetic record,latest,2.17.1
+Notification Service,APP008_D01,Spring Boot,1.5.0,Direct,CVE-2025-1075,7.0,Medium,False,Medium,Synthetic record,latest,1.5.0
+Notification Service,APP008_D03,Express,3.0.0,Direct,CVE-2025-1098,4.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Notification Service,APP008_D03,Express,3.0.0,Direct,CVE-2025-1106,5.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Notification Service,APP008_D04,FastAPI,1.5.0,Direct,CVE-2025-1121,4.8,Medium,True,Medium,Synthetic record,latest,1.5.0
+Notification Service,APP008_D04,FastAPI,1.5.0,Direct,CVE-2025-1180,7.8,Medium,False,Medium,Synthetic record,latest,1.5.0
+Notification Service,APP008_D05,Kafka Client,2.0.0,Direct,CVE-2025-1101,9.0,Medium,False,Medium,Synthetic record,latest,2.0.0
+Notification Service,APP008_D05,Kafka Client,2.0.0,Direct,CVE-2025-1147,7.9,Medium,True,Medium,Synthetic record,latest,2.0.0
+Notification Service,APP008_D07,MySQL Connector,2.17.1,Direct,CVE-2025-1062,6.4,Medium,True,Medium,Synthetic record,latest,2.17.1
+Notification Service,APP008_D09,Netty,3.2.1,Direct,CVE-2025-1118,3.8,Medium,True,Medium,Synthetic record,latest,3.2.1
+Notification Service,APP008_D09,Netty,3.2.1,Direct,CVE-2025-1142,3.6,Medium,False,Medium,Synthetic record,latest,3.2.1
+Notification Service,APP008_D09,Netty,3.2.1,Direct,CVE-2025-1158,3.5,Medium,False,Medium,Synthetic record,latest,3.2.1
+Notification Service,APP008_D10,Hibernate,3.0.0,Direct,CVE-2025-1030,5.6,Medium,False,Medium,Synthetic record,latest,3.0.0
+Notification Service,APP008_D10,Hibernate,3.0.0,Direct,CVE-2025-1144,4.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Notification Service,APP008_D10,Hibernate,3.0.0,Direct,CVE-2025-1167,6.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Notification Service,APP008_T01,JUnit5,2.17.1,Transitive,CVE-2025-1156,9.1,Medium,True,Medium,Synthetic record,latest,2.17.1
+Notification Service,APP008_T02,Tomcat,3.2.1,Transitive,CVE-2025-1014,7.6,Medium,True,Medium,Synthetic record,latest,3.2.1
+Notification Service,APP008_T03,OpenSSL,1.0.0,Transitive,CVE-2023-9999,9.1,Critical,True,High,Known vulnerability in OpenSSL,3.0.0,1.0.0
+Notification Service,APP008_T03,OpenSSL,1.0.0,Transitive,CVE-2025-1070,9.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Notification Service,APP008_T03,OpenSSL,1.0.0,Transitive,CVE-2025-1166,7.7,Medium,False,Medium,Synthetic record,latest,1.0.0
+Notification Service,APP008_T04,Jackson,2.14.1,Transitive,CVE-2025-1105,4.3,Medium,False,Medium,Synthetic record,latest,2.14.1
+Notification Service,APP008_T05,SLF4J,2.17.1,Transitive,CVE-2025-1186,5.1,Medium,False,Medium,Synthetic record,latest,2.17.1
+Notification Service,APP008_T06,Log4j,3.2.1,Transitive,CVE-2025-1043,8.3,Medium,False,Medium,Synthetic record,latest,3.2.1
+Notification Service,APP008_T06,Log4j,3.2.1,Transitive,CVE-2025-1065,9.4,Medium,False,Medium,Synthetic record,latest,3.2.1
+Notification Service,APP008_T06,Log4j,3.2.1,Transitive,CVE-2025-1086,4.2,Medium,True,Medium,Synthetic record,latest,3.2.1
+Notification Service,APP008_T09,Commons IO,1.5.0,Transitive,CVE-2025-1113,6.6,Medium,False,Medium,Synthetic record,latest,1.5.0
+Notification Service,APP008_T10,Jackson,1.0.0,Transitive,CVE-2025-1178,8.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+Notification Service,APP008_T11,Axios,1.5.0,Transitive,CVE-2025-1017,6.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+Notification Service,APP008_T11,Axios,1.5.0,Transitive,CVE-2025-1120,3.3,Medium,True,Medium,Synthetic record,latest,1.5.0
+Notification Service,APP008_T12,Commons IO,3.0.0,Transitive,CVE-2025-1193,4.6,Medium,False,Medium,Synthetic record,latest,3.0.0
+Notification Service,APP008_T13,Jackson,1.0.0,Transitive,CVE-2025-1178,8.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+Notification Service,APP008_T14,OpenSSL,3.0.0,Transitive,CVE-2025-1145,8.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Notification Service,APP008_T15,Jackson,3.0.0,Transitive,CVE-2025-1026,5.4,Medium,False,Medium,Synthetic record,latest,3.0.0
+Notification Service,APP008_T15,Jackson,3.0.0,Transitive,CVE-2025-1089,6.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Notification Service,APP008_T16,OpenSSL,1.0.0,Transitive,CVE-2023-9999,9.1,Critical,True,High,Known vulnerability in OpenSSL,3.0.0,1.0.0
+Notification Service,APP008_T16,OpenSSL,1.0.0,Transitive,CVE-2025-1070,9.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Notification Service,APP008_T16,OpenSSL,1.0.0,Transitive,CVE-2025-1166,7.7,Medium,False,Medium,Synthetic record,latest,1.0.0
+Notification Service,APP008_T17,JUnit5,2.17.1,Transitive,CVE-2025-1156,9.1,Medium,True,Medium,Synthetic record,latest,2.17.1
+Notification Service,APP008_T18,Guava,1.5.0,Transitive,CVE-2025-1067,5.3,Medium,False,Medium,Synthetic record,latest,1.5.0
+Notification Service,APP008_T18,Guava,1.5.0,Transitive,CVE-2025-1071,6.0,Medium,False,Medium,Synthetic record,latest,1.5.0
+Notification Service,APP008_T18,Guava,1.5.0,Transitive,CVE-2025-1103,9.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Notification Service,APP008_T19,JUnit5,2.17.1,Transitive,CVE-2025-1156,9.1,Medium,True,Medium,Synthetic record,latest,2.17.1
+Notification Service,APP008_T20,Lodash,1.0.0,Transitive,CVE-2025-1154,7.3,Medium,True,Medium,Synthetic record,latest,1.0.0
+Notification Service,APP008_T22,OpenSSL,2.14.1,Transitive,CVE-2025-1037,9.5,Medium,True,Medium,Synthetic record,latest,2.14.1
+Notification Service,APP008_T22,OpenSSL,2.14.1,Transitive,CVE-2025-1128,6.7,Medium,False,Medium,Synthetic record,latest,2.14.1
+Notification Service,APP008_T23,SLF4J,1.5.0,Transitive,CVE-2025-1013,6.7,Medium,False,Medium,Synthetic record,latest,1.5.0
+Notification Service,APP008_T23,SLF4J,1.5.0,Transitive,CVE-2025-1133,3.4,Medium,False,Medium,Synthetic record,latest,1.5.0
+Notification Service,APP008_T24,SnakeYAML,1.0.0,Transitive,CVE-2024-3001,8.8,High,True,High,Known vulnerability in SnakeYAML,2.0.0,1.0.0
+Notification Service,APP008_T24,SnakeYAML,1.0.0,Transitive,CVE-2025-1066,4.5,Medium,True,Medium,Synthetic record,latest,1.0.0
+Notification Service,APP008_T26,Lodash,1.0.0,Transitive,CVE-2025-1154,7.3,Medium,True,Medium,Synthetic record,latest,1.0.0
+Notification Service,APP008_T28,Log4j,2.14.1,Transitive,CVE-2021-44228,10.0,Critical,True,High,Known vulnerability in Log4j,2.17.1,2.14.1
+Notification Service,APP008_T28,Log4j,2.14.1,Transitive,CVE-2025-1073,8.1,Medium,True,Medium,Synthetic record,latest,2.14.1
+Notification Service,APP008_T28,Log4j,2.14.1,Transitive,CVE-2025-1168,8.2,Medium,True,Medium,Synthetic record,latest,2.14.1
+Notification Service,APP008_T29,Commons IO,1.0.0,Transitive,CVE-2025-1140,6.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Notification Service,APP008_T29,Commons IO,1.0.0,Transitive,CVE-2025-1161,6.3,Medium,False,Medium,Synthetic record,latest,1.0.0
+Notification Service,APP008_T31,Log4j,2.0.0,Transitive,CVE-2025-1093,7.2,Medium,True,Medium,Synthetic record,latest,2.0.0
+Notification Service,APP008_T32,Gson,2.0.0,Transitive,CVE-2025-1129,7.7,Medium,True,Medium,Synthetic record,latest,2.0.0
+Notification Service,APP008_T33,Guava,2.0.0,Transitive,CVE-2025-1155,3.0,Medium,True,Medium,Synthetic record,latest,2.0.0
+Notification Service,APP008_T35,OkHttp,2.0.0,Transitive,CVE-2025-1094,6.1,Medium,False,Medium,Synthetic record,latest,2.0.0
+Notification Service,APP008_T35,OkHttp,2.0.0,Transitive,CVE-2025-1114,3.6,Medium,True,Medium,Synthetic record,latest,2.0.0
+Notification Service,APP008_T35,OkHttp,2.0.0,Transitive,CVE-2025-1135,3.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+Notification Service,APP008_T39,Jackson,3.2.1,Transitive,CVE-2025-1179,5.3,Medium,False,Medium,Synthetic record,latest,3.2.1
+Notification Service,APP008_T40,Jackson,2.14.1,Transitive,CVE-2025-1105,4.3,Medium,False,Medium,Synthetic record,latest,2.14.1
+Mobile Backend,APP009_D01,Spring Boot,3.2.1,Direct,CVE-2025-1063,4.9,Medium,False,Medium,Synthetic record,latest,3.2.1
+Mobile Backend,APP009_D03,Express,3.0.0,Direct,CVE-2025-1098,4.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_D03,Express,3.0.0,Direct,CVE-2025-1106,5.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_D04,FastAPI,2.17.1,Direct,CVE-2025-1016,7.8,Medium,True,Medium,Synthetic record,latest,2.17.1
+Mobile Backend,APP009_D08,Redis Client,3.2.1,Direct,CVE-2025-1061,5.7,Medium,True,Medium,Synthetic record,latest,3.2.1
+Mobile Backend,APP009_D09,Netty,1.5.0,Direct,CVE-2025-1081,5.0,Medium,True,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_D10,Hibernate,1.0.0,Direct,CVE-2025-1169,9.4,Medium,True,Medium,Synthetic record,latest,1.0.0
+Mobile Backend,APP009_T03,Guava,2.14.1,Transitive,CVE-2025-1052,6.3,Medium,False,Medium,Synthetic record,latest,2.14.1
+Mobile Backend,APP009_T03,Guava,2.14.1,Transitive,CVE-2025-1175,3.2,Medium,True,Medium,Synthetic record,latest,2.14.1
+Mobile Backend,APP009_T04,Tomcat,3.0.0,Transitive,CVE-2025-1194,5.7,Medium,True,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_T05,JUnit5,1.5.0,Transitive,CVE-2025-1074,4.2,Medium,True,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T05,JUnit5,1.5.0,Transitive,CVE-2025-1177,5.8,Medium,False,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T06,Axios,2.0.0,Transitive,CVE-2025-1051,6.2,Medium,True,Medium,Synthetic record,latest,2.0.0
+Mobile Backend,APP009_T08,Commons IO,2.0.0,Transitive,CVE-2025-1101,7.5,High,True,High,Known vulnerability in Commons IO,2.1.0,2.0.0
+Mobile Backend,APP009_T08,Commons IO,2.0.0,Transitive,CVE-2025-1108,6.5,Medium,False,Medium,Synthetic record,latest,2.0.0
+Mobile Backend,APP009_T08,Commons IO,2.0.0,Transitive,CVE-2025-1131,9.7,Medium,True,Medium,Synthetic record,latest,2.0.0
+Mobile Backend,APP009_T10,Tomcat,1.5.0,Transitive,CVE-2025-1096,8.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T10,Tomcat,1.5.0,Transitive,CVE-2025-1191,4.2,Medium,False,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T10,Tomcat,1.5.0,Transitive,CVE-2025-1196,6.1,Medium,False,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T11,Lodash,3.2.1,Transitive,CVE-2025-1190,4.9,Medium,True,Medium,Synthetic record,latest,3.2.1
+Mobile Backend,APP009_T12,Tomcat,3.2.1,Transitive,CVE-2025-1014,7.6,Medium,True,Medium,Synthetic record,latest,3.2.1
+Mobile Backend,APP009_T13,Jetty,3.2.1,Transitive,CVE-2025-1027,6.1,Medium,True,Medium,Synthetic record,latest,3.2.1
+Mobile Backend,APP009_T14,Lodash,2.0.0,Transitive,CVE-2025-1069,8.4,Medium,True,Medium,Synthetic record,latest,2.0.0
+Mobile Backend,APP009_T16,Gson,3.0.0,Transitive,CVE-2025-1079,9.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_T16,Gson,3.0.0,Transitive,CVE-2025-1134,9.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_T17,Gson,3.0.0,Transitive,CVE-2025-1079,9.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_T17,Gson,3.0.0,Transitive,CVE-2025-1134,9.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_T18,Guava,1.5.0,Transitive,CVE-2025-1067,5.3,Medium,False,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T18,Guava,1.5.0,Transitive,CVE-2025-1071,6.0,Medium,False,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T18,Guava,1.5.0,Transitive,CVE-2025-1103,9.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T19,Log4j,2.14.1,Transitive,CVE-2021-44228,10.0,Critical,True,High,Known vulnerability in Log4j,2.17.1,2.14.1
+Mobile Backend,APP009_T19,Log4j,2.14.1,Transitive,CVE-2025-1073,8.1,Medium,True,Medium,Synthetic record,latest,2.14.1
+Mobile Backend,APP009_T19,Log4j,2.14.1,Transitive,CVE-2025-1168,8.2,Medium,True,Medium,Synthetic record,latest,2.14.1
+Mobile Backend,APP009_T20,Jetty,2.17.1,Transitive,CVE-2025-1011,5.7,Medium,True,Medium,Synthetic record,latest,2.17.1
+Mobile Backend,APP009_T20,Jetty,2.17.1,Transitive,CVE-2025-1015,7.3,Medium,False,Medium,Synthetic record,latest,2.17.1
+Mobile Backend,APP009_T21,Gson,3.0.0,Transitive,CVE-2025-1079,9.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_T21,Gson,3.0.0,Transitive,CVE-2025-1134,9.6,Medium,True,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_T22,Tomcat,1.5.0,Transitive,CVE-2025-1096,8.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T22,Tomcat,1.5.0,Transitive,CVE-2025-1191,4.2,Medium,False,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T22,Tomcat,1.5.0,Transitive,CVE-2025-1196,6.1,Medium,False,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T25,Jackson,2.0.0,Transitive,CVE-2025-1192,5.0,Medium,False,Medium,Synthetic record,latest,2.0.0
+Mobile Backend,APP009_T26,Guava,2.17.1,Transitive,CVE-2025-1088,7.9,Medium,True,Medium,Synthetic record,latest,2.17.1
+Mobile Backend,APP009_T29,Guava,1.5.0,Transitive,CVE-2025-1067,5.3,Medium,False,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T29,Guava,1.5.0,Transitive,CVE-2025-1071,6.0,Medium,False,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T29,Guava,1.5.0,Transitive,CVE-2025-1103,9.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Mobile Backend,APP009_T30,Tomcat,3.0.0,Transitive,CVE-2025-1194,5.7,Medium,True,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_T32,Commons IO,2.0.0,Transitive,CVE-2025-1101,7.5,High,True,High,Known vulnerability in Commons IO,2.1.0,2.0.0
+Mobile Backend,APP009_T32,Commons IO,2.0.0,Transitive,CVE-2025-1108,6.5,Medium,False,Medium,Synthetic record,latest,2.0.0
+Mobile Backend,APP009_T32,Commons IO,2.0.0,Transitive,CVE-2025-1131,9.7,Medium,True,Medium,Synthetic record,latest,2.0.0
+Mobile Backend,APP009_T33,Lodash,3.0.0,Transitive,CVE-2025-1164,7.7,Medium,True,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_T35,Log4j,3.2.1,Transitive,CVE-2025-1043,8.3,Medium,False,Medium,Synthetic record,latest,3.2.1
+Mobile Backend,APP009_T35,Log4j,3.2.1,Transitive,CVE-2025-1065,9.4,Medium,False,Medium,Synthetic record,latest,3.2.1
+Mobile Backend,APP009_T35,Log4j,3.2.1,Transitive,CVE-2025-1086,4.2,Medium,True,Medium,Synthetic record,latest,3.2.1
+Mobile Backend,APP009_T37,Commons IO,3.0.0,Transitive,CVE-2025-1193,4.6,Medium,False,Medium,Synthetic record,latest,3.0.0
+Mobile Backend,APP009_T39,Axios,2.17.1,Transitive,CVE-2025-1068,8.7,Medium,False,Medium,Synthetic record,latest,2.17.1
+Mobile Backend,APP009_T40,Commons IO,1.5.0,Transitive,CVE-2025-1113,6.6,Medium,False,Medium,Synthetic record,latest,1.5.0
+Admin Dashboard,APP010_D01,Spring Boot,1.5.0,Direct,CVE-2025-1075,7.0,Medium,False,Medium,Synthetic record,latest,1.5.0
+Admin Dashboard,APP010_D02,React,3.0.0,Direct,CVE-2025-1029,7.8,Medium,False,Medium,Synthetic record,latest,3.0.0
+Admin Dashboard,APP010_D02,React,3.0.0,Direct,CVE-2025-1189,5.8,Medium,True,Medium,Synthetic record,latest,3.0.0
+Admin Dashboard,APP010_D03,Express,1.5.0,Direct,CVE-2025-1038,4.0,Medium,True,Medium,Synthetic record,latest,1.5.0
+Admin Dashboard,APP010_D03,Express,1.5.0,Direct,CVE-2025-1053,3.7,Medium,False,Medium,Synthetic record,latest,1.5.0
+Admin Dashboard,APP010_D04,FastAPI,1.0.0,Direct,CVE-2025-1110,4.8,Medium,True,Medium,Synthetic record,latest,1.0.0
+Admin Dashboard,APP010_D04,FastAPI,1.0.0,Direct,CVE-2025-1184,8.7,Medium,False,Medium,Synthetic record,latest,1.0.0
+Admin Dashboard,APP010_D05,Kafka Client,2.14.1,Direct,CVE-2025-1024,5.9,Medium,True,Medium,Synthetic record,latest,2.14.1
+Admin Dashboard,APP010_D07,MySQL Connector,2.0.0,Direct,CVE-2025-1122,7.3,Medium,True,Medium,Synthetic record,latest,2.0.0
+Admin Dashboard,APP010_D07,MySQL Connector,2.0.0,Direct,CVE-2025-1139,4.2,Medium,False,Medium,Synthetic record,latest,2.0.0
+Admin Dashboard,APP010_D09,Netty,2.0.0,Direct,CVE-2025-1040,3.0,Medium,False,Medium,Synthetic record,latest,2.0.0
+Admin Dashboard,APP010_D09,Netty,2.0.0,Direct,CVE-2025-1124,8.5,Medium,False,Medium,Synthetic record,latest,2.0.0
+Admin Dashboard,APP010_D09,Netty,2.0.0,Direct,CVE-2025-1181,3.4,Medium,False,Medium,Synthetic record,latest,2.0.0
+Admin Dashboard,APP010_D10,Hibernate,1.0.0,Direct,CVE-2025-1169,9.4,Medium,True,Medium,Synthetic record,latest,1.0.0
+Admin Dashboard,APP010_T01,BouncyCastle,1.0.0,Transitive,CVE-2025-1090,9.0,Medium,True,Medium,Synthetic record,latest,1.0.0
+Admin Dashboard,APP010_T01,BouncyCastle,1.0.0,Transitive,CVE-2025-1162,7.2,Medium,True,Medium,Synthetic record,latest,1.0.0
+Admin Dashboard,APP010_T03,Jackson,1.0.0,Transitive,CVE-2025-1178,8.7,Medium,True,Medium,Synthetic record,latest,1.0.0
+Admin Dashboard,APP010_T06,Lodash,2.0.0,Transitive,CVE-2025-1069,8.4,Medium,True,Medium,Synthetic record,latest,2.0.0
+Admin Dashboard,APP010_T07,Jackson,1.5.0,Transitive,CVE-2025-1005,5.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Admin Dashboard,APP010_T07,Jackson,1.5.0,Transitive,CVE-2025-1130,8.7,Medium,True,Medium,Synthetic record,latest,1.5.0
+Admin Dashboard,APP010_T07,Jackson,1.5.0,Transitive,CVE-2025-1199,5.5,Medium,True,Medium,Synthetic record,latest,1.5.0
+Admin Dashboard,APP010_T09,Jackson,3.0.0,Transitive,CVE-2025-1026,5.4,Medium,False,Medium,Synthetic record,latest,3.0.0
+Admin Dashboard,APP010_T09,Jackson,3.0.0,Transitive,CVE-2025-1089,6.5,Medium,False,Medium,Synthetic record,latest,3.0.0
+Admin Dashboard,APP010_T10,BouncyCastle,3.2.1,Transitive,CVE-2025-1087,4.0,Medium,True,Medium,Synthetic record,latest,3.2.1
+Admin Dashboard,APP010_T11,OpenSSL,2.17.1,Transitive,CVE-2025-1151,8.4,Medium,True,Medium,Synthetic record,latest,2.17.1
+Admin Dashboard,APP010_T11,OpenSSL,2.17.1,Transitive,CVE-2025-1157,3.4,Medium,False,Medium,Synthetic record,latest,2.17.1
+Admin Dashboard,APP010_T12,OpenSSL,3.0.0,Transitive,CVE-2025-1145,8.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Admin Dashboard,APP010_T13,JUnit5,1.5.0,Transitive,CVE-2025-1074,4.2,Medium,True,Medium,Synthetic record,latest,1.5.0
+Admin Dashboard,APP010_T13,JUnit5,1.5.0,Transitive,CVE-2025-1177,5.8,Medium,False,Medium,Synthetic record,latest,1.5.0
+Admin Dashboard,APP010_T14,OpenSSL,3.0.0,Transitive,CVE-2025-1145,8.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Admin Dashboard,APP010_T15,BouncyCastle,3.2.1,Transitive,CVE-2025-1087,4.0,Medium,True,Medium,Synthetic record,latest,3.2.1
+Admin Dashboard,APP010_T16,OpenSSL,2.17.1,Transitive,CVE-2025-1151,8.4,Medium,True,Medium,Synthetic record,latest,2.17.1
+Admin Dashboard,APP010_T16,OpenSSL,2.17.1,Transitive,CVE-2025-1157,3.4,Medium,False,Medium,Synthetic record,latest,2.17.1
+Admin Dashboard,APP010_T18,Lodash,1.0.0,Transitive,CVE-2025-1154,7.3,Medium,True,Medium,Synthetic record,latest,1.0.0
+Admin Dashboard,APP010_T19,Gson,2.0.0,Transitive,CVE-2025-1129,7.7,Medium,True,Medium,Synthetic record,latest,2.0.0
+Admin Dashboard,APP010_T20,Lodash,3.0.0,Transitive,CVE-2025-1164,7.7,Medium,True,Medium,Synthetic record,latest,3.0.0
+Admin Dashboard,APP010_T21,BouncyCastle,2.14.1,Transitive,CVE-2025-1197,5.9,Medium,True,Medium,Synthetic record,latest,2.14.1
+Admin Dashboard,APP010_T23,OpenSSL,3.0.0,Transitive,CVE-2025-1145,8.3,Medium,False,Medium,Synthetic record,latest,3.0.0
+Admin Dashboard,APP010_T24,Log4j,3.2.1,Transitive,CVE-2025-1043,8.3,Medium,False,Medium,Synthetic record,latest,3.2.1
+Admin Dashboard,APP010_T24,Log4j,3.2.1,Transitive,CVE-2025-1065,9.4,Medium,False,Medium,Synthetic record,latest,3.2.1
+Admin Dashboard,APP010_T24,Log4j,3.2.1,Transitive,CVE-2025-1086,4.2,Medium,True,Medium,Synthetic record,latest,3.2.1
+Admin Dashboard,APP010_T25,Tomcat,2.14.1,Transitive,CVE-2025-1107,6.0,Medium,True,Medium,Synthetic record,latest,2.14.1
+Admin Dashboard,APP010_T28,BouncyCastle,3.2.1,Transitive,CVE-2025-1087,4.0,Medium,True,Medium,Synthetic record,latest,3.2.1
+Admin Dashboard,APP010_T32,SnakeYAML,1.0.0,Transitive,CVE-2024-3001,8.8,High,True,High,Known vulnerability in SnakeYAML,2.0.0,1.0.0
+Admin Dashboard,APP010_T32,SnakeYAML,1.0.0,Transitive,CVE-2025-1066,4.5,Medium,True,Medium,Synthetic record,latest,1.0.0
+Admin Dashboard,APP010_T36,JUnit5,2.17.1,Transitive,CVE-2025-1156,9.1,Medium,True,Medium,Synthetic record,latest,2.17.1
+Admin Dashboard,APP010_T38,Tomcat,2.17.1,Transitive,CVE-2025-1188,4.4,Medium,True,Medium,Synthetic record,latest,2.17.1
+Admin Dashboard,APP010_T39,Lodash,3.2.1,Transitive,CVE-2025-1190,4.9,Medium,True,Medium,Synthetic record,latest,3.2.1
+Admin Dashboard,APP010_T40,Guava,2.17.1,Transitive,CVE-2025-1088,7.9,Medium,True,Medium,Synthetic record,latest,2.17.1

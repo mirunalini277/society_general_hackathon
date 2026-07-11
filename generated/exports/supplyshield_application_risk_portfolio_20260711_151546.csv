@@ -1,0 +1,11 @@
+﻿application,total_dependencies,vulnerable_dependencies,license_issues,outdated_libraries,overall_risk_score,overall_risk_level,rank,explanation
+Payment Gateway,50,42,32,7,53.45,High,1,"Overall score is the average of 50 dependency risk scores (53.45), resulting in a High risk level."
+Customer Portal,50,35,37,7,52.66,High,2,"Overall score is the average of 50 dependency risk scores (52.66), resulting in a High risk level."
+Analytics Platform,50,37,34,6,51.01,High,3,"Overall score is the average of 50 dependency risk scores (51.01), resulting in a High risk level."
+Mobile Backend,50,33,28,10,48.57,Medium,4,"Overall score is the average of 50 dependency risk scores (48.57), resulting in a Medium risk level."
+HRMS,50,34,34,7,48.38,Medium,5,"Overall score is the average of 50 dependency risk scores (48.38), resulting in a Medium risk level."
+Notification Service,50,37,32,8,47.51,Medium,6,"Overall score is the average of 50 dependency risk scores (47.51), resulting in a Medium risk level."
+Inventory Service,50,37,32,7,47.34,Medium,7,"Overall score is the average of 50 dependency risk scores (47.34), resulting in a Medium risk level."
+Admin Dashboard,50,33,33,8,46.56,Medium,8,"Overall score is the average of 50 dependency risk scores (46.56), resulting in a Medium risk level."
+Finance API,50,32,35,9,45.6,Medium,9,"Overall score is the average of 50 dependency risk scores (45.60), resulting in a Medium risk level."
+Identity Service,50,37,33,7,45.45,Medium,10,"Overall score is the average of 50 dependency risk scores (45.45), resulting in a Medium risk level."

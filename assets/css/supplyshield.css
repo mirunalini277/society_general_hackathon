@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, [class*="css"] { font-family: 'Inter', Arial, sans-serif; }
+.stApp { background: #F5F7FA; color: #111827; }
+[data-testid="stSidebar"] { background: #111827; }
+[data-testid="stSidebar"] * { color: #E5E7EB; }
+[data-testid="stSidebar"] .stButton button { background: #2563EB; border: 0; color: white; font-weight: 600; }
+.brand-title { color: #FFFFFF; font-size: 1.28rem; font-weight: 700; margin-top: .35rem; }
+.brand-subtitle { color: #9CA3AF; font-size: .74rem; line-height: 1.25rem; }
+.block-container { padding-top: 2.15rem; padding-bottom: 2rem; max-width: 1550px; }
+h1, h2, h3 { color: #111827; letter-spacing: -0.02em; }
+.page-kicker { color: #64748B; font-size: .82rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+.kpi-card { background: white; border: 1px solid #E5E7EB; border-radius: 10px; padding: 1.05rem 1.15rem; box-shadow: 0 2px 7px rgba(15, 23, 42, .05); min-height: 108px; }
+.kpi-label { color: #64748B; font-size: .75rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
+.kpi-value { color: #111827; font-size: 1.7rem; font-weight: 700; margin-top: .3rem; }
+.kpi-meta { color: #64748B; font-size: .78rem; margin-top: .28rem; }
+.risk-badge { border-radius: 999px; font-size: .72rem; font-weight: 700; padding: .24rem .55rem; white-space: nowrap; }
+.section-header { margin-top: 1.6rem; margin-bottom: .6rem; font-size: 1.04rem; font-weight: 700; color: #111827; }
+.stDataFrame { border: 1px solid #E5E7EB; border-radius: 9px; overflow: hidden; }
+.stButton button { border-radius: 7px; font-weight: 600; }
+div[data-testid="stMetric"] { background: white; padding: .85rem 1rem; border: 1px solid #E5E7EB; border-radius: 9px; box-shadow: 0 2px 7px rgba(15, 23, 42, .04); }
+div[data-testid="stTabs"] button { font-weight: 600; }

@@ -1,0 +1,501 @@
+﻿application,library,version,license,compatibility_status,severity,reason,recommendation
+Customer Portal,Spring Boot,1.0.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,React,3.2.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Express,2.14.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,FastAPI,3.0.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Kafka Client,1.5.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,PostgreSQL JDBC,2.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,MySQL Connector,3.2.1,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,Redis Client,2.14.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Netty,2.17.1,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Hibernate,1.5.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Jetty,2.17.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,OkHttp,3.2.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Customer Portal,SLF4J,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,BouncyCastle,1.5.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Gson,3.0.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Gson,2.0.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Customer Portal,JUnit5,3.2.1,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,Commons IO,1.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,OpenSSL,3.2.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Customer Portal,OkHttp,2.14.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Tomcat,1.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,Gson,3.2.1,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,JUnit5,2.14.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,SLF4J,3.2.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,SLF4J,1.5.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,Jetty,3.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,JUnit5,3.0.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,Lodash,3.2.1,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,BouncyCastle,2.14.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,Jetty,3.2.1,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,Jackson,3.2.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,SLF4J,2.17.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Customer Portal,Jackson,3.0.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,Log4j,1.5.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Log4j,2.17.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Gson,3.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,SnakeYAML,1.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,Log4j,2.17.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,SLF4J,2.14.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,SLF4J,3.2.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Jackson,1.0.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Log4j,2.14.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Guava,3.0.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Customer Portal,BouncyCastle,1.5.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Jetty,1.5.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,SLF4J,1.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,OpenSSL,3.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Jackson,1.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Customer Portal,Tomcat,3.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Customer Portal,Gson,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,Spring Boot,1.5.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,React,2.14.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Payment Gateway,Express,2.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,FastAPI,2.14.1,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Kafka Client,3.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,PostgreSQL JDBC,3.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,MySQL Connector,2.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,Redis Client,2.14.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Netty,1.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Hibernate,2.0.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,JUnit5,2.17.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,SLF4J,2.14.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Log4j,3.2.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Payment Gateway,SLF4J,1.5.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,SLF4J,2.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,BouncyCastle,2.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Axios,2.14.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,Commons IO,1.5.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,Gson,3.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Axios,1.5.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Payment Gateway,Gson,1.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Jackson,2.17.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Gson,1.0.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Jackson,1.5.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,Tomcat,3.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Payment Gateway,Guava,3.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,SnakeYAML,1.5.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,SLF4J,1.5.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,BouncyCastle,2.17.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Tomcat,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,Lodash,3.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,JUnit5,2.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,Tomcat,1.5.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Jackson,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,SnakeYAML,2.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,BouncyCastle,1.0.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,OkHttp,1.5.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,Guava,3.2.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Payment Gateway,Log4j,3.2.1,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Gson,1.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,OpenSSL,2.14.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Guava,2.17.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Payment Gateway,Tomcat,1.5.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,Guava,3.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Payment Gateway,Tomcat,1.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,Gson,1.5.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Lodash,3.2.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Payment Gateway,Jackson,2.14.1,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,Tomcat,1.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Payment Gateway,BouncyCastle,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Spring Boot,1.5.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,React,1.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+HRMS,Express,2.17.1,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,FastAPI,2.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Kafka Client,2.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,PostgreSQL JDBC,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,MySQL Connector,3.0.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Redis Client,3.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Netty,2.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Hibernate,1.0.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,OkHttp,2.17.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+HRMS,OkHttp,3.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Jackson,3.2.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,SnakeYAML,2.14.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Tomcat,3.2.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,OkHttp,2.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+HRMS,Gson,3.2.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Commons IO,2.14.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Jackson,3.2.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+HRMS,OpenSSL,2.0.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+HRMS,OpenSSL,3.2.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Axios,1.5.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,JUnit5,2.0.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Guava,3.2.1,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Axios,1.0.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,SLF4J,2.14.1,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Commons IO,1.5.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,SnakeYAML,3.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Tomcat,2.17.1,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Guava,1.5.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,BouncyCastle,1.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Log4j,2.17.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,SLF4J,1.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Tomcat,3.0.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Commons IO,1.5.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Gson,2.14.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,BouncyCastle,3.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,OpenSSL,2.17.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+HRMS,OkHttp,3.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,SnakeYAML,3.2.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+HRMS,Log4j,2.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Axios,2.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Log4j,3.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,SLF4J,2.14.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Commons IO,1.5.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Commons IO,2.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+HRMS,BouncyCastle,2.17.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+HRMS,Guava,1.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Log4j,1.5.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+HRMS,Jetty,1.5.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Spring Boot,3.2.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,React,3.0.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Express,1.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,FastAPI,1.0.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Kafka Client,3.2.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,PostgreSQL JDBC,3.2.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,MySQL Connector,2.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Redis Client,2.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Netty,1.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Hibernate,1.5.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,JUnit5,2.17.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,BouncyCastle,1.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Jetty,3.2.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Tomcat,2.17.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,OkHttp,3.2.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Jackson,1.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Axios,3.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Guava,1.5.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Guava,2.0.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Jackson,1.5.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Jackson,2.17.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Lodash,1.5.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Inventory Service,Jackson,3.2.1,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Gson,3.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Commons IO,2.17.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,SnakeYAML,1.5.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,OkHttp,2.14.1,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Tomcat,1.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,SnakeYAML,3.2.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Lodash,2.17.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Lodash,2.17.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Lodash,1.5.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,OpenSSL,2.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Log4j,3.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Gson,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,OpenSSL,2.17.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Inventory Service,Guava,2.14.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Jackson,3.2.1,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,OkHttp,2.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,SLF4J,2.14.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Gson,1.5.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Gson,1.5.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,SnakeYAML,3.2.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Gson,2.17.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Inventory Service,Guava,2.14.1,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Commons IO,1.5.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Jackson,2.17.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Inventory Service,Lodash,3.2.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Inventory Service,Gson,1.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Inventory Service,Axios,2.0.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Spring Boot,2.17.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,React,1.5.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Express,2.0.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,FastAPI,2.17.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Kafka Client,1.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,PostgreSQL JDBC,2.14.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,MySQL Connector,3.2.1,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Redis Client,3.2.1,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Netty,1.5.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Hibernate,1.5.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Finance API,Jackson,2.14.1,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Jackson,2.17.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Finance API,Lodash,2.14.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,BouncyCastle,3.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,OpenSSL,3.2.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Finance API,Commons IO,3.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,JUnit5,1.5.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Gson,2.17.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Finance API,SLF4J,3.2.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Commons IO,2.17.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Jackson,2.14.1,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Commons IO,2.14.1,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,SnakeYAML,1.5.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,OpenSSL,3.2.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Finance API,SLF4J,1.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Finance API,Jetty,3.2.1,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Lodash,1.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,JUnit5,2.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Gson,2.17.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Jetty,3.2.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,OkHttp,2.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Gson,2.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,SLF4J,2.14.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Lodash,2.0.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Jetty,2.14.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Jackson,1.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Tomcat,2.14.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Tomcat,3.2.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,OkHttp,3.2.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,JUnit5,1.5.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Tomcat,2.14.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,SnakeYAML,1.5.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Gson,2.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,OkHttp,2.14.1,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,Jetty,3.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Jackson,3.0.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,SnakeYAML,3.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,OkHttp,3.0.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Finance API,SnakeYAML,1.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Finance API,Jetty,2.14.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Spring Boot,3.2.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,React,1.0.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Identity Service,Express,1.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,FastAPI,3.0.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Kafka Client,3.2.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,PostgreSQL JDBC,1.5.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,MySQL Connector,2.14.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Redis Client,3.2.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Identity Service,Netty,3.2.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Hibernate,3.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,OpenSSL,1.5.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,JUnit5,2.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,OkHttp,2.0.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Guava,2.17.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,BouncyCastle,3.2.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Commons IO,2.0.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,BouncyCastle,2.14.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Axios,2.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Jetty,1.5.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Guava,1.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Commons IO,2.14.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Lodash,2.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Guava,2.14.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,OkHttp,3.2.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,SnakeYAML,3.2.1,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Jackson,3.0.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Identity Service,Guava,3.2.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Jetty,2.17.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,OpenSSL,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Jetty,3.0.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Identity Service,Gson,3.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Guava,2.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Guava,2.17.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Guava,2.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,SnakeYAML,2.14.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Commons IO,2.17.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Jackson,2.0.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Identity Service,Jetty,2.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Lodash,3.2.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,BouncyCastle,3.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Identity Service,Guava,3.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,OpenSSL,1.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Commons IO,2.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Lodash,2.14.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Jetty,2.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Identity Service,Jackson,1.5.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,SLF4J,2.17.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Jackson,1.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Identity Service,Jackson,2.17.1,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Identity Service,Log4j,1.0.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Spring Boot,2.0.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,React,1.5.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Express,2.17.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,FastAPI,2.17.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Kafka Client,1.5.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,PostgreSQL JDBC,2.17.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Analytics Platform,MySQL Connector,2.14.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Redis Client,1.5.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Netty,3.2.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Hibernate,3.0.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Tomcat,1.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Lodash,1.5.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Analytics Platform,Lodash,3.2.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Gson,3.2.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Jackson,1.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,JUnit5,2.17.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Analytics Platform,Guava,2.17.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Axios,2.14.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,BouncyCastle,2.17.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Tomcat,1.5.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,BouncyCastle,1.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Jackson,2.17.1,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Gson,1.5.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Commons IO,1.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Analytics Platform,OkHttp,1.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Axios,2.17.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,SLF4J,1.5.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,SLF4J,2.17.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Lodash,2.17.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Lodash,2.14.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Analytics Platform,Axios,1.5.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Log4j,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Lodash,1.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Analytics Platform,OpenSSL,3.2.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,OpenSSL,2.17.1,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Gson,3.2.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,OpenSSL,2.14.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,OpenSSL,3.0.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Commons IO,1.5.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,Log4j,1.5.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Jackson,1.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,BouncyCastle,3.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Analytics Platform,OpenSSL,3.2.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,OpenSSL,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Lodash,2.17.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Gson,3.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,BouncyCastle,2.17.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Analytics Platform,Log4j,3.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Analytics Platform,BouncyCastle,1.5.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Analytics Platform,BouncyCastle,2.17.1,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Spring Boot,1.5.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,React,1.5.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,Express,3.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,FastAPI,1.5.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Kafka Client,2.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,PostgreSQL JDBC,2.14.1,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,MySQL Connector,2.17.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Redis Client,2.14.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,Netty,3.2.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,Hibernate,3.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,JUnit5,2.17.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,Tomcat,3.2.1,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,OpenSSL,1.0.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,Jackson,2.14.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,SLF4J,2.17.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,Log4j,3.2.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Gson,2.17.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,SnakeYAML,2.17.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,Commons IO,1.5.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Jackson,1.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Axios,1.5.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,Commons IO,3.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Jackson,1.0.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,OpenSSL,3.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,Jackson,3.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,OpenSSL,1.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,JUnit5,2.17.1,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Guava,1.5.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,JUnit5,2.17.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,Lodash,1.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,JUnit5,3.2.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,OpenSSL,2.14.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,SLF4J,1.5.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,SnakeYAML,1.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,JUnit5,3.2.1,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Lodash,1.0.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,OkHttp,3.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,Log4j,2.14.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Commons IO,1.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,OkHttp,3.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Log4j,2.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,Gson,2.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Guava,2.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,Log4j,1.0.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,OkHttp,2.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,Guava,3.2.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,Jetty,2.14.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Notification Service,Log4j,2.17.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Notification Service,Jackson,3.2.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Notification Service,Jackson,2.14.1,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Spring Boot,3.2.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,React,2.0.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Express,3.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,FastAPI,2.17.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Kafka Client,1.5.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,PostgreSQL JDBC,3.2.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Mobile Backend,MySQL Connector,1.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Redis Client,3.2.1,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Netty,1.5.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Hibernate,1.0.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,SLF4J,2.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,OkHttp,1.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Guava,2.14.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Tomcat,3.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,JUnit5,1.5.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Axios,2.0.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Mobile Backend,Jetty,2.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Commons IO,2.0.0,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Mobile Backend,SLF4J,3.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Tomcat,1.5.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Lodash,3.2.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Tomcat,3.2.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Jetty,3.2.1,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Lodash,2.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,SnakeYAML,2.14.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Mobile Backend,Gson,3.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Gson,3.0.0,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Guava,1.5.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Log4j,2.14.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Mobile Backend,Jetty,2.17.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Gson,3.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Tomcat,1.5.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Axios,3.2.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,OkHttp,2.17.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Jackson,2.0.0,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Guava,2.17.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,JUnit5,3.2.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Lodash,2.17.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Guava,1.5.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Tomcat,3.0.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Log4j,2.17.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Commons IO,2.0.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Lodash,3.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,Jetty,1.5.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Log4j,3.2.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,JUnit5,3.2.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Commons IO,3.0.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Mobile Backend,SLF4J,3.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Axios,2.17.1,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Mobile Backend,Commons IO,1.5.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Spring Boot,1.5.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,React,3.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,Express,1.5.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,FastAPI,1.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,Kafka Client,2.14.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,PostgreSQL JDBC,1.5.0,Proprietary,Compatible,Low,Proprietary is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,MySQL Connector,2.0.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,Redis Client,2.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Netty,2.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,Hibernate,1.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,BouncyCastle,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,SLF4J,2.14.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Jackson,1.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,JUnit5,3.2.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,OpenSSL,1.5.0,GPL-3.0,Incompatible,Critical,GPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Lodash,2.0.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Jackson,1.5.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Axios,3.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Jackson,3.0.0,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,BouncyCastle,3.2.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,OpenSSL,2.17.1,EPL-2.0,Incompatible,Low,EPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,OpenSSL,3.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,JUnit5,1.5.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,OpenSSL,3.0.0,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Admin Dashboard,BouncyCastle,3.2.1,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,OpenSSL,2.17.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Admin Dashboard,SLF4J,3.0.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,Lodash,1.0.0,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Gson,2.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Lodash,3.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,BouncyCastle,2.14.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,OkHttp,2.14.1,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,OpenSSL,3.0.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,Log4j,3.2.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Tomcat,2.14.1,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,Axios,3.2.1,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Jetty,3.0.0,CDDL,Incompatible,Medium,CDDL is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,BouncyCastle,3.2.1,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,BouncyCastle,3.0.0,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,OkHttp,1.0.0,LGPL-3.0,Incompatible,Medium,LGPL-3.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,JUnit5,2.14.1,No-License,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Admin Dashboard,SnakeYAML,1.0.0,MPL-2.0,Incompatible,Low,MPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Jetty,1.5.0,BSD-3-Clause,Compatible,Low,BSD-3-Clause is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,OpenSSL,3.2.1,ISC,Compatible,Low,ISC is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,Jetty,2.0.0,Apache-2.0,Compatible,Low,Apache-2.0 is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,JUnit5,2.17.1,GPL-2.0,Incompatible,Critical,GPL-2.0 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."
+Admin Dashboard,Jetty,1.5.0,Unlicense,Compatible,Low,Unlicense is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,Tomcat,2.17.1,MIT,Compatible,Low,MIT is permitted by the Proprietary application policy.,Retain license notices and reassess on dependency or policy changes.
+Admin Dashboard,Lodash,3.2.1,Unknown,Unknown,High,The dependency license is unknown or has no verified license grant.,Obtain a verified SPDX license declaration or replace the dependency.
+Admin Dashboard,Guava,2.17.1,LGPL-2.1,Incompatible,Medium,LGPL-2.1 is not compatible with the Proprietary application policy.,"Replace the dependency, obtain an approved exception, or change the application policy."

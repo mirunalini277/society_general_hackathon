@@ -1,0 +1,501 @@
+﻿application,library,version,last_updated,age_days,age_months,age_years,maintenance_status,risk_level,recommendation
+Customer Portal,Spring Boot,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Customer Portal,React,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Customer Portal,Express,2.14.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Customer Portal,FastAPI,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Customer Portal,Kafka Client,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Customer Portal,PostgreSQL JDBC,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Customer Portal,MySQL Connector,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Customer Portal,Redis Client,2.14.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Customer Portal,Netty,2.17.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Customer Portal,Hibernate,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Customer Portal,Jetty,2.17.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Customer Portal,OkHttp,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,SLF4J,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,BouncyCastle,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Gson,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Gson,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,JUnit5,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Commons IO,1.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Customer Portal,OpenSSL,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,OkHttp,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Tomcat,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Gson,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,JUnit5,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,SLF4J,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,SLF4J,1.5.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Customer Portal,Jetty,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,JUnit5,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Lodash,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,BouncyCastle,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Jetty,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Jackson,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,SLF4J,2.17.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Customer Portal,Jackson,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Log4j,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Log4j,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Gson,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,SnakeYAML,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Log4j,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,SLF4J,2.14.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Customer Portal,SLF4J,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Jackson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Log4j,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Guava,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,BouncyCastle,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Jetty,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,SLF4J,1.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Customer Portal,OpenSSL,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Jackson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Tomcat,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Customer Portal,Gson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Spring Boot,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Payment Gateway,React,2.14.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Payment Gateway,Express,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Payment Gateway,FastAPI,2.14.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Payment Gateway,Kafka Client,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Payment Gateway,PostgreSQL JDBC,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Payment Gateway,MySQL Connector,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Payment Gateway,Redis Client,2.14.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Payment Gateway,Netty,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Payment Gateway,Hibernate,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Payment Gateway,JUnit5,2.17.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Payment Gateway,SLF4J,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Log4j,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,SLF4J,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,SLF4J,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,BouncyCastle,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Axios,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Commons IO,1.5.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Payment Gateway,Gson,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Axios,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Gson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Jackson,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Gson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Jackson,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Tomcat,3.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Payment Gateway,Guava,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,SnakeYAML,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,SLF4J,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,BouncyCastle,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Tomcat,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Lodash,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,JUnit5,2.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Payment Gateway,Tomcat,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Jackson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,SnakeYAML,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,BouncyCastle,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,OkHttp,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Guava,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Log4j,3.2.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Payment Gateway,Gson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,OpenSSL,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Guava,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Tomcat,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Guava,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Tomcat,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Gson,1.5.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Payment Gateway,Lodash,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Jackson,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,Tomcat,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Payment Gateway,BouncyCastle,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Spring Boot,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRMS,React,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRMS,Express,2.17.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRMS,FastAPI,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRMS,Kafka Client,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRMS,PostgreSQL JDBC,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRMS,MySQL Connector,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRMS,Redis Client,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRMS,Netty,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRMS,Hibernate,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRMS,OkHttp,2.17.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRMS,OkHttp,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Jackson,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,SnakeYAML,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Tomcat,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,OkHttp,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Gson,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Commons IO,2.14.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRMS,Jackson,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,OpenSSL,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,OpenSSL,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Axios,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,JUnit5,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Guava,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Axios,1.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRMS,SLF4J,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Commons IO,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,SnakeYAML,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Tomcat,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Guava,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,BouncyCastle,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Log4j,2.17.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRMS,SLF4J,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Tomcat,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Commons IO,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Gson,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,BouncyCastle,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,OpenSSL,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,OkHttp,3.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRMS,SnakeYAML,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Log4j,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Axios,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Log4j,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,SLF4J,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Commons IO,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Commons IO,2.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRMS,BouncyCastle,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Guava,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Log4j,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRMS,Jetty,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Spring Boot,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Inventory Service,React,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Inventory Service,Express,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Inventory Service,FastAPI,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Inventory Service,Kafka Client,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Inventory Service,PostgreSQL JDBC,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Inventory Service,MySQL Connector,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Inventory Service,Redis Client,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Inventory Service,Netty,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Inventory Service,Hibernate,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Inventory Service,JUnit5,2.17.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Inventory Service,BouncyCastle,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Jetty,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Tomcat,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,OkHttp,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Jackson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Axios,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Guava,1.5.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Inventory Service,Guava,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Jackson,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Jackson,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Lodash,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Jackson,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Gson,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Commons IO,2.17.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Inventory Service,SnakeYAML,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,OkHttp,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Tomcat,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,SnakeYAML,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Lodash,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Lodash,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Lodash,1.5.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Inventory Service,OpenSSL,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Log4j,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Gson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,OpenSSL,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Guava,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Jackson,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,OkHttp,2.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Inventory Service,SLF4J,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Gson,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Gson,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,SnakeYAML,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Gson,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Guava,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Commons IO,1.5.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Inventory Service,Jackson,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Lodash,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Gson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Inventory Service,Axios,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Spring Boot,2.17.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Finance API,React,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Finance API,Express,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Finance API,FastAPI,2.17.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Finance API,Kafka Client,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Finance API,PostgreSQL JDBC,2.14.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Finance API,MySQL Connector,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Finance API,Redis Client,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Finance API,Netty,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Finance API,Hibernate,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Finance API,Jackson,2.14.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Finance API,Jackson,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Lodash,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,BouncyCastle,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,OpenSSL,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Commons IO,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,JUnit5,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Gson,2.17.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Finance API,SLF4J,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Commons IO,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Jackson,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Commons IO,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,SnakeYAML,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,OpenSSL,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,SLF4J,1.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Finance API,Jetty,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Lodash,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,JUnit5,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Gson,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Jetty,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,OkHttp,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Gson,2.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Finance API,SLF4J,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Lodash,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Jetty,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Jackson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Tomcat,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Tomcat,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,OkHttp,3.2.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Finance API,JUnit5,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Tomcat,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,SnakeYAML,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Gson,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,OkHttp,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Jetty,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Jackson,3.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Finance API,SnakeYAML,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,OkHttp,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,SnakeYAML,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Finance API,Jetty,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Spring Boot,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Identity Service,React,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Identity Service,Express,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Identity Service,FastAPI,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Identity Service,Kafka Client,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Identity Service,PostgreSQL JDBC,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Identity Service,MySQL Connector,2.14.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Identity Service,Redis Client,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Identity Service,Netty,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Identity Service,Hibernate,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Identity Service,OpenSSL,1.5.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Identity Service,JUnit5,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,OkHttp,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Guava,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,BouncyCastle,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Commons IO,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,BouncyCastle,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Axios,2.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Identity Service,Jetty,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Guava,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Commons IO,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Lodash,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Guava,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,OkHttp,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,SnakeYAML,3.2.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Identity Service,Jackson,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Guava,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Jetty,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,OpenSSL,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Jetty,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Gson,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Guava,2.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Identity Service,Guava,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Guava,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,SnakeYAML,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Commons IO,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Jackson,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Jetty,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Lodash,3.2.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Identity Service,BouncyCastle,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Guava,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,OpenSSL,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Commons IO,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Lodash,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Jetty,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Jackson,1.5.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Identity Service,SLF4J,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Jackson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Jackson,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Identity Service,Log4j,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Spring Boot,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Analytics Platform,React,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Analytics Platform,Express,2.17.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Analytics Platform,FastAPI,2.17.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Analytics Platform,Kafka Client,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Analytics Platform,PostgreSQL JDBC,2.17.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Analytics Platform,MySQL Connector,2.14.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Analytics Platform,Redis Client,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Analytics Platform,Netty,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Analytics Platform,Hibernate,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Analytics Platform,Tomcat,1.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Analytics Platform,Lodash,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Lodash,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Gson,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Jackson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,JUnit5,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Guava,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Axios,2.14.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Analytics Platform,BouncyCastle,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Tomcat,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,BouncyCastle,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Jackson,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Gson,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Commons IO,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,OkHttp,1.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Analytics Platform,Axios,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,SLF4J,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,SLF4J,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Lodash,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Lodash,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Axios,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Log4j,1.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Analytics Platform,Lodash,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,OpenSSL,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,OpenSSL,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Gson,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,OpenSSL,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,OpenSSL,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Commons IO,1.5.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Analytics Platform,Log4j,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Jackson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,BouncyCastle,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,OpenSSL,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,OpenSSL,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Lodash,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Gson,3.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Analytics Platform,BouncyCastle,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,Log4j,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,BouncyCastle,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Analytics Platform,BouncyCastle,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Spring Boot,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Notification Service,React,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Notification Service,Express,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Notification Service,FastAPI,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Notification Service,Kafka Client,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Notification Service,PostgreSQL JDBC,2.14.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Notification Service,MySQL Connector,2.17.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Notification Service,Redis Client,2.14.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Notification Service,Netty,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Notification Service,Hibernate,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Notification Service,JUnit5,2.17.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Notification Service,Tomcat,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,OpenSSL,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Jackson,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,SLF4J,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Log4j,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Gson,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,SnakeYAML,2.17.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Notification Service,Commons IO,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Jackson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Axios,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Commons IO,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Jackson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,OpenSSL,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Jackson,3.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Notification Service,OpenSSL,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,JUnit5,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Guava,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,JUnit5,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Lodash,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,JUnit5,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,OpenSSL,2.14.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Notification Service,SLF4J,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,SnakeYAML,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,JUnit5,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Lodash,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,OkHttp,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Log4j,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Commons IO,1.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Notification Service,OkHttp,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Log4j,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Gson,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Guava,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Log4j,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,OkHttp,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Guava,3.2.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Notification Service,Jetty,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Log4j,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Jackson,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Notification Service,Jackson,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Spring Boot,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Mobile Backend,React,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Mobile Backend,Express,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Mobile Backend,FastAPI,2.17.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Mobile Backend,Kafka Client,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Mobile Backend,PostgreSQL JDBC,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Mobile Backend,MySQL Connector,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Mobile Backend,Redis Client,3.2.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Mobile Backend,Netty,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Mobile Backend,Hibernate,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Mobile Backend,SLF4J,2.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Mobile Backend,OkHttp,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Guava,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Tomcat,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,JUnit5,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Axios,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Jetty,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Commons IO,2.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Mobile Backend,SLF4J,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Tomcat,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Lodash,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Tomcat,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Jetty,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Lodash,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,SnakeYAML,2.14.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Mobile Backend,Gson,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Gson,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Guava,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Log4j,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Jetty,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Gson,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Tomcat,1.5.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Mobile Backend,Axios,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,OkHttp,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Jackson,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Guava,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,JUnit5,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Lodash,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Guava,1.5.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Mobile Backend,Tomcat,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Log4j,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Commons IO,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Lodash,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Jetty,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Log4j,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,JUnit5,3.2.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Mobile Backend,Commons IO,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,SLF4J,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Axios,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Mobile Backend,Commons IO,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Spring Boot,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Admin Dashboard,React,3.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Admin Dashboard,Express,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Admin Dashboard,FastAPI,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Admin Dashboard,Kafka Client,2.14.1,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Admin Dashboard,PostgreSQL JDBC,1.5.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Admin Dashboard,MySQL Connector,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Admin Dashboard,Redis Client,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Admin Dashboard,Netty,2.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Admin Dashboard,Hibernate,1.0.0,2025-11-01,252,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+Admin Dashboard,BouncyCastle,1.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Admin Dashboard,SLF4J,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Jackson,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,JUnit5,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,OpenSSL,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Lodash,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Jackson,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Axios,3.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Admin Dashboard,Jackson,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,BouncyCastle,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,OpenSSL,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,OpenSSL,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,JUnit5,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,OpenSSL,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,BouncyCastle,3.2.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Admin Dashboard,OpenSSL,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,SLF4J,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Lodash,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Gson,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Lodash,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,BouncyCastle,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,OkHttp,2.14.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Admin Dashboard,OpenSSL,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Log4j,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Tomcat,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Axios,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Jetty,3.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,BouncyCastle,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,BouncyCastle,3.0.0,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Admin Dashboard,OkHttp,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,JUnit5,2.14.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,SnakeYAML,1.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Jetty,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,OpenSSL,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Jetty,2.0.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,JUnit5,2.17.1,2022-01-15,1638,53.8,4.48,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+Admin Dashboard,Jetty,1.5.0,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Tomcat,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Lodash,3.2.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+Admin Dashboard,Guava,2.17.1,2025-03-10,488,16.0,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
