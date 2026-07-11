@@ -1,0 +1,92 @@
+[
+  {
+    "license": "MIT",
+    "compatible_with": "*",
+    "risk_level": "Low",
+    "commercial_use": true
+  },
+  {
+    "license": "Apache-2.0",
+    "compatible_with": "*",
+    "risk_level": "Low",
+    "commercial_use": true
+  },
+  {
+    "license": "BSD-3-Clause",
+    "compatible_with": "*",
+    "risk_level": "Low",
+    "commercial_use": true
+  },
+  {
+    "license": "ISC",
+    "compatible_with": "*",
+    "risk_level": "Low",
+    "commercial_use": true
+  },
+  {
+    "license": "MPL-2.0",
+    "compatible_with": "Apache-2.0,MIT",
+    "risk_level": "Low",
+    "commercial_use": true
+  },
+  {
+    "license": "LGPL-2.1",
+    "compatible_with": "Dynamic Linking",
+    "risk_level": "Medium",
+    "commercial_use": true
+  },
+  {
+    "license": "LGPL-3.0",
+    "compatible_with": "Dynamic Linking",
+    "risk_level": "Medium",
+    "commercial_use": true
+  },
+  {
+    "license": "GPL-2.0",
+    "compatible_with": "GPL",
+    "risk_level": "Critical",
+    "commercial_use": false
+  },
+  {
+    "license": "GPL-3.0",
+    "compatible_with": "GPL",
+    "risk_level": "Critical",
+    "commercial_use": false
+  },
+  {
+    "license": "EPL-2.0",
+    "compatible_with": "Apache-2.0",
+    "risk_level": "Low",
+    "commercial_use": true
+  },
+  {
+    "license": "CDDL",
+    "compatible_with": "Limited",
+    "risk_level": "Medium",
+    "commercial_use": true
+  },
+  {
+    "license": "Unlicense",
+    "compatible_with": "*",
+    "risk_level": "Low",
+    "commercial_use": true
+  },
+  {
+    "license": "Proprietary",
+    "compatible_with": "Proprietary",
+    "risk_level": "Low",
+    "commercial_use": true
+  },
+  {
+    "license": "Unknown",
+    "compatible_with": "",
+    "risk_level": "High",
+    "commercial_use": false
+  },
+  {
+    "license": "No-License",
+    "compatible_with": "",
+    "risk_level": "High",
+    "commercial_use": false
+  }
+]

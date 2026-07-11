@@ -1,0 +1,501 @@
+app_id,application,dependency_id,library,version,license,dependency_type,parent_dependency,depth,last_updated,ecosystem
+APP001,Customer Portal,APP001_D01,Spring Boot,1.0.0,Unlicense,Direct,,0,2025-11-01,maven
+APP001,Customer Portal,APP001_D02,React,3.2.1,LGPL-3.0,Direct,,0,2025-11-01,maven
+APP001,Customer Portal,APP001_D03,Express,2.14.1,LGPL-3.0,Direct,,0,2025-11-01,maven
+APP001,Customer Portal,APP001_D04,FastAPI,3.0.0,GPL-3.0,Direct,,0,2025-11-01,maven
+APP001,Customer Portal,APP001_D05,Kafka Client,1.5.0,LGPL-3.0,Direct,,0,2025-11-01,maven
+APP001,Customer Portal,APP001_D06,PostgreSQL JDBC,2.0.0,LGPL-2.1,Direct,,0,2025-11-01,maven
+APP001,Customer Portal,APP001_D07,MySQL Connector,3.2.1,MIT,Direct,,0,2025-11-01,maven
+APP001,Customer Portal,APP001_D08,Redis Client,2.14.1,MPL-2.0,Direct,,0,2025-11-01,maven
+APP001,Customer Portal,APP001_D09,Netty,2.17.1,LGPL-2.1,Direct,,0,2025-11-01,maven
+APP001,Customer Portal,APP001_D10,Hibernate,1.5.0,CDDL,Direct,,0,2025-11-01,maven
+APP001,Customer Portal,APP001_T01,Jetty,2.17.1,CDDL,Transitive,APP001_D01,1,2022-01-15,maven
+APP001,Customer Portal,APP001_T02,OkHttp,3.2.1,Unknown,Transitive,APP001_D02,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T03,SLF4J,1.0.0,MPL-2.0,Transitive,APP001_D03,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T04,BouncyCastle,1.5.0,LGPL-3.0,Transitive,APP001_D04,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T05,Gson,3.0.0,GPL-2.0,Transitive,APP001_D05,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T06,Gson,2.0.0,Unknown,Transitive,APP001_D06,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T07,JUnit5,3.2.1,MIT,Transitive,APP001_D07,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T08,Commons IO,1.0.0,LGPL-3.0,Transitive,APP001_D08,1,2022-01-15,maven
+APP001,Customer Portal,APP001_T09,OpenSSL,3.2.1,No-License,Transitive,APP001_D09,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T10,OkHttp,2.14.1,EPL-2.0,Transitive,APP001_D10,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T11,Tomcat,1.0.0,Apache-2.0,Transitive,APP001_D01,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T12,Gson,3.2.1,GPL-3.0,Transitive,APP001_D02,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T13,JUnit5,2.14.1,GPL-2.0,Transitive,APP001_D03,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T14,SLF4J,3.2.1,Apache-2.0,Transitive,APP001_D04,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T15,SLF4J,1.5.0,BSD-3-Clause,Transitive,APP001_D05,1,2022-01-15,maven
+APP001,Customer Portal,APP001_T16,Jetty,3.0.0,Apache-2.0,Transitive,APP001_D06,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T17,JUnit5,3.0.0,Unlicense,Transitive,APP001_D07,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T18,Lodash,3.2.1,Proprietary,Transitive,APP001_D08,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T19,BouncyCastle,2.14.1,Apache-2.0,Transitive,APP001_D09,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T20,Jetty,3.2.1,MIT,Transitive,APP001_D10,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T21,Jackson,3.2.1,BSD-3-Clause,Transitive,APP001_D01,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T22,SLF4J,2.17.1,No-License,Transitive,APP001_D02,1,2022-01-15,maven
+APP001,Customer Portal,APP001_T23,Jackson,3.0.0,Unlicense,Transitive,APP001_D03,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T24,Log4j,1.5.0,CDDL,Transitive,APP001_D04,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T25,Log4j,2.17.1,CDDL,Transitive,APP001_D05,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T26,Gson,3.0.0,Proprietary,Transitive,APP001_D06,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T27,SnakeYAML,1.0.0,Apache-2.0,Transitive,APP001_D07,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T28,Log4j,2.17.1,EPL-2.0,Transitive,APP001_D08,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T29,SLF4J,2.14.1,MPL-2.0,Transitive,APP001_D09,1,2022-01-15,maven
+APP001,Customer Portal,APP001_T30,SLF4J,3.2.1,EPL-2.0,Transitive,APP001_D10,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T31,Jackson,1.0.0,GPL-3.0,Transitive,APP001_D01,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T32,Log4j,2.14.1,MPL-2.0,Transitive,APP001_D02,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T33,Guava,3.0.0,Unknown,Transitive,APP001_D03,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T34,BouncyCastle,1.5.0,GPL-2.0,Transitive,APP001_D04,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T35,Jetty,1.5.0,GPL-3.0,Transitive,APP001_D05,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T36,SLF4J,1.0.0,LGPL-3.0,Transitive,APP001_D06,1,2022-01-15,maven
+APP001,Customer Portal,APP001_T37,OpenSSL,3.0.0,MPL-2.0,Transitive,APP001_D07,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T38,Jackson,1.0.0,ISC,Transitive,APP001_D08,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T39,Tomcat,3.0.0,CDDL,Transitive,APP001_D09,1,2025-03-10,maven
+APP001,Customer Portal,APP001_T40,Gson,1.0.0,MPL-2.0,Transitive,APP001_D10,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_D01,Spring Boot,1.5.0,CDDL,Direct,,0,2025-11-01,maven
+APP002,Payment Gateway,APP002_D02,React,2.14.1,No-License,Direct,,0,2025-11-01,maven
+APP002,Payment Gateway,APP002_D03,Express,2.0.0,ISC,Direct,,0,2025-11-01,maven
+APP002,Payment Gateway,APP002_D04,FastAPI,2.14.1,MIT,Direct,,0,2025-11-01,maven
+APP002,Payment Gateway,APP002_D05,Kafka Client,3.0.0,LGPL-2.1,Direct,,0,2025-11-01,maven
+APP002,Payment Gateway,APP002_D06,PostgreSQL JDBC,3.0.0,LGPL-3.0,Direct,,0,2025-11-01,maven
+APP002,Payment Gateway,APP002_D07,MySQL Connector,2.0.0,CDDL,Direct,,0,2025-11-01,maven
+APP002,Payment Gateway,APP002_D08,Redis Client,2.14.1,ISC,Direct,,0,2025-11-01,maven
+APP002,Payment Gateway,APP002_D09,Netty,1.0.0,Proprietary,Direct,,0,2025-11-01,maven
+APP002,Payment Gateway,APP002_D10,Hibernate,2.0.0,Unlicense,Direct,,0,2025-11-01,maven
+APP002,Payment Gateway,APP002_T01,JUnit5,2.17.1,Apache-2.0,Transitive,APP002_D01,1,2022-01-15,maven
+APP002,Payment Gateway,APP002_T02,SLF4J,2.14.1,ISC,Transitive,APP002_D02,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T03,Log4j,3.2.1,Unknown,Transitive,APP002_D03,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T04,SLF4J,1.5.0,GPL-2.0,Transitive,APP002_D04,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T05,SLF4J,2.0.0,Proprietary,Transitive,APP002_D05,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T06,BouncyCastle,2.0.0,Apache-2.0,Transitive,APP002_D06,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T07,Axios,2.14.1,EPL-2.0,Transitive,APP002_D07,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T08,Commons IO,1.5.0,GPL-2.0,Transitive,APP002_D08,1,2022-01-15,maven
+APP002,Payment Gateway,APP002_T09,Gson,3.0.0,MIT,Transitive,APP002_D09,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T10,Axios,1.5.0,No-License,Transitive,APP002_D10,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T11,Gson,1.0.0,ISC,Transitive,APP002_D01,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T12,Jackson,2.17.1,BSD-3-Clause,Transitive,APP002_D02,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T13,Gson,1.0.0,Unlicense,Transitive,APP002_D03,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T14,Jackson,1.5.0,LGPL-3.0,Transitive,APP002_D04,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T15,Tomcat,3.0.0,No-License,Transitive,APP002_D05,1,2022-01-15,maven
+APP002,Payment Gateway,APP002_T16,Guava,3.0.0,Apache-2.0,Transitive,APP002_D06,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T17,SnakeYAML,1.5.0,LGPL-2.1,Transitive,APP002_D07,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T18,SLF4J,1.5.0,CDDL,Transitive,APP002_D08,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T19,BouncyCastle,2.17.1,Unlicense,Transitive,APP002_D09,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T20,Tomcat,1.0.0,MPL-2.0,Transitive,APP002_D10,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T21,Lodash,3.0.0,LGPL-3.0,Transitive,APP002_D01,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T22,JUnit5,2.0.0,LGPL-2.1,Transitive,APP002_D02,1,2022-01-15,maven
+APP002,Payment Gateway,APP002_T23,Tomcat,1.5.0,Apache-2.0,Transitive,APP002_D03,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T24,Jackson,1.0.0,MPL-2.0,Transitive,APP002_D04,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T25,SnakeYAML,2.0.0,LGPL-3.0,Transitive,APP002_D05,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T26,BouncyCastle,1.0.0,GPL-3.0,Transitive,APP002_D06,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T27,OkHttp,1.5.0,LGPL-3.0,Transitive,APP002_D07,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T28,Guava,3.2.1,Unknown,Transitive,APP002_D08,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T29,Log4j,3.2.1,Proprietary,Transitive,APP002_D09,1,2022-01-15,maven
+APP002,Payment Gateway,APP002_T30,Gson,1.0.0,MIT,Transitive,APP002_D10,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T31,OpenSSL,2.14.1,ISC,Transitive,APP002_D01,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T32,Guava,2.17.1,No-License,Transitive,APP002_D02,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T33,Tomcat,1.5.0,LGPL-2.1,Transitive,APP002_D03,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T34,Guava,3.0.0,No-License,Transitive,APP002_D04,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T35,Tomcat,1.0.0,CDDL,Transitive,APP002_D05,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T36,Gson,1.5.0,Proprietary,Transitive,APP002_D06,1,2022-01-15,maven
+APP002,Payment Gateway,APP002_T37,Lodash,3.2.1,LGPL-3.0,Transitive,APP002_D07,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T38,Jackson,2.14.1,MIT,Transitive,APP002_D08,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T39,Tomcat,1.0.0,Proprietary,Transitive,APP002_D09,1,2025-03-10,maven
+APP002,Payment Gateway,APP002_T40,BouncyCastle,1.0.0,MPL-2.0,Transitive,APP002_D10,1,2025-03-10,maven
+APP003,HRMS,APP003_D01,Spring Boot,1.5.0,Unlicense,Direct,,0,2025-11-01,maven
+APP003,HRMS,APP003_D02,React,1.0.0,No-License,Direct,,0,2025-11-01,maven
+APP003,HRMS,APP003_D03,Express,2.17.1,LGPL-2.1,Direct,,0,2025-11-01,maven
+APP003,HRMS,APP003_D04,FastAPI,2.0.0,MPL-2.0,Direct,,0,2025-11-01,maven
+APP003,HRMS,APP003_D05,Kafka Client,2.0.0,EPL-2.0,Direct,,0,2025-11-01,maven
+APP003,HRMS,APP003_D06,PostgreSQL JDBC,1.0.0,MPL-2.0,Direct,,0,2025-11-01,maven
+APP003,HRMS,APP003_D07,MySQL Connector,3.0.0,Unlicense,Direct,,0,2025-11-01,maven
+APP003,HRMS,APP003_D08,Redis Client,3.0.0,LGPL-2.1,Direct,,0,2025-11-01,maven
+APP003,HRMS,APP003_D09,Netty,2.0.0,MPL-2.0,Direct,,0,2025-11-01,maven
+APP003,HRMS,APP003_D10,Hibernate,1.0.0,Unlicense,Direct,,0,2025-11-01,maven
+APP003,HRMS,APP003_T01,OkHttp,2.17.1,No-License,Transitive,APP003_D01,1,2022-01-15,maven
+APP003,HRMS,APP003_T02,OkHttp,3.0.0,Apache-2.0,Transitive,APP003_D02,1,2025-03-10,maven
+APP003,HRMS,APP003_T03,Jackson,3.2.1,ISC,Transitive,APP003_D03,1,2025-03-10,maven
+APP003,HRMS,APP003_T04,SnakeYAML,2.14.1,Unlicense,Transitive,APP003_D04,1,2025-03-10,maven
+APP003,HRMS,APP003_T05,Tomcat,3.2.1,LGPL-3.0,Transitive,APP003_D05,1,2025-03-10,maven
+APP003,HRMS,APP003_T06,OkHttp,2.0.0,No-License,Transitive,APP003_D06,1,2025-03-10,maven
+APP003,HRMS,APP003_T07,Gson,3.2.1,GPL-2.0,Transitive,APP003_D07,1,2025-03-10,maven
+APP003,HRMS,APP003_T08,Commons IO,2.14.1,BSD-3-Clause,Transitive,APP003_D08,1,2022-01-15,maven
+APP003,HRMS,APP003_T09,Jackson,3.2.1,No-License,Transitive,APP003_D09,1,2025-03-10,maven
+APP003,HRMS,APP003_T10,OpenSSL,2.0.0,Unknown,Transitive,APP003_D10,1,2025-03-10,maven
+APP003,HRMS,APP003_T11,OpenSSL,3.2.1,BSD-3-Clause,Transitive,APP003_D01,1,2025-03-10,maven
+APP003,HRMS,APP003_T12,Axios,1.5.0,LGPL-2.1,Transitive,APP003_D02,1,2025-03-10,maven
+APP003,HRMS,APP003_T13,JUnit5,2.0.0,GPL-2.0,Transitive,APP003_D03,1,2025-03-10,maven
+APP003,HRMS,APP003_T14,Guava,3.2.1,Proprietary,Transitive,APP003_D04,1,2025-03-10,maven
+APP003,HRMS,APP003_T15,Axios,1.0.0,GPL-3.0,Transitive,APP003_D05,1,2022-01-15,maven
+APP003,HRMS,APP003_T16,SLF4J,2.14.1,Proprietary,Transitive,APP003_D06,1,2025-03-10,maven
+APP003,HRMS,APP003_T17,Commons IO,1.5.0,LGPL-3.0,Transitive,APP003_D07,1,2025-03-10,maven
+APP003,HRMS,APP003_T18,SnakeYAML,3.0.0,MIT,Transitive,APP003_D08,1,2025-03-10,maven
+APP003,HRMS,APP003_T19,Tomcat,2.17.1,GPL-3.0,Transitive,APP003_D09,1,2025-03-10,maven
+APP003,HRMS,APP003_T20,Guava,1.5.0,LGPL-3.0,Transitive,APP003_D10,1,2025-03-10,maven
+APP003,HRMS,APP003_T21,BouncyCastle,1.0.0,Apache-2.0,Transitive,APP003_D01,1,2025-03-10,maven
+APP003,HRMS,APP003_T22,Log4j,2.17.1,Apache-2.0,Transitive,APP003_D02,1,2022-01-15,maven
+APP003,HRMS,APP003_T23,SLF4J,1.0.0,LGPL-3.0,Transitive,APP003_D03,1,2025-03-10,maven
+APP003,HRMS,APP003_T24,Tomcat,3.0.0,GPL-2.0,Transitive,APP003_D04,1,2025-03-10,maven
+APP003,HRMS,APP003_T25,Commons IO,1.5.0,BSD-3-Clause,Transitive,APP003_D05,1,2025-03-10,maven
+APP003,HRMS,APP003_T26,Gson,2.14.1,EPL-2.0,Transitive,APP003_D06,1,2025-03-10,maven
+APP003,HRMS,APP003_T27,BouncyCastle,3.0.0,ISC,Transitive,APP003_D07,1,2025-03-10,maven
+APP003,HRMS,APP003_T28,OpenSSL,2.17.1,Unknown,Transitive,APP003_D08,1,2025-03-10,maven
+APP003,HRMS,APP003_T29,OkHttp,3.0.0,Proprietary,Transitive,APP003_D09,1,2022-01-15,maven
+APP003,HRMS,APP003_T30,SnakeYAML,3.2.1,Unknown,Transitive,APP003_D10,1,2025-03-10,maven
+APP003,HRMS,APP003_T31,Log4j,2.0.0,MPL-2.0,Transitive,APP003_D01,1,2025-03-10,maven
+APP003,HRMS,APP003_T32,Axios,2.0.0,LGPL-2.1,Transitive,APP003_D02,1,2025-03-10,maven
+APP003,HRMS,APP003_T33,Log4j,3.0.0,MPL-2.0,Transitive,APP003_D03,1,2025-03-10,maven
+APP003,HRMS,APP003_T34,SLF4J,2.14.1,ISC,Transitive,APP003_D04,1,2025-03-10,maven
+APP003,HRMS,APP003_T35,Commons IO,1.5.0,ISC,Transitive,APP003_D05,1,2025-03-10,maven
+APP003,HRMS,APP003_T36,Commons IO,2.0.0,No-License,Transitive,APP003_D06,1,2022-01-15,maven
+APP003,HRMS,APP003_T37,BouncyCastle,2.17.1,ISC,Transitive,APP003_D07,1,2025-03-10,maven
+APP003,HRMS,APP003_T38,Guava,1.0.0,LGPL-3.0,Transitive,APP003_D08,1,2025-03-10,maven
+APP003,HRMS,APP003_T39,Log4j,1.5.0,GPL-3.0,Transitive,APP003_D09,1,2025-03-10,maven
+APP003,HRMS,APP003_T40,Jetty,1.5.0,CDDL,Transitive,APP003_D10,1,2025-03-10,maven
+APP004,Inventory Service,APP004_D01,Spring Boot,3.2.1,Apache-2.0,Direct,,0,2025-11-01,maven
+APP004,Inventory Service,APP004_D02,React,3.0.0,GPL-2.0,Direct,,0,2025-11-01,maven
+APP004,Inventory Service,APP004_D03,Express,1.0.0,Apache-2.0,Direct,,0,2025-11-01,maven
+APP004,Inventory Service,APP004_D04,FastAPI,1.0.0,GPL-2.0,Direct,,0,2025-11-01,maven
+APP004,Inventory Service,APP004_D05,Kafka Client,3.2.1,ISC,Direct,,0,2025-11-01,maven
+APP004,Inventory Service,APP004_D06,PostgreSQL JDBC,3.2.1,GPL-2.0,Direct,,0,2025-11-01,maven
+APP004,Inventory Service,APP004_D07,MySQL Connector,2.0.0,MIT,Direct,,0,2025-11-01,maven
+APP004,Inventory Service,APP004_D08,Redis Client,2.0.0,ISC,Direct,,0,2025-11-01,maven
+APP004,Inventory Service,APP004_D09,Netty,1.0.0,MIT,Direct,,0,2025-11-01,maven
+APP004,Inventory Service,APP004_D10,Hibernate,1.5.0,EPL-2.0,Direct,,0,2025-11-01,maven
+APP004,Inventory Service,APP004_T01,JUnit5,2.17.1,ISC,Transitive,APP004_D01,1,2022-01-15,maven
+APP004,Inventory Service,APP004_T02,BouncyCastle,1.0.0,LGPL-2.1,Transitive,APP004_D02,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T03,Jetty,3.2.1,BSD-3-Clause,Transitive,APP004_D03,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T04,Tomcat,2.17.1,MPL-2.0,Transitive,APP004_D04,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T05,OkHttp,3.2.1,CDDL,Transitive,APP004_D05,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T06,Jackson,1.0.0,CDDL,Transitive,APP004_D06,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T07,Axios,3.0.0,EPL-2.0,Transitive,APP004_D07,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T08,Guava,1.5.0,MIT,Transitive,APP004_D08,1,2022-01-15,maven
+APP004,Inventory Service,APP004_T09,Guava,2.0.0,BSD-3-Clause,Transitive,APP004_D09,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T10,Jackson,1.5.0,MPL-2.0,Transitive,APP004_D10,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T11,Jackson,2.17.1,Unlicense,Transitive,APP004_D01,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T12,Lodash,1.5.0,Unknown,Transitive,APP004_D02,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T13,Jackson,3.2.1,LGPL-2.1,Transitive,APP004_D03,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T14,Gson,3.0.0,LGPL-2.1,Transitive,APP004_D04,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T15,Commons IO,2.17.1,MPL-2.0,Transitive,APP004_D05,1,2022-01-15,maven
+APP004,Inventory Service,APP004_T16,SnakeYAML,1.5.0,MIT,Transitive,APP004_D06,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T17,OkHttp,2.14.1,GPL-3.0,Transitive,APP004_D07,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T18,Tomcat,1.0.0,LGPL-3.0,Transitive,APP004_D08,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T19,SnakeYAML,3.2.1,LGPL-3.0,Transitive,APP004_D09,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T20,Lodash,2.17.1,BSD-3-Clause,Transitive,APP004_D10,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T21,Lodash,2.17.1,Apache-2.0,Transitive,APP004_D01,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T22,Lodash,1.5.0,LGPL-3.0,Transitive,APP004_D02,1,2022-01-15,maven
+APP004,Inventory Service,APP004_T23,OpenSSL,2.0.0,LGPL-3.0,Transitive,APP004_D03,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T24,Log4j,3.0.0,MPL-2.0,Transitive,APP004_D04,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T25,Gson,1.0.0,MPL-2.0,Transitive,APP004_D05,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T26,OpenSSL,2.17.1,No-License,Transitive,APP004_D06,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T27,Guava,2.14.1,LGPL-3.0,Transitive,APP004_D07,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T28,Jackson,3.2.1,Proprietary,Transitive,APP004_D08,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T29,OkHttp,2.0.0,CDDL,Transitive,APP004_D09,1,2022-01-15,maven
+APP004,Inventory Service,APP004_T30,SLF4J,2.14.1,Unlicense,Transitive,APP004_D10,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T31,Gson,1.5.0,MIT,Transitive,APP004_D01,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T32,Gson,1.5.0,LGPL-3.0,Transitive,APP004_D02,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T33,SnakeYAML,3.2.1,Apache-2.0,Transitive,APP004_D03,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T34,Gson,2.17.1,No-License,Transitive,APP004_D04,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T35,Guava,2.14.1,Proprietary,Transitive,APP004_D05,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T36,Commons IO,1.5.0,MIT,Transitive,APP004_D06,1,2022-01-15,maven
+APP004,Inventory Service,APP004_T37,Jackson,2.17.1,BSD-3-Clause,Transitive,APP004_D07,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T38,Lodash,3.2.1,No-License,Transitive,APP004_D08,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T39,Gson,1.0.0,EPL-2.0,Transitive,APP004_D09,1,2025-03-10,maven
+APP004,Inventory Service,APP004_T40,Axios,2.0.0,Unlicense,Transitive,APP004_D10,1,2025-03-10,maven
+APP005,Finance API,APP005_D01,Spring Boot,2.17.1,BSD-3-Clause,Direct,,0,2025-11-01,maven
+APP005,Finance API,APP005_D02,React,1.5.0,LGPL-2.1,Direct,,0,2025-11-01,maven
+APP005,Finance API,APP005_D03,Express,2.0.0,BSD-3-Clause,Direct,,0,2025-11-01,maven
+APP005,Finance API,APP005_D04,FastAPI,2.17.1,BSD-3-Clause,Direct,,0,2025-11-01,maven
+APP005,Finance API,APP005_D05,Kafka Client,1.0.0,Apache-2.0,Direct,,0,2025-11-01,maven
+APP005,Finance API,APP005_D06,PostgreSQL JDBC,2.14.1,GPL-2.0,Direct,,0,2025-11-01,maven
+APP005,Finance API,APP005_D07,MySQL Connector,3.2.1,Proprietary,Direct,,0,2025-11-01,maven
+APP005,Finance API,APP005_D08,Redis Client,3.2.1,Proprietary,Direct,,0,2025-11-01,maven
+APP005,Finance API,APP005_D09,Netty,1.5.0,MPL-2.0,Direct,,0,2025-11-01,maven
+APP005,Finance API,APP005_D10,Hibernate,1.5.0,Unknown,Direct,,0,2025-11-01,maven
+APP005,Finance API,APP005_T01,Jackson,2.14.1,LGPL-2.1,Transitive,APP005_D01,1,2022-01-15,maven
+APP005,Finance API,APP005_T02,Jackson,2.17.1,No-License,Transitive,APP005_D02,1,2025-03-10,maven
+APP005,Finance API,APP005_T03,Lodash,2.14.1,Apache-2.0,Transitive,APP005_D03,1,2025-03-10,maven
+APP005,Finance API,APP005_T04,BouncyCastle,3.0.0,EPL-2.0,Transitive,APP005_D04,1,2025-03-10,maven
+APP005,Finance API,APP005_T05,OpenSSL,3.2.1,No-License,Transitive,APP005_D05,1,2025-03-10,maven
+APP005,Finance API,APP005_T06,Commons IO,3.0.0,Proprietary,Transitive,APP005_D06,1,2025-03-10,maven
+APP005,Finance API,APP005_T07,JUnit5,1.5.0,EPL-2.0,Transitive,APP005_D07,1,2025-03-10,maven
+APP005,Finance API,APP005_T08,Gson,2.17.1,Unknown,Transitive,APP005_D08,1,2022-01-15,maven
+APP005,Finance API,APP005_T09,SLF4J,3.2.1,GPL-2.0,Transitive,APP005_D09,1,2025-03-10,maven
+APP005,Finance API,APP005_T10,Commons IO,2.17.1,ISC,Transitive,APP005_D10,1,2025-03-10,maven
+APP005,Finance API,APP005_T11,Jackson,2.14.1,GPL-3.0,Transitive,APP005_D01,1,2025-03-10,maven
+APP005,Finance API,APP005_T12,Commons IO,2.14.1,LGPL-2.1,Transitive,APP005_D02,1,2025-03-10,maven
+APP005,Finance API,APP005_T13,SnakeYAML,1.5.0,ISC,Transitive,APP005_D03,1,2025-03-10,maven
+APP005,Finance API,APP005_T14,OpenSSL,3.2.1,No-License,Transitive,APP005_D04,1,2025-03-10,maven
+APP005,Finance API,APP005_T15,SLF4J,1.0.0,No-License,Transitive,APP005_D05,1,2022-01-15,maven
+APP005,Finance API,APP005_T16,Jetty,3.2.1,Proprietary,Transitive,APP005_D06,1,2025-03-10,maven
+APP005,Finance API,APP005_T17,Lodash,1.0.0,CDDL,Transitive,APP005_D07,1,2025-03-10,maven
+APP005,Finance API,APP005_T18,JUnit5,2.0.0,Apache-2.0,Transitive,APP005_D08,1,2025-03-10,maven
+APP005,Finance API,APP005_T19,Gson,2.17.1,GPL-2.0,Transitive,APP005_D09,1,2025-03-10,maven
+APP005,Finance API,APP005_T20,Jetty,3.2.1,CDDL,Transitive,APP005_D10,1,2025-03-10,maven
+APP005,Finance API,APP005_T21,OkHttp,2.0.0,CDDL,Transitive,APP005_D01,1,2025-03-10,maven
+APP005,Finance API,APP005_T22,Gson,2.0.0,EPL-2.0,Transitive,APP005_D02,1,2022-01-15,maven
+APP005,Finance API,APP005_T23,SLF4J,2.14.1,LGPL-3.0,Transitive,APP005_D03,1,2025-03-10,maven
+APP005,Finance API,APP005_T24,Lodash,2.0.0,GPL-2.0,Transitive,APP005_D04,1,2025-03-10,maven
+APP005,Finance API,APP005_T25,Jetty,2.14.1,BSD-3-Clause,Transitive,APP005_D05,1,2025-03-10,maven
+APP005,Finance API,APP005_T26,Jackson,1.0.0,EPL-2.0,Transitive,APP005_D06,1,2025-03-10,maven
+APP005,Finance API,APP005_T27,Tomcat,2.14.1,ISC,Transitive,APP005_D07,1,2025-03-10,maven
+APP005,Finance API,APP005_T28,Tomcat,3.2.1,EPL-2.0,Transitive,APP005_D08,1,2025-03-10,maven
+APP005,Finance API,APP005_T29,OkHttp,3.2.1,GPL-2.0,Transitive,APP005_D09,1,2022-01-15,maven
+APP005,Finance API,APP005_T30,JUnit5,1.5.0,Proprietary,Transitive,APP005_D10,1,2025-03-10,maven
+APP005,Finance API,APP005_T31,Tomcat,2.14.1,Apache-2.0,Transitive,APP005_D01,1,2025-03-10,maven
+APP005,Finance API,APP005_T32,SnakeYAML,1.5.0,LGPL-2.1,Transitive,APP005_D02,1,2025-03-10,maven
+APP005,Finance API,APP005_T33,Gson,2.0.0,Apache-2.0,Transitive,APP005_D03,1,2025-03-10,maven
+APP005,Finance API,APP005_T34,OkHttp,2.14.1,GPL-3.0,Transitive,APP005_D04,1,2025-03-10,maven
+APP005,Finance API,APP005_T35,Jetty,3.0.0,MIT,Transitive,APP005_D05,1,2025-03-10,maven
+APP005,Finance API,APP005_T36,Jackson,3.0.0,BSD-3-Clause,Transitive,APP005_D06,1,2022-01-15,maven
+APP005,Finance API,APP005_T37,SnakeYAML,3.0.0,LGPL-2.1,Transitive,APP005_D07,1,2025-03-10,maven
+APP005,Finance API,APP005_T38,OkHttp,3.0.0,GPL-3.0,Transitive,APP005_D08,1,2025-03-10,maven
+APP005,Finance API,APP005_T39,SnakeYAML,1.0.0,Proprietary,Transitive,APP005_D09,1,2025-03-10,maven
+APP005,Finance API,APP005_T40,Jetty,2.14.1,CDDL,Transitive,APP005_D10,1,2025-03-10,maven
+APP006,Identity Service,APP006_D01,Spring Boot,3.2.1,BSD-3-Clause,Direct,,0,2025-11-01,maven
+APP006,Identity Service,APP006_D02,React,1.0.0,Unknown,Direct,,0,2025-11-01,maven
+APP006,Identity Service,APP006_D03,Express,1.0.0,EPL-2.0,Direct,,0,2025-11-01,maven
+APP006,Identity Service,APP006_D04,FastAPI,3.0.0,Unlicense,Direct,,0,2025-11-01,maven
+APP006,Identity Service,APP006_D05,Kafka Client,3.2.1,Apache-2.0,Direct,,0,2025-11-01,maven
+APP006,Identity Service,APP006_D06,PostgreSQL JDBC,1.5.0,BSD-3-Clause,Direct,,0,2025-11-01,maven
+APP006,Identity Service,APP006_D07,MySQL Connector,2.14.1,MPL-2.0,Direct,,0,2025-11-01,maven
+APP006,Identity Service,APP006_D08,Redis Client,3.2.1,No-License,Direct,,0,2025-11-01,maven
+APP006,Identity Service,APP006_D09,Netty,3.2.1,BSD-3-Clause,Direct,,0,2025-11-01,maven
+APP006,Identity Service,APP006_D10,Hibernate,3.0.0,Proprietary,Direct,,0,2025-11-01,maven
+APP006,Identity Service,APP006_T01,OpenSSL,1.5.0,Apache-2.0,Transitive,APP006_D01,1,2022-01-15,maven
+APP006,Identity Service,APP006_T02,JUnit5,2.0.0,EPL-2.0,Transitive,APP006_D02,1,2025-03-10,maven
+APP006,Identity Service,APP006_T03,OkHttp,2.0.0,BSD-3-Clause,Transitive,APP006_D03,1,2025-03-10,maven
+APP006,Identity Service,APP006_T04,Guava,2.17.1,MPL-2.0,Transitive,APP006_D04,1,2025-03-10,maven
+APP006,Identity Service,APP006_T05,BouncyCastle,3.2.1,GPL-2.0,Transitive,APP006_D05,1,2025-03-10,maven
+APP006,Identity Service,APP006_T06,Commons IO,2.0.0,GPL-3.0,Transitive,APP006_D06,1,2025-03-10,maven
+APP006,Identity Service,APP006_T07,BouncyCastle,2.14.1,ISC,Transitive,APP006_D07,1,2025-03-10,maven
+APP006,Identity Service,APP006_T08,Axios,2.0.0,EPL-2.0,Transitive,APP006_D08,1,2022-01-15,maven
+APP006,Identity Service,APP006_T09,Jetty,1.5.0,LGPL-2.1,Transitive,APP006_D09,1,2025-03-10,maven
+APP006,Identity Service,APP006_T10,Guava,1.0.0,ISC,Transitive,APP006_D10,1,2025-03-10,maven
+APP006,Identity Service,APP006_T11,Commons IO,2.14.1,BSD-3-Clause,Transitive,APP006_D01,1,2025-03-10,maven
+APP006,Identity Service,APP006_T12,Lodash,2.0.0,CDDL,Transitive,APP006_D02,1,2025-03-10,maven
+APP006,Identity Service,APP006_T13,Guava,2.14.1,BSD-3-Clause,Transitive,APP006_D03,1,2025-03-10,maven
+APP006,Identity Service,APP006_T14,OkHttp,3.2.1,MPL-2.0,Transitive,APP006_D04,1,2025-03-10,maven
+APP006,Identity Service,APP006_T15,SnakeYAML,3.2.1,GPL-3.0,Transitive,APP006_D05,1,2022-01-15,maven
+APP006,Identity Service,APP006_T16,Jackson,3.0.0,Unknown,Transitive,APP006_D06,1,2025-03-10,maven
+APP006,Identity Service,APP006_T17,Guava,3.2.1,GPL-2.0,Transitive,APP006_D07,1,2025-03-10,maven
+APP006,Identity Service,APP006_T18,Jetty,2.17.1,EPL-2.0,Transitive,APP006_D08,1,2025-03-10,maven
+APP006,Identity Service,APP006_T19,OpenSSL,1.0.0,MPL-2.0,Transitive,APP006_D09,1,2025-03-10,maven
+APP006,Identity Service,APP006_T20,Jetty,3.0.0,Unknown,Transitive,APP006_D10,1,2025-03-10,maven
+APP006,Identity Service,APP006_T21,Gson,3.0.0,Proprietary,Transitive,APP006_D01,1,2025-03-10,maven
+APP006,Identity Service,APP006_T22,Guava,2.0.0,LGPL-3.0,Transitive,APP006_D02,1,2022-01-15,maven
+APP006,Identity Service,APP006_T23,Guava,2.17.1,BSD-3-Clause,Transitive,APP006_D03,1,2025-03-10,maven
+APP006,Identity Service,APP006_T24,Guava,2.0.0,Proprietary,Transitive,APP006_D04,1,2025-03-10,maven
+APP006,Identity Service,APP006_T25,SnakeYAML,2.14.1,ISC,Transitive,APP006_D05,1,2025-03-10,maven
+APP006,Identity Service,APP006_T26,Commons IO,2.17.1,Unlicense,Transitive,APP006_D06,1,2025-03-10,maven
+APP006,Identity Service,APP006_T27,Jackson,2.0.0,Unknown,Transitive,APP006_D07,1,2025-03-10,maven
+APP006,Identity Service,APP006_T28,Jetty,2.0.0,MPL-2.0,Transitive,APP006_D08,1,2025-03-10,maven
+APP006,Identity Service,APP006_T29,Lodash,3.2.1,EPL-2.0,Transitive,APP006_D09,1,2022-01-15,maven
+APP006,Identity Service,APP006_T30,BouncyCastle,3.0.0,No-License,Transitive,APP006_D10,1,2025-03-10,maven
+APP006,Identity Service,APP006_T31,Guava,3.0.0,MIT,Transitive,APP006_D01,1,2025-03-10,maven
+APP006,Identity Service,APP006_T32,OpenSSL,1.0.0,ISC,Transitive,APP006_D02,1,2025-03-10,maven
+APP006,Identity Service,APP006_T33,Commons IO,2.0.0,EPL-2.0,Transitive,APP006_D03,1,2025-03-10,maven
+APP006,Identity Service,APP006_T34,Lodash,2.14.1,LGPL-3.0,Transitive,APP006_D04,1,2025-03-10,maven
+APP006,Identity Service,APP006_T35,Jetty,2.0.0,No-License,Transitive,APP006_D05,1,2025-03-10,maven
+APP006,Identity Service,APP006_T36,Jackson,1.5.0,GPL-2.0,Transitive,APP006_D06,1,2022-01-15,maven
+APP006,Identity Service,APP006_T37,SLF4J,2.17.1,CDDL,Transitive,APP006_D07,1,2025-03-10,maven
+APP006,Identity Service,APP006_T38,Jackson,1.0.0,MIT,Transitive,APP006_D08,1,2025-03-10,maven
+APP006,Identity Service,APP006_T39,Jackson,2.17.1,LGPL-2.1,Transitive,APP006_D09,1,2025-03-10,maven
+APP006,Identity Service,APP006_T40,Log4j,1.0.0,GPL-3.0,Transitive,APP006_D10,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_D01,Spring Boot,2.0.0,GPL-3.0,Direct,,0,2025-11-01,maven
+APP007,Analytics Platform,APP007_D02,React,1.5.0,LGPL-3.0,Direct,,0,2025-11-01,maven
+APP007,Analytics Platform,APP007_D03,Express,2.17.1,MPL-2.0,Direct,,0,2025-11-01,maven
+APP007,Analytics Platform,APP007_D04,FastAPI,2.17.1,BSD-3-Clause,Direct,,0,2025-11-01,maven
+APP007,Analytics Platform,APP007_D05,Kafka Client,1.5.0,LGPL-2.1,Direct,,0,2025-11-01,maven
+APP007,Analytics Platform,APP007_D06,PostgreSQL JDBC,2.17.1,Unknown,Direct,,0,2025-11-01,maven
+APP007,Analytics Platform,APP007_D07,MySQL Connector,2.14.1,BSD-3-Clause,Direct,,0,2025-11-01,maven
+APP007,Analytics Platform,APP007_D08,Redis Client,1.5.0,MIT,Direct,,0,2025-11-01,maven
+APP007,Analytics Platform,APP007_D09,Netty,3.2.1,ISC,Direct,,0,2025-11-01,maven
+APP007,Analytics Platform,APP007_D10,Hibernate,3.0.0,BSD-3-Clause,Direct,,0,2025-11-01,maven
+APP007,Analytics Platform,APP007_T01,Tomcat,1.0.0,Apache-2.0,Transitive,APP007_D01,1,2022-01-15,maven
+APP007,Analytics Platform,APP007_T02,Lodash,1.5.0,Unknown,Transitive,APP007_D02,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T03,Lodash,3.2.1,MPL-2.0,Transitive,APP007_D03,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T04,Gson,3.2.1,MPL-2.0,Transitive,APP007_D04,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T05,Jackson,1.0.0,CDDL,Transitive,APP007_D05,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T06,JUnit5,2.17.1,No-License,Transitive,APP007_D06,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T07,Guava,2.17.1,CDDL,Transitive,APP007_D07,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T08,Axios,2.14.1,EPL-2.0,Transitive,APP007_D08,1,2022-01-15,maven
+APP007,Analytics Platform,APP007_T09,BouncyCastle,2.17.1,Unlicense,Transitive,APP007_D09,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T10,Tomcat,1.5.0,BSD-3-Clause,Transitive,APP007_D10,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T11,BouncyCastle,1.0.0,MIT,Transitive,APP007_D01,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T12,Jackson,2.17.1,MIT,Transitive,APP007_D02,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T13,Gson,1.5.0,ISC,Transitive,APP007_D03,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T14,Commons IO,1.0.0,No-License,Transitive,APP007_D04,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T15,OkHttp,1.0.0,MIT,Transitive,APP007_D05,1,2022-01-15,maven
+APP007,Analytics Platform,APP007_T16,Axios,2.17.1,CDDL,Transitive,APP007_D06,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T17,SLF4J,1.5.0,LGPL-3.0,Transitive,APP007_D07,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T18,SLF4J,2.17.1,EPL-2.0,Transitive,APP007_D08,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T19,Lodash,2.17.1,CDDL,Transitive,APP007_D09,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T20,Lodash,2.14.1,Unknown,Transitive,APP007_D10,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T21,Axios,1.5.0,GPL-3.0,Transitive,APP007_D01,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T22,Log4j,1.0.0,MPL-2.0,Transitive,APP007_D02,1,2022-01-15,maven
+APP007,Analytics Platform,APP007_T23,Lodash,1.0.0,No-License,Transitive,APP007_D03,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T24,OpenSSL,3.2.1,GPL-2.0,Transitive,APP007_D04,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T25,OpenSSL,2.17.1,MIT,Transitive,APP007_D05,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T26,Gson,3.2.1,LGPL-3.0,Transitive,APP007_D06,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T27,OpenSSL,2.14.1,Apache-2.0,Transitive,APP007_D07,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T28,OpenSSL,3.0.0,GPL-2.0,Transitive,APP007_D08,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T29,Commons IO,1.5.0,Apache-2.0,Transitive,APP007_D09,1,2022-01-15,maven
+APP007,Analytics Platform,APP007_T30,Log4j,1.5.0,CDDL,Transitive,APP007_D10,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T31,Jackson,1.0.0,LGPL-2.1,Transitive,APP007_D01,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T32,BouncyCastle,3.0.0,No-License,Transitive,APP007_D02,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T33,OpenSSL,3.2.1,MPL-2.0,Transitive,APP007_D03,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T34,OpenSSL,1.0.0,MPL-2.0,Transitive,APP007_D04,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T35,Lodash,2.17.1,CDDL,Transitive,APP007_D05,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T36,Gson,3.0.0,Proprietary,Transitive,APP007_D06,1,2022-01-15,maven
+APP007,Analytics Platform,APP007_T37,BouncyCastle,2.17.1,MPL-2.0,Transitive,APP007_D07,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T38,Log4j,3.0.0,No-License,Transitive,APP007_D08,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T39,BouncyCastle,1.5.0,Apache-2.0,Transitive,APP007_D09,1,2025-03-10,maven
+APP007,Analytics Platform,APP007_T40,BouncyCastle,2.17.1,MIT,Transitive,APP007_D10,1,2025-03-10,maven
+APP008,Notification Service,APP008_D01,Spring Boot,1.5.0,MPL-2.0,Direct,,0,2025-11-01,maven
+APP008,Notification Service,APP008_D02,React,1.5.0,Unknown,Direct,,0,2025-11-01,maven
+APP008,Notification Service,APP008_D03,Express,3.0.0,ISC,Direct,,0,2025-11-01,maven
+APP008,Notification Service,APP008_D04,FastAPI,1.5.0,Unlicense,Direct,,0,2025-11-01,maven
+APP008,Notification Service,APP008_D05,Kafka Client,2.0.0,ISC,Direct,,0,2025-11-01,maven
+APP008,Notification Service,APP008_D06,PostgreSQL JDBC,2.14.1,LGPL-2.1,Direct,,0,2025-11-01,maven
+APP008,Notification Service,APP008_D07,MySQL Connector,2.17.1,ISC,Direct,,0,2025-11-01,maven
+APP008,Notification Service,APP008_D08,Redis Client,2.14.1,No-License,Direct,,0,2025-11-01,maven
+APP008,Notification Service,APP008_D09,Netty,3.2.1,CDDL,Direct,,0,2025-11-01,maven
+APP008,Notification Service,APP008_D10,Hibernate,3.0.0,CDDL,Direct,,0,2025-11-01,maven
+APP008,Notification Service,APP008_T01,JUnit5,2.17.1,GPL-2.0,Transitive,APP008_D01,1,2022-01-15,maven
+APP008,Notification Service,APP008_T02,Tomcat,3.2.1,GPL-3.0,Transitive,APP008_D02,1,2025-03-10,maven
+APP008,Notification Service,APP008_T03,OpenSSL,1.0.0,Unknown,Transitive,APP008_D03,1,2025-03-10,maven
+APP008,Notification Service,APP008_T04,Jackson,2.14.1,Unlicense,Transitive,APP008_D04,1,2025-03-10,maven
+APP008,Notification Service,APP008_T05,SLF4J,2.17.1,No-License,Transitive,APP008_D05,1,2025-03-10,maven
+APP008,Notification Service,APP008_T06,Log4j,3.2.1,ISC,Transitive,APP008_D06,1,2025-03-10,maven
+APP008,Notification Service,APP008_T07,Gson,2.17.1,EPL-2.0,Transitive,APP008_D07,1,2025-03-10,maven
+APP008,Notification Service,APP008_T08,SnakeYAML,2.17.1,No-License,Transitive,APP008_D08,1,2022-01-15,maven
+APP008,Notification Service,APP008_T09,Commons IO,1.5.0,MIT,Transitive,APP008_D09,1,2025-03-10,maven
+APP008,Notification Service,APP008_T10,Jackson,1.0.0,Apache-2.0,Transitive,APP008_D10,1,2025-03-10,maven
+APP008,Notification Service,APP008_T11,Axios,1.5.0,LGPL-2.1,Transitive,APP008_D01,1,2025-03-10,maven
+APP008,Notification Service,APP008_T12,Commons IO,3.0.0,MIT,Transitive,APP008_D02,1,2025-03-10,maven
+APP008,Notification Service,APP008_T13,Jackson,1.0.0,BSD-3-Clause,Transitive,APP008_D03,1,2025-03-10,maven
+APP008,Notification Service,APP008_T14,OpenSSL,3.0.0,CDDL,Transitive,APP008_D04,1,2025-03-10,maven
+APP008,Notification Service,APP008_T15,Jackson,3.0.0,Apache-2.0,Transitive,APP008_D05,1,2022-01-15,maven
+APP008,Notification Service,APP008_T16,OpenSSL,1.0.0,Apache-2.0,Transitive,APP008_D06,1,2025-03-10,maven
+APP008,Notification Service,APP008_T17,JUnit5,2.17.1,Proprietary,Transitive,APP008_D07,1,2025-03-10,maven
+APP008,Notification Service,APP008_T18,Guava,1.5.0,Unknown,Transitive,APP008_D08,1,2025-03-10,maven
+APP008,Notification Service,APP008_T19,JUnit5,2.17.1,No-License,Transitive,APP008_D09,1,2025-03-10,maven
+APP008,Notification Service,APP008_T20,Lodash,1.0.0,No-License,Transitive,APP008_D10,1,2025-03-10,maven
+APP008,Notification Service,APP008_T21,JUnit5,3.2.1,No-License,Transitive,APP008_D01,1,2025-03-10,maven
+APP008,Notification Service,APP008_T22,OpenSSL,2.14.1,Apache-2.0,Transitive,APP008_D02,1,2022-01-15,maven
+APP008,Notification Service,APP008_T23,SLF4J,1.5.0,ISC,Transitive,APP008_D03,1,2025-03-10,maven
+APP008,Notification Service,APP008_T24,SnakeYAML,1.0.0,MIT,Transitive,APP008_D04,1,2025-03-10,maven
+APP008,Notification Service,APP008_T25,JUnit5,3.2.1,Proprietary,Transitive,APP008_D05,1,2025-03-10,maven
+APP008,Notification Service,APP008_T26,Lodash,1.0.0,Unknown,Transitive,APP008_D06,1,2025-03-10,maven
+APP008,Notification Service,APP008_T27,OkHttp,3.0.0,CDDL,Transitive,APP008_D07,1,2025-03-10,maven
+APP008,Notification Service,APP008_T28,Log4j,2.14.1,Apache-2.0,Transitive,APP008_D08,1,2025-03-10,maven
+APP008,Notification Service,APP008_T29,Commons IO,1.0.0,Proprietary,Transitive,APP008_D09,1,2022-01-15,maven
+APP008,Notification Service,APP008_T30,OkHttp,3.0.0,ISC,Transitive,APP008_D10,1,2025-03-10,maven
+APP008,Notification Service,APP008_T31,Log4j,2.0.0,LGPL-2.1,Transitive,APP008_D01,1,2025-03-10,maven
+APP008,Notification Service,APP008_T32,Gson,2.0.0,MIT,Transitive,APP008_D02,1,2025-03-10,maven
+APP008,Notification Service,APP008_T33,Guava,2.0.0,No-License,Transitive,APP008_D03,1,2025-03-10,maven
+APP008,Notification Service,APP008_T34,Log4j,1.0.0,Unlicense,Transitive,APP008_D04,1,2025-03-10,maven
+APP008,Notification Service,APP008_T35,OkHttp,2.0.0,No-License,Transitive,APP008_D05,1,2025-03-10,maven
+APP008,Notification Service,APP008_T36,Guava,3.2.1,EPL-2.0,Transitive,APP008_D06,1,2022-01-15,maven
+APP008,Notification Service,APP008_T37,Jetty,2.14.1,Unknown,Transitive,APP008_D07,1,2025-03-10,maven
+APP008,Notification Service,APP008_T38,Log4j,2.17.1,Unlicense,Transitive,APP008_D08,1,2025-03-10,maven
+APP008,Notification Service,APP008_T39,Jackson,3.2.1,LGPL-3.0,Transitive,APP008_D09,1,2025-03-10,maven
+APP008,Notification Service,APP008_T40,Jackson,2.14.1,GPL-3.0,Transitive,APP008_D10,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_D01,Spring Boot,3.2.1,Apache-2.0,Direct,,0,2025-11-01,maven
+APP009,Mobile Backend,APP009_D02,React,2.0.0,GPL-2.0,Direct,,0,2025-11-01,maven
+APP009,Mobile Backend,APP009_D03,Express,3.0.0,MIT,Direct,,0,2025-11-01,maven
+APP009,Mobile Backend,APP009_D04,FastAPI,2.17.1,EPL-2.0,Direct,,0,2025-11-01,maven
+APP009,Mobile Backend,APP009_D05,Kafka Client,1.5.0,Unlicense,Direct,,0,2025-11-01,maven
+APP009,Mobile Backend,APP009_D06,PostgreSQL JDBC,3.2.1,Unknown,Direct,,0,2025-11-01,maven
+APP009,Mobile Backend,APP009_D07,MySQL Connector,1.0.0,EPL-2.0,Direct,,0,2025-11-01,maven
+APP009,Mobile Backend,APP009_D08,Redis Client,3.2.1,MPL-2.0,Direct,,0,2025-11-01,maven
+APP009,Mobile Backend,APP009_D09,Netty,1.5.0,LGPL-3.0,Direct,,0,2025-11-01,maven
+APP009,Mobile Backend,APP009_D10,Hibernate,1.0.0,GPL-3.0,Direct,,0,2025-11-01,maven
+APP009,Mobile Backend,APP009_T01,SLF4J,2.0.0,Proprietary,Transitive,APP009_D01,1,2022-01-15,maven
+APP009,Mobile Backend,APP009_T02,OkHttp,1.0.0,MIT,Transitive,APP009_D02,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T03,Guava,2.14.1,Apache-2.0,Transitive,APP009_D03,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T04,Tomcat,3.0.0,Proprietary,Transitive,APP009_D04,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T05,JUnit5,1.5.0,GPL-2.0,Transitive,APP009_D05,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T06,Axios,2.0.0,Unknown,Transitive,APP009_D06,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T07,Jetty,2.0.0,EPL-2.0,Transitive,APP009_D07,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T08,Commons IO,2.0.0,Unknown,Transitive,APP009_D08,1,2022-01-15,maven
+APP009,Mobile Backend,APP009_T09,SLF4J,3.0.0,ISC,Transitive,APP009_D09,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T10,Tomcat,1.5.0,Apache-2.0,Transitive,APP009_D10,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T11,Lodash,3.2.1,Apache-2.0,Transitive,APP009_D01,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T12,Tomcat,3.2.1,Unlicense,Transitive,APP009_D02,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T13,Jetty,3.2.1,Apache-2.0,Transitive,APP009_D03,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T14,Lodash,2.0.0,LGPL-2.1,Transitive,APP009_D04,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T15,SnakeYAML,2.14.1,No-License,Transitive,APP009_D05,1,2022-01-15,maven
+APP009,Mobile Backend,APP009_T16,Gson,3.0.0,Apache-2.0,Transitive,APP009_D06,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T17,Gson,3.0.0,MIT,Transitive,APP009_D07,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T18,Guava,1.5.0,MPL-2.0,Transitive,APP009_D08,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T19,Log4j,2.14.1,No-License,Transitive,APP009_D09,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T20,Jetty,2.17.1,BSD-3-Clause,Transitive,APP009_D10,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T21,Gson,3.0.0,ISC,Transitive,APP009_D01,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T22,Tomcat,1.5.0,GPL-3.0,Transitive,APP009_D02,1,2022-01-15,maven
+APP009,Mobile Backend,APP009_T23,Axios,3.2.1,Unlicense,Transitive,APP009_D03,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T24,OkHttp,2.17.1,CDDL,Transitive,APP009_D04,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T25,Jackson,2.0.0,EPL-2.0,Transitive,APP009_D05,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T26,Guava,2.17.1,BSD-3-Clause,Transitive,APP009_D06,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T27,JUnit5,3.2.1,GPL-2.0,Transitive,APP009_D07,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T28,Lodash,2.17.1,Unlicense,Transitive,APP009_D08,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T29,Guava,1.5.0,GPL-2.0,Transitive,APP009_D09,1,2022-01-15,maven
+APP009,Mobile Backend,APP009_T30,Tomcat,3.0.0,Proprietary,Transitive,APP009_D10,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T31,Log4j,2.17.1,ISC,Transitive,APP009_D01,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T32,Commons IO,2.0.0,GPL-2.0,Transitive,APP009_D02,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T33,Lodash,3.0.0,ISC,Transitive,APP009_D03,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T34,Jetty,1.5.0,MPL-2.0,Transitive,APP009_D04,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T35,Log4j,3.2.1,Unlicense,Transitive,APP009_D05,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T36,JUnit5,3.2.1,EPL-2.0,Transitive,APP009_D06,1,2022-01-15,maven
+APP009,Mobile Backend,APP009_T37,Commons IO,3.0.0,BSD-3-Clause,Transitive,APP009_D07,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T38,SLF4J,3.0.0,LGPL-2.1,Transitive,APP009_D08,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T39,Axios,2.17.1,LGPL-2.1,Transitive,APP009_D09,1,2025-03-10,maven
+APP009,Mobile Backend,APP009_T40,Commons IO,1.5.0,LGPL-2.1,Transitive,APP009_D10,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_D01,Spring Boot,1.5.0,MPL-2.0,Direct,,0,2025-11-01,maven
+APP010,Admin Dashboard,APP010_D02,React,3.0.0,Apache-2.0,Direct,,0,2025-11-01,maven
+APP010,Admin Dashboard,APP010_D03,Express,1.5.0,CDDL,Direct,,0,2025-11-01,maven
+APP010,Admin Dashboard,APP010_D04,FastAPI,1.0.0,ISC,Direct,,0,2025-11-01,maven
+APP010,Admin Dashboard,APP010_D05,Kafka Client,2.14.1,BSD-3-Clause,Direct,,0,2025-11-01,maven
+APP010,Admin Dashboard,APP010_D06,PostgreSQL JDBC,1.5.0,Proprietary,Direct,,0,2025-11-01,maven
+APP010,Admin Dashboard,APP010_D07,MySQL Connector,2.0.0,Unlicense,Direct,,0,2025-11-01,maven
+APP010,Admin Dashboard,APP010_D08,Redis Client,2.0.0,LGPL-3.0,Direct,,0,2025-11-01,maven
+APP010,Admin Dashboard,APP010_D09,Netty,2.0.0,ISC,Direct,,0,2025-11-01,maven
+APP010,Admin Dashboard,APP010_D10,Hibernate,1.0.0,CDDL,Direct,,0,2025-11-01,maven
+APP010,Admin Dashboard,APP010_T01,BouncyCastle,1.0.0,MPL-2.0,Transitive,APP010_D01,1,2022-01-15,maven
+APP010,Admin Dashboard,APP010_T02,SLF4J,2.14.1,GPL-2.0,Transitive,APP010_D02,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T03,Jackson,1.0.0,LGPL-3.0,Transitive,APP010_D03,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T04,JUnit5,3.2.1,LGPL-3.0,Transitive,APP010_D04,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T05,OpenSSL,1.5.0,GPL-3.0,Transitive,APP010_D05,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T06,Lodash,2.0.0,GPL-2.0,Transitive,APP010_D06,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T07,Jackson,1.5.0,MPL-2.0,Transitive,APP010_D07,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T08,Axios,3.0.0,LGPL-3.0,Transitive,APP010_D08,1,2022-01-15,maven
+APP010,Admin Dashboard,APP010_T09,Jackson,3.0.0,ISC,Transitive,APP010_D09,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T10,BouncyCastle,3.2.1,LGPL-3.0,Transitive,APP010_D10,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T11,OpenSSL,2.17.1,EPL-2.0,Transitive,APP010_D01,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T12,OpenSSL,3.0.0,LGPL-3.0,Transitive,APP010_D02,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T13,JUnit5,1.5.0,CDDL,Transitive,APP010_D03,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T14,OpenSSL,3.0.0,No-License,Transitive,APP010_D04,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T15,BouncyCastle,3.2.1,CDDL,Transitive,APP010_D05,1,2022-01-15,maven
+APP010,Admin Dashboard,APP010_T16,OpenSSL,2.17.1,Unknown,Transitive,APP010_D06,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T17,SLF4J,3.0.0,BSD-3-Clause,Transitive,APP010_D07,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T18,Lodash,1.0.0,GPL-2.0,Transitive,APP010_D08,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T19,Gson,2.0.0,MPL-2.0,Transitive,APP010_D09,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T20,Lodash,3.0.0,Apache-2.0,Transitive,APP010_D10,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T21,BouncyCastle,2.14.1,ISC,Transitive,APP010_D01,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T22,OkHttp,2.14.1,Unlicense,Transitive,APP010_D02,1,2022-01-15,maven
+APP010,Admin Dashboard,APP010_T23,OpenSSL,3.0.0,BSD-3-Clause,Transitive,APP010_D03,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T24,Log4j,3.2.1,LGPL-3.0,Transitive,APP010_D04,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T25,Tomcat,2.14.1,MIT,Transitive,APP010_D05,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T26,Axios,3.2.1,LGPL-3.0,Transitive,APP010_D06,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T27,Jetty,3.0.0,CDDL,Transitive,APP010_D07,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T28,BouncyCastle,3.2.1,BSD-3-Clause,Transitive,APP010_D08,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T29,BouncyCastle,3.0.0,LGPL-2.1,Transitive,APP010_D09,1,2022-01-15,maven
+APP010,Admin Dashboard,APP010_T30,OkHttp,1.0.0,LGPL-3.0,Transitive,APP010_D10,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T31,JUnit5,2.14.1,No-License,Transitive,APP010_D01,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T32,SnakeYAML,1.0.0,MPL-2.0,Transitive,APP010_D02,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T33,Jetty,1.5.0,BSD-3-Clause,Transitive,APP010_D03,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T34,OpenSSL,3.2.1,ISC,Transitive,APP010_D04,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T35,Jetty,2.0.0,Apache-2.0,Transitive,APP010_D05,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T36,JUnit5,2.17.1,GPL-2.0,Transitive,APP010_D06,1,2022-01-15,maven
+APP010,Admin Dashboard,APP010_T37,Jetty,1.5.0,Unlicense,Transitive,APP010_D07,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T38,Tomcat,2.17.1,MIT,Transitive,APP010_D08,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T39,Lodash,3.2.1,Unknown,Transitive,APP010_D09,1,2025-03-10,maven
+APP010,Admin Dashboard,APP010_T40,Guava,2.17.1,LGPL-2.1,Transitive,APP010_D10,1,2025-03-10,maven

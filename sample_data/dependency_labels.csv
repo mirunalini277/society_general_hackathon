@@ -1,0 +1,501 @@
+dependency_id,risk_status,risk_type,severity,explanation
+APP001_D01,Clean,None,Low,No issues
+APP001_D02,Clean,None,Low,No issues
+APP001_D03,Clean,None,Low,No issues
+APP001_D04,Risk,License,Critical,GPL used in proprietary application
+APP001_D05,Clean,None,Low,No issues
+APP001_D06,Clean,None,Low,No issues
+APP001_D07,Clean,None,Low,No issues
+APP001_D08,Clean,None,Low,No issues
+APP001_D09,Clean,None,Low,No issues
+APP001_D10,Clean,None,Low,No issues
+APP001_T01,Risk,Maintenance,Medium,No updates in 2+ years
+APP001_T02,Clean,None,Low,No issues
+APP001_T03,Clean,None,Low,No issues
+APP001_T04,Clean,None,Low,No issues
+APP001_T05,Risk,License,Critical,GPL used in proprietary application
+APP001_T06,Clean,None,Low,No issues
+APP001_T07,Clean,None,Low,No issues
+APP001_T08,Risk,Maintenance,Medium,No updates in 2+ years
+APP001_T09,Clean,None,Low,No issues
+APP001_T10,Clean,None,Low,No issues
+APP001_T11,Clean,None,Low,No issues
+APP001_T12,Risk,License,Critical,GPL used in proprietary application
+APP001_T13,Risk,License,Critical,GPL used in proprietary application
+APP001_T14,Clean,None,Low,No issues
+APP001_T15,Risk,Maintenance,Medium,No updates in 2+ years
+APP001_T16,Clean,None,Low,No issues
+APP001_T17,Clean,None,Low,No issues
+APP001_T18,Clean,None,Low,No issues
+APP001_T19,Clean,None,Low,No issues
+APP001_T20,Clean,None,Low,No issues
+APP001_T21,Clean,None,Low,No issues
+APP001_T22,Risk,Maintenance,Medium,No updates in 2+ years
+APP001_T23,Clean,None,Low,No issues
+APP001_T24,Clean,None,Low,No issues
+APP001_T25,Clean,None,Low,No issues
+APP001_T26,Clean,None,Low,No issues
+APP001_T27,Risk,Vulnerability,Critical,Affected by CVE-2024-3001
+APP001_T28,Clean,None,Low,No issues
+APP001_T29,Risk,Maintenance,Medium,No updates in 2+ years
+APP001_T30,Clean,None,Low,No issues
+APP001_T31,Risk,License,Critical,GPL used in proprietary application
+APP001_T32,Risk,Vulnerability,Critical,Affected by CVE-2021-44228
+APP001_T33,Clean,None,Low,No issues
+APP001_T34,Risk,License,Critical,GPL used in proprietary application
+APP001_T35,Risk,License,Critical,GPL used in proprietary application
+APP001_T36,Risk,Maintenance,Medium,No updates in 2+ years
+APP001_T37,Clean,None,Low,No issues
+APP001_T38,Clean,None,Low,No issues
+APP001_T39,Clean,None,Low,No issues
+APP001_T40,Clean,None,Low,No issues
+APP002_D01,Clean,None,Low,No issues
+APP002_D02,Clean,None,Low,No issues
+APP002_D03,Clean,None,Low,No issues
+APP002_D04,Clean,None,Low,No issues
+APP002_D05,Clean,None,Low,No issues
+APP002_D06,Clean,None,Low,No issues
+APP002_D07,Clean,None,Low,No issues
+APP002_D08,Clean,None,Low,No issues
+APP002_D09,Clean,None,Low,No issues
+APP002_D10,Clean,None,Low,No issues
+APP002_T01,Risk,Maintenance,Medium,No updates in 2+ years
+APP002_T02,Clean,None,Low,No issues
+APP002_T03,Clean,None,Low,No issues
+APP002_T04,Risk,License,Critical,GPL used in proprietary application
+APP002_T05,Clean,None,Low,No issues
+APP002_T06,Clean,None,Low,No issues
+APP002_T07,Clean,None,Low,No issues
+APP002_T08,Risk,License,Critical,GPL used in proprietary application
+APP002_T09,Clean,None,Low,No issues
+APP002_T10,Clean,None,Low,No issues
+APP002_T11,Clean,None,Low,No issues
+APP002_T12,Clean,None,Low,No issues
+APP002_T13,Clean,None,Low,No issues
+APP002_T14,Clean,None,Low,No issues
+APP002_T15,Risk,Maintenance,Medium,No updates in 2+ years
+APP002_T16,Clean,None,Low,No issues
+APP002_T17,Clean,None,Low,No issues
+APP002_T18,Clean,None,Low,No issues
+APP002_T19,Clean,None,Low,No issues
+APP002_T20,Clean,None,Low,No issues
+APP002_T21,Clean,None,Low,No issues
+APP002_T22,Risk,Maintenance,Medium,No updates in 2+ years
+APP002_T23,Clean,None,Low,No issues
+APP002_T24,Clean,None,Low,No issues
+APP002_T25,Clean,None,Low,No issues
+APP002_T26,Risk,License,Critical,GPL used in proprietary application
+APP002_T27,Clean,None,Low,No issues
+APP002_T28,Clean,None,Low,No issues
+APP002_T29,Risk,Maintenance,Medium,No updates in 2+ years
+APP002_T30,Clean,None,Low,No issues
+APP002_T31,Clean,None,Low,No issues
+APP002_T32,Clean,None,Low,No issues
+APP002_T33,Clean,None,Low,No issues
+APP002_T34,Clean,None,Low,No issues
+APP002_T35,Clean,None,Low,No issues
+APP002_T36,Risk,Maintenance,Medium,No updates in 2+ years
+APP002_T37,Clean,None,Low,No issues
+APP002_T38,Clean,None,Low,No issues
+APP002_T39,Clean,None,Low,No issues
+APP002_T40,Clean,None,Low,No issues
+APP003_D01,Clean,None,Low,No issues
+APP003_D02,Clean,None,Low,No issues
+APP003_D03,Clean,None,Low,No issues
+APP003_D04,Clean,None,Low,No issues
+APP003_D05,Clean,None,Low,No issues
+APP003_D06,Clean,None,Low,No issues
+APP003_D07,Clean,None,Low,No issues
+APP003_D08,Clean,None,Low,No issues
+APP003_D09,Clean,None,Low,No issues
+APP003_D10,Clean,None,Low,No issues
+APP003_T01,Risk,Maintenance,Medium,No updates in 2+ years
+APP003_T02,Clean,None,Low,No issues
+APP003_T03,Clean,None,Low,No issues
+APP003_T04,Clean,None,Low,No issues
+APP003_T05,Clean,None,Low,No issues
+APP003_T06,Clean,None,Low,No issues
+APP003_T07,Risk,License,Critical,GPL used in proprietary application
+APP003_T08,Risk,Maintenance,Medium,No updates in 2+ years
+APP003_T09,Clean,None,Low,No issues
+APP003_T10,Clean,None,Low,No issues
+APP003_T11,Clean,None,Low,No issues
+APP003_T12,Clean,None,Low,No issues
+APP003_T13,Risk,License,Critical,GPL used in proprietary application
+APP003_T14,Clean,None,Low,No issues
+APP003_T15,Risk,License,Critical,GPL used in proprietary application
+APP003_T16,Clean,None,Low,No issues
+APP003_T17,Clean,None,Low,No issues
+APP003_T18,Clean,None,Low,No issues
+APP003_T19,Risk,License,Critical,GPL used in proprietary application
+APP003_T20,Clean,None,Low,No issues
+APP003_T21,Clean,None,Low,No issues
+APP003_T22,Risk,Maintenance,Medium,No updates in 2+ years
+APP003_T23,Clean,None,Low,No issues
+APP003_T24,Risk,License,Critical,GPL used in proprietary application
+APP003_T25,Clean,None,Low,No issues
+APP003_T26,Clean,None,Low,No issues
+APP003_T27,Clean,None,Low,No issues
+APP003_T28,Clean,None,Low,No issues
+APP003_T29,Risk,Maintenance,Medium,No updates in 2+ years
+APP003_T30,Clean,None,Low,No issues
+APP003_T31,Clean,None,Low,No issues
+APP003_T32,Clean,None,Low,No issues
+APP003_T33,Clean,None,Low,No issues
+APP003_T34,Clean,None,Low,No issues
+APP003_T35,Clean,None,Low,No issues
+APP003_T36,Risk,Vulnerability,Critical,Affected by CVE-2025-1101
+APP003_T37,Clean,None,Low,No issues
+APP003_T38,Clean,None,Low,No issues
+APP003_T39,Risk,License,Critical,GPL used in proprietary application
+APP003_T40,Clean,None,Low,No issues
+APP004_D01,Clean,None,Low,No issues
+APP004_D02,Risk,License,Critical,GPL used in proprietary application
+APP004_D03,Clean,None,Low,No issues
+APP004_D04,Risk,License,Critical,GPL used in proprietary application
+APP004_D05,Clean,None,Low,No issues
+APP004_D06,Risk,License,Critical,GPL used in proprietary application
+APP004_D07,Clean,None,Low,No issues
+APP004_D08,Clean,None,Low,No issues
+APP004_D09,Clean,None,Low,No issues
+APP004_D10,Clean,None,Low,No issues
+APP004_T01,Risk,Maintenance,Medium,No updates in 2+ years
+APP004_T02,Clean,None,Low,No issues
+APP004_T03,Clean,None,Low,No issues
+APP004_T04,Clean,None,Low,No issues
+APP004_T05,Clean,None,Low,No issues
+APP004_T06,Clean,None,Low,No issues
+APP004_T07,Clean,None,Low,No issues
+APP004_T08,Risk,Maintenance,Medium,No updates in 2+ years
+APP004_T09,Clean,None,Low,No issues
+APP004_T10,Clean,None,Low,No issues
+APP004_T11,Clean,None,Low,No issues
+APP004_T12,Clean,None,Low,No issues
+APP004_T13,Clean,None,Low,No issues
+APP004_T14,Clean,None,Low,No issues
+APP004_T15,Risk,Maintenance,Medium,No updates in 2+ years
+APP004_T16,Clean,None,Low,No issues
+APP004_T17,Risk,License,Critical,GPL used in proprietary application
+APP004_T18,Clean,None,Low,No issues
+APP004_T19,Clean,None,Low,No issues
+APP004_T20,Clean,None,Low,No issues
+APP004_T21,Clean,None,Low,No issues
+APP004_T22,Risk,Maintenance,Medium,No updates in 2+ years
+APP004_T23,Clean,None,Low,No issues
+APP004_T24,Clean,None,Low,No issues
+APP004_T25,Clean,None,Low,No issues
+APP004_T26,Clean,None,Low,No issues
+APP004_T27,Clean,None,Low,No issues
+APP004_T28,Clean,None,Low,No issues
+APP004_T29,Risk,Maintenance,Medium,No updates in 2+ years
+APP004_T30,Clean,None,Low,No issues
+APP004_T31,Clean,None,Low,No issues
+APP004_T32,Clean,None,Low,No issues
+APP004_T33,Clean,None,Low,No issues
+APP004_T34,Clean,None,Low,No issues
+APP004_T35,Clean,None,Low,No issues
+APP004_T36,Risk,Maintenance,Medium,No updates in 2+ years
+APP004_T37,Clean,None,Low,No issues
+APP004_T38,Clean,None,Low,No issues
+APP004_T39,Clean,None,Low,No issues
+APP004_T40,Clean,None,Low,No issues
+APP005_D01,Clean,None,Low,No issues
+APP005_D02,Clean,None,Low,No issues
+APP005_D03,Clean,None,Low,No issues
+APP005_D04,Clean,None,Low,No issues
+APP005_D05,Clean,None,Low,No issues
+APP005_D06,Risk,License,Critical,GPL used in proprietary application
+APP005_D07,Clean,None,Low,No issues
+APP005_D08,Clean,None,Low,No issues
+APP005_D09,Clean,None,Low,No issues
+APP005_D10,Clean,None,Low,No issues
+APP005_T01,Risk,Maintenance,Medium,No updates in 2+ years
+APP005_T02,Clean,None,Low,No issues
+APP005_T03,Clean,None,Low,No issues
+APP005_T04,Clean,None,Low,No issues
+APP005_T05,Clean,None,Low,No issues
+APP005_T06,Clean,None,Low,No issues
+APP005_T07,Clean,None,Low,No issues
+APP005_T08,Risk,Maintenance,Medium,No updates in 2+ years
+APP005_T09,Risk,License,Critical,GPL used in proprietary application
+APP005_T10,Clean,None,Low,No issues
+APP005_T11,Risk,License,Critical,GPL used in proprietary application
+APP005_T12,Clean,None,Low,No issues
+APP005_T13,Clean,None,Low,No issues
+APP005_T14,Clean,None,Low,No issues
+APP005_T15,Risk,Maintenance,Medium,No updates in 2+ years
+APP005_T16,Clean,None,Low,No issues
+APP005_T17,Clean,None,Low,No issues
+APP005_T18,Clean,None,Low,No issues
+APP005_T19,Risk,License,Critical,GPL used in proprietary application
+APP005_T20,Clean,None,Low,No issues
+APP005_T21,Clean,None,Low,No issues
+APP005_T22,Risk,Maintenance,Medium,No updates in 2+ years
+APP005_T23,Clean,None,Low,No issues
+APP005_T24,Risk,License,Critical,GPL used in proprietary application
+APP005_T25,Clean,None,Low,No issues
+APP005_T26,Clean,None,Low,No issues
+APP005_T27,Clean,None,Low,No issues
+APP005_T28,Clean,None,Low,No issues
+APP005_T29,Risk,License,Critical,GPL used in proprietary application
+APP005_T30,Clean,None,Low,No issues
+APP005_T31,Clean,None,Low,No issues
+APP005_T32,Clean,None,Low,No issues
+APP005_T33,Clean,None,Low,No issues
+APP005_T34,Risk,License,Critical,GPL used in proprietary application
+APP005_T35,Clean,None,Low,No issues
+APP005_T36,Risk,Maintenance,Medium,No updates in 2+ years
+APP005_T37,Clean,None,Low,No issues
+APP005_T38,Risk,License,Critical,GPL used in proprietary application
+APP005_T39,Risk,Vulnerability,Critical,Affected by CVE-2024-3001
+APP005_T40,Clean,None,Low,No issues
+APP006_D01,Clean,None,Low,No issues
+APP006_D02,Clean,None,Low,No issues
+APP006_D03,Clean,None,Low,No issues
+APP006_D04,Clean,None,Low,No issues
+APP006_D05,Clean,None,Low,No issues
+APP006_D06,Clean,None,Low,No issues
+APP006_D07,Clean,None,Low,No issues
+APP006_D08,Clean,None,Low,No issues
+APP006_D09,Clean,None,Low,No issues
+APP006_D10,Clean,None,Low,No issues
+APP006_T01,Risk,Maintenance,Medium,No updates in 2+ years
+APP006_T02,Clean,None,Low,No issues
+APP006_T03,Clean,None,Low,No issues
+APP006_T04,Clean,None,Low,No issues
+APP006_T05,Risk,License,Critical,GPL used in proprietary application
+APP006_T06,Risk,Vulnerability,Critical,Affected by CVE-2025-1101
+APP006_T07,Clean,None,Low,No issues
+APP006_T08,Risk,Maintenance,Medium,No updates in 2+ years
+APP006_T09,Clean,None,Low,No issues
+APP006_T10,Clean,None,Low,No issues
+APP006_T11,Clean,None,Low,No issues
+APP006_T12,Clean,None,Low,No issues
+APP006_T13,Clean,None,Low,No issues
+APP006_T14,Clean,None,Low,No issues
+APP006_T15,Risk,License,Critical,GPL used in proprietary application
+APP006_T16,Clean,None,Low,No issues
+APP006_T17,Risk,License,Critical,GPL used in proprietary application
+APP006_T18,Clean,None,Low,No issues
+APP006_T19,Risk,Vulnerability,Critical,Affected by CVE-2023-9999
+APP006_T20,Clean,None,Low,No issues
+APP006_T21,Clean,None,Low,No issues
+APP006_T22,Risk,Maintenance,Medium,No updates in 2+ years
+APP006_T23,Clean,None,Low,No issues
+APP006_T24,Clean,None,Low,No issues
+APP006_T25,Clean,None,Low,No issues
+APP006_T26,Clean,None,Low,No issues
+APP006_T27,Clean,None,Low,No issues
+APP006_T28,Clean,None,Low,No issues
+APP006_T29,Risk,Maintenance,Medium,No updates in 2+ years
+APP006_T30,Clean,None,Low,No issues
+APP006_T31,Clean,None,Low,No issues
+APP006_T32,Risk,Vulnerability,Critical,Affected by CVE-2023-9999
+APP006_T33,Risk,Vulnerability,Critical,Affected by CVE-2025-1101
+APP006_T34,Clean,None,Low,No issues
+APP006_T35,Clean,None,Low,No issues
+APP006_T36,Risk,License,Critical,GPL used in proprietary application
+APP006_T37,Clean,None,Low,No issues
+APP006_T38,Clean,None,Low,No issues
+APP006_T39,Clean,None,Low,No issues
+APP006_T40,Risk,License,Critical,GPL used in proprietary application
+APP007_D01,Risk,License,Critical,GPL used in proprietary application
+APP007_D02,Clean,None,Low,No issues
+APP007_D03,Clean,None,Low,No issues
+APP007_D04,Clean,None,Low,No issues
+APP007_D05,Clean,None,Low,No issues
+APP007_D06,Clean,None,Low,No issues
+APP007_D07,Clean,None,Low,No issues
+APP007_D08,Clean,None,Low,No issues
+APP007_D09,Clean,None,Low,No issues
+APP007_D10,Clean,None,Low,No issues
+APP007_T01,Risk,Maintenance,Medium,No updates in 2+ years
+APP007_T02,Clean,None,Low,No issues
+APP007_T03,Clean,None,Low,No issues
+APP007_T04,Clean,None,Low,No issues
+APP007_T05,Clean,None,Low,No issues
+APP007_T06,Clean,None,Low,No issues
+APP007_T07,Clean,None,Low,No issues
+APP007_T08,Risk,Maintenance,Medium,No updates in 2+ years
+APP007_T09,Clean,None,Low,No issues
+APP007_T10,Clean,None,Low,No issues
+APP007_T11,Clean,None,Low,No issues
+APP007_T12,Clean,None,Low,No issues
+APP007_T13,Clean,None,Low,No issues
+APP007_T14,Clean,None,Low,No issues
+APP007_T15,Risk,Maintenance,Medium,No updates in 2+ years
+APP007_T16,Clean,None,Low,No issues
+APP007_T17,Clean,None,Low,No issues
+APP007_T18,Clean,None,Low,No issues
+APP007_T19,Clean,None,Low,No issues
+APP007_T20,Clean,None,Low,No issues
+APP007_T21,Risk,License,Critical,GPL used in proprietary application
+APP007_T22,Risk,Maintenance,Medium,No updates in 2+ years
+APP007_T23,Clean,None,Low,No issues
+APP007_T24,Risk,License,Critical,GPL used in proprietary application
+APP007_T25,Clean,None,Low,No issues
+APP007_T26,Clean,None,Low,No issues
+APP007_T27,Clean,None,Low,No issues
+APP007_T28,Risk,License,Critical,GPL used in proprietary application
+APP007_T29,Risk,Maintenance,Medium,No updates in 2+ years
+APP007_T30,Clean,None,Low,No issues
+APP007_T31,Clean,None,Low,No issues
+APP007_T32,Clean,None,Low,No issues
+APP007_T33,Clean,None,Low,No issues
+APP007_T34,Risk,Vulnerability,Critical,Affected by CVE-2023-9999
+APP007_T35,Clean,None,Low,No issues
+APP007_T36,Risk,Maintenance,Medium,No updates in 2+ years
+APP007_T37,Clean,None,Low,No issues
+APP007_T38,Clean,None,Low,No issues
+APP007_T39,Clean,None,Low,No issues
+APP007_T40,Clean,None,Low,No issues
+APP008_D01,Clean,None,Low,No issues
+APP008_D02,Clean,None,Low,No issues
+APP008_D03,Clean,None,Low,No issues
+APP008_D04,Clean,None,Low,No issues
+APP008_D05,Clean,None,Low,No issues
+APP008_D06,Clean,None,Low,No issues
+APP008_D07,Clean,None,Low,No issues
+APP008_D08,Clean,None,Low,No issues
+APP008_D09,Clean,None,Low,No issues
+APP008_D10,Clean,None,Low,No issues
+APP008_T01,Risk,License,Critical,GPL used in proprietary application
+APP008_T02,Risk,License,Critical,GPL used in proprietary application
+APP008_T03,Risk,Vulnerability,Critical,Affected by CVE-2023-9999
+APP008_T04,Clean,None,Low,No issues
+APP008_T05,Clean,None,Low,No issues
+APP008_T06,Clean,None,Low,No issues
+APP008_T07,Clean,None,Low,No issues
+APP008_T08,Risk,Maintenance,Medium,No updates in 2+ years
+APP008_T09,Clean,None,Low,No issues
+APP008_T10,Clean,None,Low,No issues
+APP008_T11,Clean,None,Low,No issues
+APP008_T12,Clean,None,Low,No issues
+APP008_T13,Clean,None,Low,No issues
+APP008_T14,Clean,None,Low,No issues
+APP008_T15,Risk,Maintenance,Medium,No updates in 2+ years
+APP008_T16,Risk,Vulnerability,Critical,Affected by CVE-2023-9999
+APP008_T17,Clean,None,Low,No issues
+APP008_T18,Clean,None,Low,No issues
+APP008_T19,Clean,None,Low,No issues
+APP008_T20,Clean,None,Low,No issues
+APP008_T21,Clean,None,Low,No issues
+APP008_T22,Risk,Maintenance,Medium,No updates in 2+ years
+APP008_T23,Clean,None,Low,No issues
+APP008_T24,Risk,Vulnerability,Critical,Affected by CVE-2024-3001
+APP008_T25,Clean,None,Low,No issues
+APP008_T26,Clean,None,Low,No issues
+APP008_T27,Clean,None,Low,No issues
+APP008_T28,Risk,Vulnerability,Critical,Affected by CVE-2021-44228
+APP008_T29,Risk,Maintenance,Medium,No updates in 2+ years
+APP008_T30,Clean,None,Low,No issues
+APP008_T31,Clean,None,Low,No issues
+APP008_T32,Clean,None,Low,No issues
+APP008_T33,Clean,None,Low,No issues
+APP008_T34,Clean,None,Low,No issues
+APP008_T35,Clean,None,Low,No issues
+APP008_T36,Risk,Maintenance,Medium,No updates in 2+ years
+APP008_T37,Clean,None,Low,No issues
+APP008_T38,Clean,None,Low,No issues
+APP008_T39,Clean,None,Low,No issues
+APP008_T40,Risk,License,Critical,GPL used in proprietary application
+APP009_D01,Clean,None,Low,No issues
+APP009_D02,Risk,License,Critical,GPL used in proprietary application
+APP009_D03,Clean,None,Low,No issues
+APP009_D04,Clean,None,Low,No issues
+APP009_D05,Clean,None,Low,No issues
+APP009_D06,Clean,None,Low,No issues
+APP009_D07,Clean,None,Low,No issues
+APP009_D08,Clean,None,Low,No issues
+APP009_D09,Clean,None,Low,No issues
+APP009_D10,Risk,License,Critical,GPL used in proprietary application
+APP009_T01,Risk,Maintenance,Medium,No updates in 2+ years
+APP009_T02,Clean,None,Low,No issues
+APP009_T03,Clean,None,Low,No issues
+APP009_T04,Clean,None,Low,No issues
+APP009_T05,Risk,License,Critical,GPL used in proprietary application
+APP009_T06,Clean,None,Low,No issues
+APP009_T07,Clean,None,Low,No issues
+APP009_T08,Risk,Vulnerability,Critical,Affected by CVE-2025-1101
+APP009_T09,Clean,None,Low,No issues
+APP009_T10,Clean,None,Low,No issues
+APP009_T11,Clean,None,Low,No issues
+APP009_T12,Clean,None,Low,No issues
+APP009_T13,Clean,None,Low,No issues
+APP009_T14,Clean,None,Low,No issues
+APP009_T15,Risk,Maintenance,Medium,No updates in 2+ years
+APP009_T16,Clean,None,Low,No issues
+APP009_T17,Clean,None,Low,No issues
+APP009_T18,Clean,None,Low,No issues
+APP009_T19,Risk,Vulnerability,Critical,Affected by CVE-2021-44228
+APP009_T20,Clean,None,Low,No issues
+APP009_T21,Clean,None,Low,No issues
+APP009_T22,Risk,License,Critical,GPL used in proprietary application
+APP009_T23,Clean,None,Low,No issues
+APP009_T24,Clean,None,Low,No issues
+APP009_T25,Clean,None,Low,No issues
+APP009_T26,Clean,None,Low,No issues
+APP009_T27,Risk,License,Critical,GPL used in proprietary application
+APP009_T28,Clean,None,Low,No issues
+APP009_T29,Risk,License,Critical,GPL used in proprietary application
+APP009_T30,Clean,None,Low,No issues
+APP009_T31,Clean,None,Low,No issues
+APP009_T32,Risk,Vulnerability,Critical,Affected by CVE-2025-1101
+APP009_T33,Clean,None,Low,No issues
+APP009_T34,Clean,None,Low,No issues
+APP009_T35,Clean,None,Low,No issues
+APP009_T36,Risk,Maintenance,Medium,No updates in 2+ years
+APP009_T37,Clean,None,Low,No issues
+APP009_T38,Clean,None,Low,No issues
+APP009_T39,Clean,None,Low,No issues
+APP009_T40,Clean,None,Low,No issues
+APP010_D01,Clean,None,Low,No issues
+APP010_D02,Clean,None,Low,No issues
+APP010_D03,Clean,None,Low,No issues
+APP010_D04,Clean,None,Low,No issues
+APP010_D05,Clean,None,Low,No issues
+APP010_D06,Clean,None,Low,No issues
+APP010_D07,Clean,None,Low,No issues
+APP010_D08,Clean,None,Low,No issues
+APP010_D09,Clean,None,Low,No issues
+APP010_D10,Clean,None,Low,No issues
+APP010_T01,Risk,Maintenance,Medium,No updates in 2+ years
+APP010_T02,Risk,License,Critical,GPL used in proprietary application
+APP010_T03,Clean,None,Low,No issues
+APP010_T04,Clean,None,Low,No issues
+APP010_T05,Risk,License,Critical,GPL used in proprietary application
+APP010_T06,Risk,License,Critical,GPL used in proprietary application
+APP010_T07,Clean,None,Low,No issues
+APP010_T08,Risk,Maintenance,Medium,No updates in 2+ years
+APP010_T09,Clean,None,Low,No issues
+APP010_T10,Clean,None,Low,No issues
+APP010_T11,Clean,None,Low,No issues
+APP010_T12,Clean,None,Low,No issues
+APP010_T13,Clean,None,Low,No issues
+APP010_T14,Clean,None,Low,No issues
+APP010_T15,Risk,Maintenance,Medium,No updates in 2+ years
+APP010_T16,Clean,None,Low,No issues
+APP010_T17,Clean,None,Low,No issues
+APP010_T18,Risk,License,Critical,GPL used in proprietary application
+APP010_T19,Clean,None,Low,No issues
+APP010_T20,Clean,None,Low,No issues
+APP010_T21,Clean,None,Low,No issues
+APP010_T22,Risk,Maintenance,Medium,No updates in 2+ years
+APP010_T23,Clean,None,Low,No issues
+APP010_T24,Clean,None,Low,No issues
+APP010_T25,Clean,None,Low,No issues
+APP010_T26,Clean,None,Low,No issues
+APP010_T27,Clean,None,Low,No issues
+APP010_T28,Clean,None,Low,No issues
+APP010_T29,Risk,Maintenance,Medium,No updates in 2+ years
+APP010_T30,Clean,None,Low,No issues
+APP010_T31,Clean,None,Low,No issues
+APP010_T32,Risk,Vulnerability,Critical,Affected by CVE-2024-3001
+APP010_T33,Clean,None,Low,No issues
+APP010_T34,Clean,None,Low,No issues
+APP010_T35,Clean,None,Low,No issues
+APP010_T36,Risk,License,Critical,GPL used in proprietary application
+APP010_T37,Clean,None,Low,No issues
+APP010_T38,Clean,None,Low,No issues
+APP010_T39,Clean,None,Low,No issues
+APP010_T40,Clean,None,Low,No issues
