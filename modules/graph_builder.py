@@ -8,8 +8,10 @@ from __future__ import annotations
 
 import json
 import logging
+from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Hashable, Literal
+import re
+from typing import Any, Hashable, Iterable, Literal
 
 import networkx as nx
 import pandas as pd
@@ -38,11 +40,34 @@ __all__ = [
     "get_direct_dependencies",
     "get_transitive_dependencies",
     "find_dependency_path",
+    "summarize_transitive_resolution",
     "export_graph",
 ]
 
 
-def build_dependency_graph(dependencies: pd.DataFrame) -> nx.DiGraph:
+@dataclass(frozen=True, slots=True)
+class TransitiveResolutionSummary:
+    """Coverage metrics for declared SBOM transitive relationships."""
+
+    direct_dependencies: int
+    transitive_dependencies: int
+    reachable_transitive_dependencies: int
+    transitive_edges_built: int
+    unresolved_transitive_references: int
+    inferred_orphan_transitive_edges: int
+
+    @property
+    def is_fully_resolved(self) -> bool:
+        return (
+            self.reachable_transitive_dependencies == self.transitive_dependencies
+            and self.unresolved_transitive_references == 0
+        )
+
+
+def build_dependency_graph(
+    dependencies: pd.DataFrame,
+    vulnerability_matches: Iterable[Any] | None = None,
+) -> nx.DiGraph:
     """Build a directed dependency graph from normalized SBOM dependency rows.
 
     Dependency nodes use ``(application, library, version)`` identifiers, so
@@ -63,7 +88,12 @@ def build_dependency_graph(dependencies: pd.DataFrame) -> nx.DiGraph:
     """
     _validate_graph_input(dependencies)
     graph = nx.DiGraph()
+    unresolved_transitive_references: list[dict[str, str]] = []
+    transitive_edges: set[tuple[Hashable, Hashable]] = set()
+    inferred_orphan_edges = 0
     parent_nodes = _parent_node_index(dependencies)
+    node_index: dict[tuple[str, str, str], _DependencyNode] = {}
+    transitive_library_nodes: dict[tuple[str, str], list[_DependencyNode]] = {}
 
     for application in _applications(dependencies):
         root_node = _root_node(application)
@@ -85,6 +115,15 @@ def build_dependency_graph(dependencies: pd.DataFrame) -> nx.DiGraph:
         application = _text_value(row["application"])
         node = _dependency_node(application, row["library"], row["version"])
         graph.add_node(node, **_node_attributes(row, application))
+        node_index[(application, _text_value(row["library"]), _text_value(row["version"]))] = node
+        if _text_value(row["dependency_type"]).casefold() == "transitive":
+            transitive_library_nodes.setdefault(
+                (application, _text_value(row["library"]).casefold()), []
+            ).append(node)
+
+    for row in dependencies.to_dict(orient="records"):
+        application = _text_value(row["application"])
+        node = node_index[(application, _text_value(row["library"]), _text_value(row["version"]))]
 
         dependency_type = _text_value(row["dependency_type"]).casefold()
         parent_id = _text_value(row.get("parent_dependency"))
@@ -103,10 +142,56 @@ def build_dependency_graph(dependencies: pd.DataFrame) -> nx.DiGraph:
                 graph.add_edge(parent, node)
         else:
             LOGGER.warning(
-                "Transitive dependency '%s' in application '%s' has no parent.",
+                "Transitive dependency '%s' in application '%s' has no explicit parent.",
                 row["dependency_id"],
                 application,
             )
+
+        if "transitive_deps" in row and row.get("transitive_deps"):
+            for child in _parse_transitive_dependencies(row["transitive_deps"]):
+                child_node = node_index.get((application, child[0], child[1]))
+                child_nodes = [child_node] if child_node is not None else transitive_library_nodes.get(
+                    (application, child[0].casefold()), []
+                )
+                if not child_nodes:
+                    unresolved_transitive_references.append(
+                        {
+                            "application": application,
+                            "parent_dependency_id": _text_value(row.get("dependency_id")),
+                            "library": child[0],
+                            "version": child[1],
+                        }
+                    )
+                    LOGGER.warning(
+                        "Unresolved transitive dependency '%s:%s' from '%s' in application '%s'.",
+                        child[0], child[1], row["dependency_id"], application,
+                    )
+                    continue
+                for resolved_child in child_nodes:
+                    graph.add_edge(node, resolved_child)
+                    transitive_edges.add((node, resolved_child))
+
+    # Preserve application visibility for flat-SBOM transitive records that
+    # declare no parent. Declared parent-child edges above always take priority.
+    for node, attributes in graph.nodes(data=True):
+        if (
+            attributes.get("node_kind") == "dependency"
+            and attributes.get("dependency_type") == "Transitive"
+            and graph.in_degree(node) == 0
+        ):
+            graph.add_edge(
+                _root_node(attributes["application"]),
+                node,
+                relationship_source="inferred_orphan_transitive",
+            )
+            inferred_orphan_edges += 1
+
+    graph.graph["transitive_edges_built"] = len(transitive_edges)
+    graph.graph["unresolved_transitive_references"] = unresolved_transitive_references
+    graph.graph["inferred_orphan_transitive_edges"] = inferred_orphan_edges
+
+    if vulnerability_matches is not None:
+        _propagate_vulnerability_risk(graph, vulnerability_matches)
 
     LOGGER.info(
         "Built dependency graph with %d nodes and %d edges.",
@@ -114,6 +199,42 @@ def build_dependency_graph(dependencies: pd.DataFrame) -> nx.DiGraph:
         graph.number_of_edges(),
     )
     return graph
+
+
+def summarize_transitive_resolution(
+    graph: nx.DiGraph, dependencies: pd.DataFrame
+) -> TransitiveResolutionSummary:
+    """Measure whether each declared transitive dependency is root-reachable."""
+    _validate_graph(graph)
+    _validate_graph_input(dependencies)
+    direct = 0
+    transitive = 0
+    reachable = 0
+    for row in dependencies.to_dict(orient="records"):
+        dependency_type = _text_value(row["dependency_type"]).casefold()
+        if dependency_type == "direct":
+            direct += 1
+            continue
+        if dependency_type != "transitive":
+            continue
+        transitive += 1
+        application = _text_value(row["application"])
+        node = _dependency_node(application, row["library"], row["version"])
+        root = _root_node(application)
+        if node in graph and root in graph and nx.has_path(graph, root, node):
+            reachable += 1
+    return TransitiveResolutionSummary(
+        direct_dependencies=direct,
+        transitive_dependencies=transitive,
+        reachable_transitive_dependencies=reachable,
+        transitive_edges_built=int(graph.graph.get("transitive_edges_built", 0)),
+        unresolved_transitive_references=len(
+            graph.graph.get("unresolved_transitive_references", [])
+        ),
+        inferred_orphan_transitive_edges=int(
+            graph.graph.get("inferred_orphan_transitive_edges", 0)
+        ),
+    )
 
 
 def get_application_subgraph(graph: nx.DiGraph, application: str) -> nx.DiGraph:
@@ -296,7 +417,56 @@ def _node_attributes(row: dict[str, Any], application: str) -> dict[str, Any]:
         "last_updated": _python_value(row["last_updated"]),
         "ecosystem": _text_value(row["ecosystem"]),
         "risk": None,
+        "inherited_risk": False,
+        "normalized_library": _normalize_library_name(row.get("library", "")),
     }
+
+
+def _propagate_vulnerability_risk(graph: nx.DiGraph, vulnerability_matches: Iterable[Any]) -> None:
+    """Mark vulnerable nodes and all root-reachable parents as exposed.
+
+    Edges point from an application/parent dependency to its child.  Therefore
+    exposure must travel through predecessors, so Application -> A -> B -> C
+    marks the application, A, and B when C has a matched vulnerability.
+    ``nx.ancestors`` is cycle-safe and naturally supports shared/diamond paths.
+    """
+    vulnerable_nodes: set[Hashable] = set()
+    for match in vulnerability_matches:
+        application = _text_value(getattr(match, "application", None) or match.get("application"))
+        library = _text_value(getattr(match, "library", None) or match.get("library"))
+        version = _text_value(getattr(match, "version", None) or match.get("version"))
+        node = _dependency_node(application, library, version)
+        if node in graph:
+            graph.nodes[node]["risk"] = getattr(match, "severity", None) or match.get("severity") or "Unknown"
+            graph.nodes[node]["vulnerable"] = True
+            vulnerable_nodes.add(node)
+
+    for node in vulnerable_nodes:
+        severity = graph.nodes[node].get("risk") or "Unknown"
+        for ancestor in nx.ancestors(graph, node):
+            graph.nodes[ancestor]["inherited_risk"] = True
+            graph.nodes[ancestor]["risk"] = severity
+            graph.nodes[ancestor]["vulnerable"] = True
+
+
+def _parse_transitive_dependencies(value: Any) -> list[tuple[str, str]]:
+    """Parse a transitive dependency list into library/version pairs."""
+    if value is None:
+        return []
+    text = _text_value(value)
+    if not text:
+        return []
+    children: list[tuple[str, str]] = []
+    for chunk in re.split(r"[;,]", text):
+        chunk = chunk.strip()
+        if not chunk:
+            continue
+        parts = chunk.split(":", 1)
+        library = parts[0].strip()
+        version = parts[1].strip() if len(parts) > 1 else ""
+        if library:
+            children.append((library, version))
+    return children
 
 
 def _python_value(value: Any) -> Any:
@@ -311,6 +481,11 @@ def _text_value(value: Any) -> str:
     if pd.isna(value):
         return ""
     return str(value).strip()
+
+
+def _normalize_library_name(value: Any) -> str:
+    """Normalize library names for stable graph and matching operations."""
+    return re.sub(r"[^a-z0-9]+", "", _text_value(value).casefold())
 
 
 def _node_sort_key(node: _DependencyNode) -> tuple[str, str, str]:

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import date
+from io import StringIO
 import json
 import logging
 import os
@@ -55,6 +56,7 @@ class PipelineData:
     labels: pd.DataFrame
     validation_summary: Any | None = None
     graph: Any | None = None
+    transitive_resolution: Any | None = None
     vulnerability_findings: list[Any] | None = None
     vulnerability_summary: Any | None = None
     license_findings: list[Any] | None = None
@@ -77,6 +79,9 @@ def main() -> int:
         data.dependencies = _stage("SBOM parsed", _parse_sbom)
         data.validation_summary = _stage("Validation", lambda: _validate(data))
         data.graph = _stage("Dependency Graph", lambda: _build_graph(data))
+        data.transitive_resolution = _stage(
+            "Transitive Resolution", lambda: _summarize_transitive_resolution(data)
+        )
         _stage("Vulnerability Analysis", lambda: _run_vulnerability_analysis(data))
         _stage("License Analysis", lambda: _run_license_analysis(data))
         _stage("Maintenance Analysis", lambda: _run_maintenance_analysis(data))
@@ -94,6 +99,13 @@ def main() -> int:
 
 def _load_datasets() -> PipelineData:
     """Load all sample data sources required by the SupplyShield pipeline."""
+    from modules.parser import (
+        normalize_application_frame,
+        normalize_label_frame,
+        normalize_license_records,
+        normalize_vulnerability_records,
+    )
+
     _require_files(
         "applications.json",
         "sbom_dependencies.csv",
@@ -101,12 +113,20 @@ def _load_datasets() -> PipelineData:
         "license_rules.json",
         "dependency_labels.csv",
     )
+    applications = normalize_application_frame(
+        pd.DataFrame(_load_json("applications.json"))
+    )
+    vulnerabilities = pd.DataFrame(
+        normalize_vulnerability_records(_load_json("vulnerability_db.json"))
+    )
+    license_rules = normalize_license_records(_load_json("license_rules.json"))
+    labels = normalize_label_frame(_read_csv("dependency_labels.csv"))
     return PipelineData(
-        applications=pd.DataFrame(_load_json("applications.json")),
+        applications=applications,
         dependencies=pd.DataFrame(),
-        vulnerabilities=pd.DataFrame(_load_json("vulnerability_db.json")),
-        license_rules=_load_json("license_rules.json"),
-        labels=pd.read_csv(SAMPLE_DATA / "dependency_labels.csv"),
+        vulnerabilities=vulnerabilities,
+        license_rules=license_rules,
+        labels=labels,
     )
 
 
@@ -145,8 +165,18 @@ def _build_graph(data: PipelineData) -> Any:
     return build_dependency_graph(data.dependencies)
 
 
+def _summarize_transitive_resolution(data: PipelineData) -> Any:
+    """Measure graph coverage of every dependency declared as transitive."""
+    from modules.graph_builder import summarize_transitive_resolution
+
+    return summarize_transitive_resolution(
+        _required(data.graph, "dependency graph"), data.dependencies
+    )
+
+
 def _run_vulnerability_analysis(data: PipelineData) -> None:
     """Run vulnerability matching and calculate severity/patch summary counts."""
+    from modules.graph_builder import build_dependency_graph
     from modules.vulnerability_checker import check_vulnerabilities, summarize_vulnerabilities
 
     data.vulnerability_findings = check_vulnerabilities(
@@ -154,6 +184,9 @@ def _run_vulnerability_analysis(data: PipelineData) -> None:
         SAMPLE_DATA / "vulnerability_db.json",
     )
     data.vulnerability_summary = summarize_vulnerabilities(data.vulnerability_findings)
+    # Retain the vulnerability-annotated graph so all ancestor application paths
+    # inherit exposure from vulnerable transitive dependencies.
+    data.graph = build_dependency_graph(data.dependencies, data.vulnerability_findings)
 
 
 def _run_license_analysis(data: PipelineData) -> None:
@@ -246,6 +279,7 @@ def _success_report(data: PipelineData) -> None:
     vulnerabilities = _required(data.vulnerability_findings, "vulnerability findings")
     licenses = _required(data.license_findings, "license findings")
     maintenance = _required(data.maintenance_findings, "maintenance findings")
+    transitive = _required(data.transitive_resolution, "transitive resolution")
 
     _rule()
     print(_Color.apply("DATASET SUMMARY", _Color.bold))
@@ -261,6 +295,13 @@ def _success_report(data: PipelineData) -> None:
     _key_value("Unmaintained Libraries", maintenance_summary.unmaintained)
     _key_value("Highest Risk Application", risk_summary.highest_risk_application or "N/A")
     _key_value("Average Risk Score", f"{risk_summary.average_risk:.2f}")
+    _key_value("Direct Dependencies", transitive.direct_dependencies)
+    _key_value("Transitive Dependencies", transitive.transitive_dependencies)
+    _key_value("Reachable Transitive Dependencies", transitive.reachable_transitive_dependencies)
+    _key_value("Transitive Edges Built", transitive.transitive_edges_built)
+    _key_value("Inferred Orphan Transitive Edges", transitive.inferred_orphan_transitive_edges)
+    _key_value("Unresolved Transitive References", transitive.unresolved_transitive_references)
+    _key_value("Transitive Resolution 100%", "Yes" if transitive.is_fully_resolved else "No")
 
     _rule()
     print(_Color.apply("TOP 5 RISKIEST APPLICATIONS", _Color.bold))
@@ -373,11 +414,29 @@ def _risk(level: str) -> str:
 
 def _load_json(filename: str) -> list[dict[str, Any]]:
     """Load a sample JSON array with clear path-aware errors."""
-    with (SAMPLE_DATA / filename).open(encoding="utf-8") as handle:
-        payload = json.load(handle)
+    raw_bytes = (SAMPLE_DATA / filename).read_bytes()
+    for encoding in ("utf-8-sig", "utf-8", "cp1252", "latin-1"):
+        try:
+            payload = json.loads(raw_bytes.decode(encoding))
+            break
+        except UnicodeDecodeError:
+            continue
+    else:
+        raise UnicodeDecodeError("utf-8", raw_bytes, 0, 1, f"Unable to decode {filename}.")
     if not isinstance(payload, list):
         raise ValueError(f"{filename} must contain a JSON array.")
     return payload
+
+
+def _read_csv(filename: str) -> pd.DataFrame:
+    """Load a sample CSV file using a robust fallback chain for legacy encodings."""
+    raw_bytes = (SAMPLE_DATA / filename).read_bytes()
+    for encoding in ("utf-8-sig", "utf-8", "cp1252", "latin-1"):
+        try:
+            return pd.read_csv(StringIO(raw_bytes.decode(encoding)))
+        except UnicodeDecodeError:
+            continue
+    raise UnicodeDecodeError("utf-8", raw_bytes, 0, 1, f"Unable to decode {filename}.")
 
 
 def _require_files(*filenames: str) -> None:

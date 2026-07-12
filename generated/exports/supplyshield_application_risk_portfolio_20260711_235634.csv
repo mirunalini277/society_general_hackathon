@@ -1,0 +1,11 @@
+﻿application,total_dependencies,vulnerable_dependencies,license_issues,outdated_libraries,overall_risk_score,overall_risk_level,rank,explanation
+InternalAPI,50,0,7,11,14.66,Low,1,"Overall score is the average of 50 dependency risk scores (14.66), resulting in a Low risk level."
+NotificationService,50,0,5,10,13.34,Low,2,"Overall score is the average of 50 dependency risk scores (13.34), resulting in a Low risk level."
+VendorGateway,50,0,5,7,12.73,Low,3,"Overall score is the average of 50 dependency risk scores (12.73), resulting in a Low risk level."
+MobileBackend,50,0,4,11,12.45,Low,4,"Overall score is the average of 50 dependency risk scores (12.45), resulting in a Low risk level."
+CustomerPortal,50,0,3,12,12.22,Low,5,"Overall score is the average of 50 dependency risk scores (12.22), resulting in a Low risk level."
+DevToolkit,50,0,1,11,11.54,Low,6,"Overall score is the average of 50 dependency risk scores (11.54), resulting in a Low risk level."
+ComplianceEngine,50,0,2,10,11.12,Low,7,"Overall score is the average of 50 dependency risk scores (11.12), resulting in a Low risk level."
+PaymentService,50,0,2,9,11.01,Low,8,"Overall score is the average of 50 dependency risk scores (11.01), resulting in a Low risk level."
+HRPortal,50,0,2,9,10.4,Low,9,"Overall score is the average of 50 dependency risk scores (10.40), resulting in a Low risk level."
+AnalyticsDashboard,50,0,3,6,9.66,Low,10,"Overall score is the average of 50 dependency risk scores (9.66), resulting in a Low risk level."

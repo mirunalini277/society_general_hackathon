@@ -26,6 +26,8 @@ APPLICATION_COLUMNS = frozenset(
         "technology_stack",
     }
 )
+
+_OPTIONAL_APPLICATION_COLUMNS = frozenset({"application_type", "business_criticality", "environment", "owner", "technology_stack"})
 DEPENDENCY_COLUMNS = frozenset(
     {
         "app_id",
@@ -55,6 +57,8 @@ VULNERABILITY_COLUMNS = frozenset(
 LABEL_COLUMNS = frozenset(
     {"dependency_id", "risk_status", "risk_type", "severity", "explanation"}
 )
+
+_OPTIONAL_LABEL_COLUMNS = frozenset({"risk_type", "severity", "explanation"})
 LICENSE_RULE_FIELDS = frozenset(
     {"license", "risk_level", "commercial_use", "compatible_with"}
 )
@@ -172,7 +176,12 @@ class ValidationSummary:
 
 def validate_applications(df: pd.DataFrame) -> ValidationResult:
     """Validate application inventory metadata and its unique application IDs."""
-    result = _validate_dataframe("applications", df, APPLICATION_COLUMNS)
+    result = _validate_dataframe(
+        "applications",
+        df,
+        APPLICATION_COLUMNS,
+        nullable_columns={"application_type"},
+    )
     _validate_unique_id(result, df, "app_id")
     return result
 
@@ -188,11 +197,15 @@ def validate_dependencies(
             in dependencies must be present in this table.
     """
     result = _validate_dataframe(
-        "dependencies", df, DEPENDENCY_COLUMNS, nullable_columns={"parent_dependency"}
+        "dependencies",
+        df,
+        DEPENDENCY_COLUMNS,
+        nullable_columns={"parent_dependency", "ecosystem"},
     )
     _validate_unique_id(result, df, "dependency_id")
     _validate_dependency_types(result, df)
     _validate_transitive_parents(result, df)
+    _validate_transitive_references(result, df)
     _validate_integer_column(result, df, "depth", minimum=0)
     _validate_date_column(result, df, "last_updated")
     _validate_nonempty_string(result, df, "license")
@@ -321,12 +334,17 @@ def _validate_dataframe(
         return result
     missing_columns = required_columns.difference(df.columns)
     if missing_columns:
-        result.add_error(
-            SchemaValidationError(
-                f"Missing required columns: {', '.join(sorted(missing_columns))}.",
-                dataset=dataset,
+        if dataset == "applications":
+            missing_columns = missing_columns.difference(_OPTIONAL_APPLICATION_COLUMNS)
+        elif dataset == "labels":
+            missing_columns = missing_columns.difference(_OPTIONAL_LABEL_COLUMNS)
+        if missing_columns:
+            result.add_error(
+                SchemaValidationError(
+                    f"Missing required columns: {', '.join(sorted(missing_columns))}.",
+                    dataset=dataset,
+                )
             )
-        )
     nullable_columns = nullable_columns or set()
     for column in required_columns.intersection(df.columns).difference(nullable_columns):
         missing_rows = _missing_rows(df[column])
@@ -378,12 +396,15 @@ def _validate_dependency_types(result: ValidationResult, df: pd.DataFrame) -> No
 
 
 def _validate_transitive_parents(result: ValidationResult, df: pd.DataFrame) -> None:
-    """Require each transitive dependency to name its parent dependency ID."""
+    """Require a parent ID or an inbound ``transitive_deps`` relationship."""
     if not {"dependency_type", "parent_dependency"}.issubset(df.columns):
         return
     parent = df["parent_dependency"]
     missing_parent = parent.isna() | parent.fillna("").astype(str).str.strip().eq("")
-    invalid = df["dependency_type"].eq("Transitive") & missing_parent
+    referenced_children = _transitive_child_keys(df)
+    invalid = df["dependency_type"].eq("Transitive") & missing_parent & ~df.apply(
+        lambda row: _dependency_key(row) in referenced_children, axis=1
+    )
     if invalid.any():
         result.add_error(
             MissingValueValidationError(
@@ -393,6 +414,61 @@ def _validate_transitive_parents(result: ValidationResult, df: pd.DataFrame) -> 
                 rows=tuple(df.index[invalid].tolist()),
             )
         )
+
+
+def _validate_transitive_references(result: ValidationResult, df: pd.DataFrame) -> None:
+    """Ensure every ``transitive_deps`` child points to an SBOM dependency row."""
+    if "transitive_deps" not in df:
+        return
+    known = {_dependency_key(row) for _, row in df.iterrows()}
+    unresolved_rows: list[Hashable] = []
+    for index, row in df.iterrows():
+        for library, version in _parse_transitive_dependencies(row.get("transitive_deps")):
+            if (_scope_key(row), library.casefold(), version.casefold()) not in known:
+                unresolved_rows.append(index)
+                break
+    if unresolved_rows:
+        result.add_error(
+            ReferentialIntegrityValidationError(
+                "transitive_deps references a dependency that does not exist in the same application.",
+                dataset=result.dataset,
+                field="transitive_deps",
+                rows=tuple(unresolved_rows),
+            )
+        )
+
+
+def _transitive_child_keys(df: pd.DataFrame) -> set[tuple[str, str, str]]:
+    """Return application-scoped child identities declared by parent records."""
+    children: set[tuple[str, str, str]] = set()
+    if "transitive_deps" not in df:
+        return children
+    for _, row in df.iterrows():
+        for library, version in _parse_transitive_dependencies(row.get("transitive_deps")):
+            children.add((_scope_key(row), library.casefold(), version.casefold()))
+    return children
+
+
+def _dependency_key(row: pd.Series) -> tuple[str, str, str]:
+    """Create the application-scoped identity used for relationship checks."""
+    return (_scope_key(row), str(row.get("library", "")).strip().casefold(), str(row.get("version", "")).strip().casefold())
+
+
+def _scope_key(row: pd.Series) -> str:
+    """Prefer stable application ID, falling back to application display name."""
+    return str(row.get("app_id") or row.get("application") or "").strip().casefold()
+
+
+def _parse_transitive_dependencies(value: Any) -> list[tuple[str, str]]:
+    """Parse canonical ``library:version;...`` relationship text."""
+    if value is None or pd.isna(value):
+        return []
+    children: list[tuple[str, str]] = []
+    for chunk in str(value).replace(",", ";").split(";"):
+        library, _, version = chunk.strip().partition(":")
+        if library.strip():
+            children.append((library.strip(), version.strip()))
+    return children
 
 
 def _validate_integer_column(

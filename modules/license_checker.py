@@ -187,27 +187,38 @@ def _to_license_rule(record: Any, index: int) -> _LicenseRule:
     """Validate and normalize one JSON license-rule record."""
     if not isinstance(record, Mapping):
         raise LicenseDataError(f"License rule {index} must be a JSON object.")
-    missing_fields = _RULE_FIELDS.difference(record)
-    if missing_fields:
-        missing = ", ".join(sorted(missing_fields))
-        raise LicenseDataError(f"License rule {index} is missing fields: {missing}.")
-    license_name = _text(record["license"])
-    risk_level = _text(record["risk_level"])
+
+    normalized = {str(key).strip(): value for key, value in record.items()}
+    license_name = _text(normalized.get("license") or normalized.get("spdx") or normalized.get("name"))
+    risk_level = _text(normalized.get("risk_level") or normalized.get("severity"))
+    commercial_use = normalized.get("commercial_use")
+    if commercial_use is None:
+        commercial_use = not bool(normalized.get("viral", False))
+    if not isinstance(commercial_use, bool):
+        commercial_use = bool(commercial_use)
+
+    compatible_with_value = normalized.get("compatible_with")
+    if compatible_with_value is None:
+        compatible_with_value = normalized.get("compatible_with_proprietary")
+    if compatible_with_value is None:
+        compatible_with_value = "Proprietary" if commercial_use else ""
+
     if not license_name or not risk_level:
         raise LicenseDataError(f"License rule {index} has an empty license or risk_level.")
-    if not isinstance(record["commercial_use"], bool):
-        raise LicenseDataError(f"License rule {index} commercial_use must be boolean.")
-    compatible_with = _compatibility_terms(record["compatible_with"], index)
+
+    compatible_with = _compatibility_terms(compatible_with_value, index)
     return _LicenseRule(
         license=license_name,
         compatible_with=compatible_with,
         risk_level=risk_level,
-        commercial_use=record["commercial_use"],
+        commercial_use=commercial_use,
     )
 
 
 def _compatibility_terms(value: Any, index: int) -> tuple[str, ...]:
     """Convert matrix compatibility fields to normalized policy terms."""
+    if isinstance(value, bool):
+        return ("Proprietary",) if value else ()
     if isinstance(value, str):
         return tuple(term.strip() for term in value.split(",") if term.strip())
     if isinstance(value, Sequence) and not isinstance(value, (str, bytes)):

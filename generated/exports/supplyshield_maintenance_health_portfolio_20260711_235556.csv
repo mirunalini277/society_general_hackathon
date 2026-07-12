@@ -1,0 +1,501 @@
+﻿application,library,version,last_updated,age_days,age_months,age_years,maintenance_status,risk_level,recommendation
+CustomerPortal,micrometer-core,3.0.10,2025-01-30,527,17.3,1.44,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,sqlalchemy,5.13.5,2022-03-18,1576,51.8,4.31,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+CustomerPortal,netty-all,2.7.4,2025-05-01,436,14.3,1.19,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,json-iterator,2.3.2,2024-12-30,558,18.3,1.53,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,log4j-api,5.1.3,2025-07-11,365,12.0,1.0,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,commons-collections4,4.7.1,2021-03-31,1928,63.3,5.28,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+CustomerPortal,commons-codec,4.11.10,2024-08-16,694,22.8,1.9,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,gson,1.6.10,2024-10-04,645,21.2,1.77,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,lombok,4.1.2,2023-10-31,984,32.3,2.69,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+CustomerPortal,werkzeug,1.7.10,2022-02-23,1599,52.5,4.38,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+CustomerPortal,jackson-annotations,5.0.6,2026-01-01,191,6.3,0.52,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,resilience4j,1.8.0,2024-11-11,607,19.9,1.66,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,slf4j-api,2.8.8,2025-07-03,373,12.3,1.02,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,go-jwt,5.10.5,2026-01-03,189,6.2,0.52,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,spring-security-core,1.2.0,2026-02-19,142,4.7,0.39,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,snakeyaml,3.1.0,2025-06-09,397,13.0,1.09,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,opentelemetry-api,4.10.2,2025-01-15,542,17.8,1.48,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,logback-core,3.4.2,2026-01-03,189,6.2,0.52,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,pyyaml,5.7.10,2021-12-11,1673,55.0,4.58,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+CustomerPortal,jackson-databind,1.1.6,2025-06-23,383,12.6,1.05,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,caffeine,2.5.7,2024-09-16,663,21.8,1.82,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,log4j-core,2.2.8,2024-07-02,739,24.3,2.02,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+CustomerPortal,grpc-core,2.1.1,2025-12-06,217,7.1,0.59,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,jedis,3.9.3,2025-06-05,401,13.2,1.1,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,jetty-server,2.3.0,2025-04-12,455,14.9,1.25,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,commons-lang3,4.11.2,2025-12-30,193,6.3,0.53,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,mockito-core,1.2.10,2024-08-02,708,23.3,1.94,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,junit-jupiter,4.1.8,2024-03-30,833,27.4,2.28,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+CustomerPortal,hibernate-validator,1.13.1,2023-05-03,1165,38.3,3.19,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+CustomerPortal,guava,1.2.6,2024-06-13,758,24.9,2.08,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+CustomerPortal,h2-database,5.3.1,2025-07-26,350,11.5,0.96,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,mapstruct,4.15.0,2024-07-10,731,24.0,2.0,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+CustomerPortal,kafka-clients,4.8.5,2025-10-17,267,8.8,0.73,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,mysql-connector-java,4.2.3,2025-06-18,388,12.7,1.06,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,sarama,5.0.2,2020-04-13,2280,74.9,6.24,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+CustomerPortal,tomcat-embed-core,2.7.8,2024-09-01,678,22.3,1.86,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,fabric,3.0.6,2025-01-13,544,17.9,1.49,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,commons-io,2.4.6,2025-09-29,285,9.4,0.78,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,spring-core,2.9.0,2026-03-21,112,3.7,0.31,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,assertj-core,3.6.6,2025-11-16,237,7.8,0.65,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,jackson-core,4.9.1,2025-06-19,387,12.7,1.06,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,hibernate-core,3.4.1,2025-03-11,487,16.0,1.33,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,disruptor,2.2.8,2026-02-05,156,5.1,0.43,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,spring-web,2.11.0,2025-07-20,356,11.7,0.97,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,logback-classic,4.11.0,2024-01-27,896,29.4,2.45,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+CustomerPortal,eslint,2.10.8,2025-04-04,463,15.2,1.27,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,aws-sdk-s3,2.4.1,2024-12-05,583,19.2,1.6,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,crypto-go,3.10.1,2025-05-06,431,14.2,1.18,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+CustomerPortal,httpcore,3.4.4,2026-01-19,173,5.7,0.47,Actively Maintained,Low,Continue monitoring releases and security advisories.
+CustomerPortal,netty-handler,1.7.3,2025-07-29,347,11.4,0.95,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,caffeine,4.4.5,2025-07-19,357,11.7,0.98,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,aws-sdk-s3,2.0.9,2023-08-04,1072,35.2,2.94,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+PaymentService,resilience4j,5.1.10,2025-06-25,381,12.5,1.04,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,snakeyaml,3.15.2,2026-04-10,92,3.0,0.25,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,vue,3.3.1,2024-12-24,564,18.5,1.54,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,httpcore,5.15.3,2024-09-22,657,21.6,1.8,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,logback-core,4.9.4,2025-06-04,402,13.2,1.1,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,grpc-core,3.11.7,2024-12-05,583,19.2,1.6,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,httpclient,4.14.4,2024-11-18,600,19.7,1.64,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,guava,1.5.1,2026-02-16,145,4.8,0.4,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,aws-sdk-sqs,2.15.7,2024-06-13,758,24.9,2.08,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+PaymentService,redis-py,4.11.10,2026-02-18,143,4.7,0.39,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,jedis,2.15.7,2025-03-12,486,16.0,1.33,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,spring-boot-starter,4.7.1,2025-04-20,447,14.7,1.22,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,spring-web,4.0.1,2024-09-02,677,22.2,1.85,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,hibernate-validator,4.10.5,2026-02-25,136,4.5,0.37,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,assertj-core,2.0.5,2024-09-17,662,21.7,1.81,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,jackson-core,4.3.4,2024-12-13,575,18.9,1.57,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,netty-all,5.4.7,2022-06-05,1497,49.2,4.1,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+PaymentService,tomcat-embed-core,5.10.8,2025-03-08,490,16.1,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,postgresql-jdbc,2.13.9,2025-04-18,449,14.8,1.23,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,slf4j-api,2.5.8,2025-10-05,279,9.2,0.76,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,micrometer-core,5.9.6,2020-04-25,2268,74.5,6.21,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+PaymentService,mapstruct,2.9.10,2025-12-07,216,7.1,0.59,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,golangci-lint,4.3.9,2025-07-04,372,12.2,1.02,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,hibernate-core,3.1.6,2024-07-26,715,23.5,1.96,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,jackson-databind,2.11.9,2024-11-29,589,19.4,1.61,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,kafka-clients,1.10.7,2026-03-03,130,4.3,0.36,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,log4j-api,5.11.1,2025-10-31,253,8.3,0.69,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,psycopg2,1.11.3,2026-02-24,137,4.5,0.38,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,commons-collections4,3.14.3,2025-04-25,442,14.5,1.21,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,junit-jupiter,5.9.0,2025-10-12,272,8.9,0.74,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,jetty-server,2.10.8,2024-06-08,763,25.1,2.09,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+PaymentService,mysql-connector-java,1.6.8,2024-08-13,697,22.9,1.91,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,bouncycastle-bcprov,2.8.8,2026-03-08,125,4.1,0.34,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,h2-database,1.12.0,2023-11-05,979,32.2,2.68,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+PaymentService,jackson-annotations,3.9.1,2026-04-08,94,3.1,0.26,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,testify,2.2.6,2024-10-26,623,20.5,1.71,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,morgan,3.0.8,2023-05-06,1162,38.2,3.18,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+PaymentService,protobuf-java,3.3.5,2024-11-12,606,19.9,1.66,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,disruptor,2.3.4,2024-07-26,715,23.5,1.96,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,commons-lang3,4.10.8,2024-01-26,897,29.5,2.46,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+PaymentService,commons-codec,3.5.2,2024-12-16,572,18.8,1.57,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,logback-classic,3.7.7,2026-01-01,191,6.3,0.52,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,lombok,3.12.5,2025-01-13,544,17.9,1.49,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,log4j-core,4.4.5,2025-06-03,403,13.2,1.1,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,spring-core,3.7.8,2024-10-22,627,20.6,1.72,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+PaymentService,aiohttp,2.4.1,2024-07-02,739,24.3,2.02,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+PaymentService,netty-handler,4.12.3,2025-12-05,218,7.2,0.6,Actively Maintained,Low,Continue monitoring releases and security advisories.
+PaymentService,bandit,3.6.3,2025-09-19,295,9.7,0.81,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,requests,4.15.9,2025-01-22,535,17.6,1.46,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,pip,2.4.2,2025-05-05,432,14.2,1.18,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,twisted,2.5.2,2024-07-28,713,23.4,1.95,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,setuptools,2.12.9,2025-03-18,480,15.8,1.31,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,numpy,5.8.2,2022-02-13,1609,52.9,4.41,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+InternalAPI,aws-sdk-s3,5.13.2,2022-12-24,1295,42.5,3.55,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+InternalAPI,junit-jupiter,4.13.5,2025-06-26,380,12.5,1.04,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,black,3.15.3,2024-12-11,577,19.0,1.58,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,psycopg2,1.3.8,2025-04-20,447,14.7,1.22,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,pydantic,5.8.4,2025-07-12,364,12.0,1.0,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,log4j-api,2.3.3,2025-05-13,424,13.9,1.16,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,paramiko,1.2.4,2025-07-16,360,11.8,0.99,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,markupsafe,2.15.7,2025-11-13,240,7.9,0.66,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,pandas,5.5.10,2021-07-19,1818,59.7,4.98,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+InternalAPI,bandit,1.2.8,2025-03-11,487,16.0,1.33,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,cryptography,4.12.9,2024-09-18,661,21.7,1.81,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,sqlalchemy,5.8.8,2025-02-05,521,17.1,1.43,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,redis-py,2.10.6,2024-09-04,675,22.2,1.85,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,pyyaml,2.15.5,2024-12-12,576,18.9,1.58,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,node-fetch,2.11.2,2024-06-07,764,25.1,2.09,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+InternalAPI,httpx,4.5.8,2025-08-08,337,11.1,0.92,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,coverage,2.14.1,2025-06-24,382,12.6,1.05,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,zap,2.8.3,2025-01-02,555,18.2,1.52,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,fastapi,5.4.9,2025-08-17,328,10.8,0.9,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,mocha,2.10.7,2020-11-30,2049,67.3,5.61,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+InternalAPI,jinja2,3.15.10,2025-02-19,507,16.7,1.39,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,python-dateutil,5.6.9,2025-04-29,438,14.4,1.2,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,flask,5.9.7,2025-08-06,339,11.1,0.93,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,wheel,2.10.3,2025-03-05,493,16.2,1.35,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,certifi,2.0.2,2025-01-02,555,18.2,1.52,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,botocore,4.1.0,2024-11-07,611,20.1,1.67,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,rich,4.9.3,2024-11-22,596,19.6,1.63,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,ansible-core,3.10.7,2025-12-05,218,7.2,0.6,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,pyjwt,5.13.8,2024-08-31,679,22.3,1.86,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,fabric,5.4.5,2025-10-02,282,9.3,0.77,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,colly,3.9.3,2025-12-27,196,6.4,0.54,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,click,4.6.3,2025-01-12,545,17.9,1.49,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,celery,2.8.4,2024-12-10,578,19.0,1.58,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,uvicorn,2.2.4,2026-02-28,133,4.4,0.36,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,safety,4.3.5,2024-06-23,748,24.6,2.05,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+InternalAPI,idna,2.1.4,2020-07-03,2199,72.2,6.02,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+InternalAPI,boto3,2.5.6,2024-07-03,738,24.2,2.02,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+InternalAPI,django,1.4.6,2025-02-12,514,16.9,1.41,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,werkzeug,1.1.3,2024-07-05,736,24.2,2.02,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+InternalAPI,urllib3,2.7.6,2024-01-31,892,29.3,2.44,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+InternalAPI,scikit-learn,3.7.4,2024-09-24,655,21.5,1.79,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,gunicorn,3.0.2,2024-06-10,761,25.0,2.08,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+InternalAPI,go-redis,4.11.2,2026-02-24,137,4.5,0.38,Actively Maintained,Low,Continue monitoring releases and security advisories.
+InternalAPI,pytest,1.5.2,2025-04-21,446,14.7,1.22,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+InternalAPI,pillow,3.12.7,2024-10-16,633,20.8,1.73,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,coverage,5.12.10,2026-02-11,150,4.9,0.41,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,morgan,4.11.0,2024-08-19,691,22.7,1.89,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,sqlalchemy,5.13.1,2024-09-15,664,21.8,1.82,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,paramiko,5.10.10,2025-12-16,207,6.8,0.57,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,gunicorn,3.11.7,2025-11-13,240,7.9,0.66,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,numpy,1.9.3,2025-12-19,204,6.7,0.56,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,pytest,2.8.5,2022-03-29,1565,51.4,4.28,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRPortal,python-dateutil,2.15.9,2026-01-12,180,5.9,0.49,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,cors,4.13.1,2026-03-12,121,4.0,0.33,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,django,2.10.8,2026-01-31,161,5.3,0.44,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,mypy,2.4.5,2025-07-14,362,11.9,0.99,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,boto3,4.6.8,2025-08-15,330,10.8,0.9,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,httpx,3.6.5,2026-02-22,139,4.6,0.38,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,scipy,1.3.0,2024-06-15,756,24.8,2.07,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+HRPortal,moment,2.6.3,2024-10-23,626,20.6,1.71,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,fastapi,5.1.4,2025-09-20,294,9.7,0.8,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,twisted,3.11.1,2025-06-25,381,12.5,1.04,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,pyjwt,5.2.2,2021-05-21,1877,61.7,5.14,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRPortal,uuid,1.8.6,2025-01-17,540,17.7,1.48,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,formidable,4.4.1,2025-01-19,538,17.7,1.47,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,pyyaml,5.10.7,2024-12-25,563,18.5,1.54,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,idna,2.10.2,2025-04-07,460,15.1,1.26,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,bandit,1.8.9,2020-06-11,2221,73.0,6.08,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRPortal,ansible-core,3.5.6,2024-06-16,755,24.8,2.07,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+HRPortal,urllib3,4.12.0,2026-01-07,185,6.1,0.51,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,aiohttp,2.12.0,2025-08-25,320,10.5,0.88,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,pandas,5.4.7,2026-01-21,171,5.6,0.47,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,cryptography,2.14.1,2024-10-05,644,21.2,1.76,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,pydantic,4.11.1,2024-11-11,607,19.9,1.66,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,caffeine,2.4.2,2025-08-31,314,10.3,0.86,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,markupsafe,2.0.9,2025-10-24,260,8.5,0.71,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,typescript,4.13.7,2026-03-06,127,4.2,0.35,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,hibernate-validator,1.4.0,2022-05-03,1530,50.3,4.19,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRPortal,botocore,1.13.8,2025-11-22,231,7.6,0.63,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,safety,1.2.7,2026-02-14,147,4.8,0.4,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,flask,4.7.2,2024-06-02,769,25.3,2.11,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+HRPortal,pillow,1.0.7,2026-02-21,140,4.6,0.38,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,rich,4.0.5,2021-02-16,1971,64.8,5.4,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRPortal,charset-normalizer,3.4.1,2024-09-25,654,21.5,1.79,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,requests,3.6.0,2026-04-20,82,2.7,0.22,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,bcrypt,1.10.2,2025-05-10,427,14.0,1.17,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,click,1.8.4,2024-12-31,557,18.3,1.53,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,hibernate-core,3.12.5,2022-02-07,1615,53.1,4.42,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+HRPortal,celery,2.9.6,2025-04-19,448,14.7,1.23,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,psycopg2,3.6.1,2025-04-06,461,15.1,1.26,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,six,2.8.4,2024-09-03,676,22.2,1.85,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,scikit-learn,4.8.2,2025-04-14,453,14.9,1.24,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,setuptools,2.12.1,2024-12-28,560,18.4,1.53,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+HRPortal,uvicorn,4.6.8,2026-01-30,162,5.3,0.44,Actively Maintained,Low,Continue monitoring releases and security advisories.
+HRPortal,matplotlib,1.5.7,2025-04-16,451,14.8,1.23,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,moment,1.14.1,2025-01-16,541,17.8,1.48,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,formidable,5.8.5,2025-04-29,438,14.4,1.2,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,cheerio,3.15.7,2020-07-29,2173,71.4,5.95,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+AnalyticsDashboard,bcrypt,1.9.8,2025-10-07,277,9.1,0.76,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,mocha,4.10.8,2026-01-09,183,6.0,0.5,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,nanoid,3.12.1,2025-10-20,264,8.7,0.72,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,winston,1.4.10,2024-12-28,560,18.4,1.53,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,sequelize,3.2.9,2024-10-09,640,21.0,1.75,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,commander,2.13.9,2025-01-03,554,18.2,1.52,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,dotenv,4.4.4,2024-10-26,623,20.5,1.71,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,setuptools,5.13.9,2025-01-18,539,17.7,1.48,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,babel-core,5.15.3,2024-07-09,732,24.0,2.0,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+AnalyticsDashboard,node-fetch,2.8.7,2026-04-11,91,3.0,0.25,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,morgan,5.10.6,2023-05-08,1160,38.1,3.18,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+AnalyticsDashboard,multer,5.0.4,2026-02-21,140,4.6,0.38,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,mongoose,1.3.9,2024-11-27,591,19.4,1.62,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,nodemon,2.15.2,2026-01-31,161,5.3,0.44,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,eslint,1.8.1,2025-11-28,225,7.4,0.62,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,next,4.15.4,2025-04-20,447,14.7,1.22,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,cors,5.12.7,2025-11-15,238,7.8,0.65,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,knex,1.0.1,2025-08-31,314,10.3,0.86,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,chalk,1.0.9,2026-02-04,157,5.2,0.43,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,vue,1.5.4,2025-03-11,487,16.0,1.33,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,react,4.12.5,2025-10-17,267,8.8,0.73,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,typescript,4.8.1,2025-10-23,261,8.6,0.71,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,puppeteer,1.12.4,2025-10-16,268,8.8,0.73,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,inquirer,1.12.7,2025-07-16,360,11.8,0.99,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,passport,1.11.8,2026-03-26,107,3.5,0.29,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,apollo-server,5.1.6,2025-06-03,403,13.2,1.1,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,react-dom,5.7.7,2025-09-04,310,10.2,0.85,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,angular-core,5.4.9,2025-09-26,288,9.5,0.79,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,jest,5.2.1,2025-08-11,334,11.0,0.91,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,hibernate-validator,5.4.5,2024-08-04,706,23.2,1.93,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,spring-boot-starter,2.11.8,2023-07-18,1089,35.8,2.98,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+AnalyticsDashboard,yargs,1.0.0,2025-10-01,283,9.3,0.77,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,postgresql-jdbc,4.6.3,2025-10-25,259,8.5,0.71,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,micrometer-core,1.10.4,2024-09-29,650,21.4,1.78,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,helmet,1.9.5,2026-03-04,129,4.2,0.35,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,protobuf-java,2.4.0,2025-09-29,285,9.4,0.78,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,prettier,4.2.2,2025-01-01,556,18.3,1.52,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,axios,4.0.1,2020-02-29,2324,76.4,6.36,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+AnalyticsDashboard,graphql,1.3.7,2025-04-30,437,14.4,1.2,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,bull,3.3.1,2025-01-12,545,17.9,1.49,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,sharp,1.6.2,2024-10-18,631,20.7,1.73,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,express,3.4.3,2020-10-06,2104,69.1,5.76,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+AnalyticsDashboard,echo,4.6.2,2026-03-16,117,3.8,0.32,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,testify,2.9.8,2025-01-08,549,18.0,1.5,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+AnalyticsDashboard,webpack,4.4.0,2025-08-19,326,10.7,0.89,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,dayjs,2.9.0,2025-10-30,254,8.3,0.7,Actively Maintained,Low,Continue monitoring releases and security advisories.
+AnalyticsDashboard,mysql-connector-java,1.6.8,2025-09-07,307,10.1,0.84,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,zap,4.6.3,2024-08-04,706,23.2,1.93,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,protobuf-go,4.9.7,2024-08-07,703,23.1,1.92,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,sarama,4.2.1,2021-07-19,1818,59.7,4.98,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+MobileBackend,pyjwt,2.0.4,2025-08-29,316,10.4,0.87,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,moment,3.15.9,2024-10-14,635,20.9,1.74,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,testify,2.11.4,2024-12-04,584,19.2,1.6,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,crypto-go,5.1.10,2025-11-29,224,7.4,0.61,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,python-dateutil,2.14.5,2025-03-30,468,15.4,1.28,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,mux,4.10.1,2020-02-20,2333,76.6,6.39,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+MobileBackend,logrus,5.6.9,2023-01-07,1281,42.1,3.51,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+MobileBackend,gorm,5.1.10,2024-06-13,758,24.9,2.08,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+MobileBackend,go-jwt,5.2.3,2024-11-15,603,19.8,1.65,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,aws-sdk-go,1.12.1,2025-07-30,346,11.4,0.95,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,viper,2.6.2,2026-01-21,171,5.6,0.47,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,resty,1.4.4,2025-03-22,476,15.6,1.3,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,gson,4.2.9,2025-10-01,283,9.3,0.77,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,spring-core,2.1.4,2025-11-25,228,7.5,0.62,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,yaml-go,1.5.8,2025-06-07,399,13.1,1.09,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,fiber,1.4.8,2020-11-12,2067,67.9,5.66,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+MobileBackend,gin,5.3.6,2025-04-16,451,14.8,1.23,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,json-iterator,3.5.4,2024-10-24,625,20.5,1.71,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,numpy,4.3.1,2024-07-14,727,23.9,1.99,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,golangci-lint,5.1.7,2020-07-16,2186,71.8,5.99,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+MobileBackend,pgx,1.2.2,2025-10-26,258,8.5,0.71,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,aiohttp,2.9.2,2025-10-30,254,8.3,0.7,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,go-redis,4.6.8,2025-11-15,238,7.8,0.65,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,bcrypt-go,3.1.1,2025-08-29,316,10.4,0.87,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,fasthttp,2.2.7,2024-09-16,663,21.8,1.82,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,chi,2.2.5,2022-05-19,1514,49.7,4.15,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+MobileBackend,uuid-go,5.12.7,2025-10-23,261,8.6,0.71,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,nats,1.3.0,2025-05-01,436,14.3,1.19,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,yargs,1.2.10,2025-10-23,261,8.6,0.71,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,tomcat-embed-core,1.1.6,2025-09-14,300,9.9,0.82,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,colly,2.9.2,2026-01-04,188,6.2,0.51,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,sqlx,2.1.6,2025-03-19,479,15.7,1.31,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,react-dom,3.6.1,2026-04-09,93,3.1,0.25,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,paramiko,3.9.1,2020-12-13,2036,66.9,5.57,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+MobileBackend,cors,1.7.6,2022-08-19,1422,46.7,3.89,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+MobileBackend,nats,1.5.6,2024-09-11,668,21.9,1.83,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,commons-lang3,2.5.7,2021-09-05,1770,58.2,4.85,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+MobileBackend,jedis,2.7.1,2025-04-01,466,15.3,1.28,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,go-jwt,4.12.3,2024-09-06,673,22.1,1.84,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,inquirer,3.1.8,2021-09-10,1765,58.0,4.83,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+MobileBackend,logback-classic,4.10.8,2025-09-08,306,10.1,0.84,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,uvicorn,2.0.8,2025-09-22,292,9.6,0.8,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,bouncycastle-bcprov,3.10.8,2026-03-04,129,4.2,0.35,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,coverage,3.7.2,2025-08-20,325,10.7,0.89,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,pyjwt,4.5.1,2026-03-24,109,3.6,0.3,Actively Maintained,Low,Continue monitoring releases and security advisories.
+MobileBackend,uuid,4.3.1,2025-04-14,453,14.9,1.24,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+MobileBackend,mapstruct,4.7.8,2025-03-07,491,16.1,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,pillow,4.7.4,2025-04-12,455,14.9,1.25,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,viper,5.1.10,2025-12-18,205,6.7,0.56,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,boto3,5.7.7,2025-01-28,529,17.4,1.45,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,logback-classic,2.14.10,2020-06-13,2219,72.9,6.08,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+DevToolkit,mypy,3.2.5,2024-06-29,742,24.4,2.03,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+DevToolkit,certifi,3.2.1,2024-10-12,637,20.9,1.74,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,twisted,3.9.3,2026-01-06,186,6.1,0.51,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,markupsafe,1.7.1,2023-06-19,1118,36.7,3.06,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+DevToolkit,requests,1.13.7,2025-02-28,498,16.4,1.36,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,scikit-learn,4.6.9,2025-07-24,352,11.6,0.96,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,python-dateutil,4.2.0,2025-06-28,378,12.4,1.03,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,werkzeug,2.15.5,2024-07-17,724,23.8,1.98,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,spring-core,3.12.10,2024-11-21,597,19.6,1.63,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,redis-py,1.10.8,2025-03-15,483,15.9,1.32,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,wheel,4.5.5,2026-04-05,97,3.2,0.27,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,safety,1.7.2,2022-10-10,1370,45.0,3.75,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+DevToolkit,paramiko,3.15.7,2024-12-26,562,18.5,1.54,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,helmet,4.2.3,2024-10-03,646,21.2,1.77,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,pandas,1.2.7,2024-06-06,765,25.1,2.09,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+DevToolkit,pyjwt,5.4.3,2020-05-24,2239,73.6,6.13,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+DevToolkit,urllib3,4.2.0,2026-04-01,101,3.3,0.28,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,cryptography,3.4.5,2025-07-03,373,12.3,1.02,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,psycopg2,3.5.6,2026-03-26,107,3.5,0.29,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,bandit,5.2.4,2020-09-18,2122,69.7,5.81,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+DevToolkit,matplotlib,5.2.0,2026-01-04,188,6.2,0.51,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,rich,2.5.6,2025-09-09,305,10.0,0.84,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,cobra,5.8.10,2023-09-05,1040,34.2,2.85,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+DevToolkit,ansible-core,4.9.9,2025-04-06,461,15.1,1.26,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,pip,1.0.3,2026-03-04,129,4.2,0.35,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,snakeyaml,2.14.7,2025-07-07,369,12.1,1.01,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,six,4.15.9,2025-11-08,245,8.0,0.67,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,redis,4.10.8,2023-06-29,1108,36.4,3.03,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+DevToolkit,celery,5.7.9,2025-09-23,291,9.6,0.8,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,setuptools,4.11.7,2024-08-28,682,22.4,1.87,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,coverage,1.13.7,2025-02-23,503,16.5,1.38,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,charset-normalizer,1.5.6,2025-02-20,506,16.6,1.39,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,pytest,3.12.0,2025-11-10,243,8.0,0.67,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,numpy,1.11.0,2024-09-22,657,21.6,1.8,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,botocore,1.8.0,2025-06-06,400,13.1,1.1,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,scipy,2.11.4,2024-09-10,669,22.0,1.83,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,httpx,3.2.1,2024-06-07,764,25.1,2.09,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+DevToolkit,bouncycastle-bcprov,3.4.8,2025-06-05,401,13.2,1.1,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,aiohttp,2.2.8,2025-07-25,351,11.5,0.96,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,gunicorn,3.0.7,2024-08-11,699,23.0,1.91,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,click,4.12.2,2026-03-19,114,3.7,0.31,Actively Maintained,Low,Continue monitoring releases and security advisories.
+DevToolkit,pydantic,3.6.6,2025-04-18,449,14.8,1.23,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,uvicorn,1.4.8,2024-12-28,560,18.4,1.53,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,pyyaml,4.11.5,2025-04-05,462,15.2,1.26,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+DevToolkit,black,3.6.2,2023-02-04,1253,41.2,3.43,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+DevToolkit,jinja2,2.0.0,2025-04-08,459,15.1,1.26,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,aws-sdk-s3,4.14.7,2023-12-27,927,30.5,2.54,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+ComplianceEngine,mockito-core,5.11.1,2025-11-18,235,7.7,0.64,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,guava,3.9.7,2023-04-22,1176,38.6,3.22,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+ComplianceEngine,mysql-connector-java,2.15.0,2025-04-14,453,14.9,1.24,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,tomcat-embed-core,5.4.2,2024-01-30,893,29.3,2.44,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+ComplianceEngine,lettuce-core,4.10.8,2024-11-17,601,19.7,1.65,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,jedis,1.6.9,2025-10-01,283,9.3,0.77,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,postgresql-jdbc,3.6.3,2026-02-12,149,4.9,0.41,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,spring-security-core,4.0.8,2025-03-20,478,15.7,1.31,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,mocha,2.9.6,2020-04-29,2264,74.4,6.2,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+ComplianceEngine,commons-collections4,1.10.2,2024-07-24,717,23.6,1.96,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,commander,5.7.7,2022-08-09,1432,47.0,3.92,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+ComplianceEngine,boto3,1.8.8,2024-10-07,642,21.1,1.76,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,logback-classic,3.5.3,2022-08-09,1432,47.0,3.92,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+ComplianceEngine,hibernate-core,3.6.9,2025-04-04,463,15.2,1.27,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,bouncycastle-bcprov,2.8.6,2026-03-13,120,3.9,0.33,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,log4j-api,4.8.3,2024-10-15,634,20.8,1.74,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,h2-database,4.15.6,2026-04-19,83,2.7,0.23,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,spring-boot-starter,3.12.2,2024-12-15,573,18.8,1.57,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,netty-handler,3.6.1,2025-10-19,265,8.7,0.73,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,commons-codec,1.4.1,2025-03-08,490,16.1,1.34,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,spring-web,1.8.10,2026-03-28,105,3.4,0.29,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,junit-jupiter,3.13.6,2024-07-15,726,23.9,1.99,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,grpc-core,4.6.5,2025-08-08,337,11.1,0.92,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,commons-io,4.0.9,2021-05-03,1895,62.3,5.19,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+ComplianceEngine,graphql,1.12.5,2025-08-27,318,10.4,0.87,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,jackson-databind,4.2.1,2026-02-23,138,4.5,0.38,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,micrometer-core,3.0.7,2024-08-09,701,23.0,1.92,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,slf4j-api,3.11.6,2024-08-01,709,23.3,1.94,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,commons-lang3,5.13.8,2024-10-29,620,20.4,1.7,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,pgx,5.4.0,2024-12-18,570,18.7,1.56,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,kafka-clients,3.9.6,2024-06-04,767,25.2,2.1,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+ComplianceEngine,hibernate-validator,2.7.7,2025-07-15,361,11.9,0.99,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,jackson-annotations,3.0.1,2026-01-21,171,5.6,0.47,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,logback-core,1.5.4,2025-06-24,382,12.6,1.05,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,axios,3.12.5,2025-08-19,326,10.7,0.89,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,setuptools,1.1.2,2022-02-13,1609,52.9,4.41,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+ComplianceEngine,httpclient,3.9.6,2026-01-23,169,5.6,0.46,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,resilience4j,2.8.4,2025-03-14,484,15.9,1.33,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,jetty-server,2.8.7,2026-02-20,141,4.6,0.39,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,opentelemetry-api,1.2.8,2025-10-24,260,8.5,0.71,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,numpy,3.11.5,2026-01-17,175,5.7,0.48,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,caffeine,1.3.3,2025-04-10,457,15.0,1.25,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,httpcore,2.5.4,2025-11-14,239,7.9,0.65,Actively Maintained,Low,Continue monitoring releases and security advisories.
+ComplianceEngine,gson,1.7.8,2025-06-12,394,12.9,1.08,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,mapstruct,4.5.4,2024-08-17,693,22.8,1.9,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,log4j-core,3.1.4,2021-07-20,1817,59.7,4.97,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+ComplianceEngine,aws-sdk-sqs,2.1.1,2025-05-04,433,14.2,1.19,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,disruptor,2.11.2,2025-02-23,503,16.5,1.38,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+ComplianceEngine,netty-all,3.5.6,2025-09-27,287,9.4,0.79,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,react-dom,1.10.9,2023-02-06,1251,41.1,3.43,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+NotificationService,yaml-go,5.15.0,2025-03-26,472,15.5,1.29,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,jest,3.13.6,2025-07-04,372,12.2,1.02,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,cryptography,3.6.0,2025-11-21,232,7.6,0.64,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,redis,5.1.1,2025-04-01,466,15.3,1.28,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,next,2.13.7,2024-07-15,726,23.9,1.99,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,ansible-core,2.8.10,2025-01-09,548,18.0,1.5,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,sharp,1.14.0,2025-07-14,362,11.9,0.99,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,axios,4.14.1,2021-07-25,1812,59.5,4.96,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+NotificationService,winston,2.2.10,2024-07-06,735,24.1,2.01,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+NotificationService,babel-core,5.0.0,2024-12-22,566,18.6,1.55,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,chalk,3.6.10,2026-04-12,90,3.0,0.25,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,twisted,5.3.5,2025-08-13,332,10.9,0.91,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,nanoid,2.3.5,2024-06-13,758,24.9,2.08,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+NotificationService,inquirer,5.11.0,2024-09-13,666,21.9,1.82,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,mocha,3.5.10,2025-05-10,427,14.0,1.17,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,vue,5.14.6,2025-01-25,532,17.5,1.46,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,puppeteer,1.9.3,2022-10-18,1362,44.7,3.73,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+NotificationService,postgresql-jdbc,2.12.3,2025-05-03,434,14.3,1.19,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,socket.io,5.13.10,2025-02-04,522,17.1,1.43,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,sequelize,2.12.8,2021-01-29,1989,65.3,5.45,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+NotificationService,dayjs,2.4.1,2024-08-20,690,22.7,1.89,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,chai,2.7.6,2024-12-24,564,18.5,1.54,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,graphql,1.11.6,2024-11-07,611,20.1,1.67,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,commander,3.12.7,2020-10-06,2104,69.1,5.76,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+NotificationService,morgan,4.11.6,2024-10-06,643,21.1,1.76,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,django,3.15.10,2025-02-04,522,17.1,1.43,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,multer,2.8.9,2026-04-10,92,3.0,0.25,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,uuid,5.6.6,2026-04-06,96,3.2,0.26,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,lodash,2.12.4,2024-06-02,769,25.3,2.11,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+NotificationService,webpack,4.13.10,2024-12-20,568,18.7,1.56,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,helmet,2.6.0,2026-03-04,129,4.2,0.35,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,knex,1.7.7,2024-06-08,763,25.1,2.09,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+NotificationService,express,5.0.6,2025-05-12,425,14.0,1.16,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,passport,2.11.10,2024-09-11,668,21.9,1.83,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,node-fetch,4.11.2,2025-02-10,516,17.0,1.41,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,moment,4.10.3,2025-04-26,441,14.5,1.21,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,cors,1.10.5,2025-08-29,316,10.4,0.87,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,react,2.9.7,2025-10-01,283,9.3,0.77,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,mapstruct,1.11.6,2026-01-07,185,6.1,0.51,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,formidable,1.2.7,2025-09-22,292,9.6,0.8,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,pm2,2.7.1,2026-04-07,95,3.1,0.26,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,prettier,1.1.6,2025-05-01,436,14.3,1.19,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,dotenv,3.3.4,2020-10-05,2105,69.2,5.76,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+NotificationService,nodemon,4.1.5,2024-08-06,704,23.1,1.93,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,eslint,4.11.6,2025-01-25,532,17.5,1.46,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,jsonwebtoken,3.1.1,2024-09-27,652,21.4,1.79,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,angular-core,3.2.5,2026-01-26,166,5.5,0.45,Actively Maintained,Low,Continue monitoring releases and security advisories.
+NotificationService,bcrypt,2.6.6,2024-10-08,641,21.1,1.75,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+NotificationService,nats,2.1.6,2025-03-31,467,15.3,1.28,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,pgx,3.4.3,2026-01-11,181,5.9,0.5,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,protobuf-go,2.12.6,2024-12-01,587,19.3,1.61,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,rich,1.7.6,2026-04-18,84,2.8,0.23,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,logrus,3.14.5,2022-09-28,1382,45.4,3.78,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+VendorGateway,fiber,5.15.4,2026-03-23,110,3.6,0.3,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,golangci-lint,4.0.6,2023-04-12,1186,39.0,3.25,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+VendorGateway,chi,1.5.9,2025-04-18,449,14.8,1.23,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,mockito-core,2.6.10,2020-09-12,2128,69.9,5.83,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+VendorGateway,setuptools,1.9.10,2025-05-27,410,13.5,1.12,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,graphql,2.1.3,2025-01-08,549,18.0,1.5,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,nats,3.12.10,2024-10-25,624,20.5,1.71,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,jackson-annotations,3.5.6,2023-05-21,1147,37.7,3.14,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+VendorGateway,sqlx,5.13.1,2025-01-18,539,17.7,1.48,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,resty,4.3.1,2024-09-06,673,22.1,1.84,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,aws-sdk-go,1.5.5,2025-11-27,226,7.4,0.62,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,gomock,5.4.10,2026-03-17,116,3.8,0.32,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,gin,3.2.4,2021-05-06,1892,62.2,5.18,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
+VendorGateway,caffeine,4.0.9,2025-05-20,417,13.7,1.14,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,werkzeug,5.1.9,2025-01-17,540,17.7,1.48,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,go-redis,5.11.0,2025-02-11,515,16.9,1.41,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,grpc-go,2.9.10,2024-07-29,712,23.4,1.95,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,cobra,3.5.6,2024-11-05,613,20.1,1.68,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,echo,3.7.7,2025-03-03,495,16.3,1.36,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,colly,4.14.2,2024-12-12,576,18.9,1.58,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,zap,2.12.6,2026-04-13,89,2.9,0.24,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,yaml-go,1.4.2,2024-07-24,717,23.6,1.96,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,crypto-go,3.9.7,2025-02-11,515,16.9,1.41,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,fasthttp,1.8.3,2025-10-28,256,8.4,0.7,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,viper,3.6.2,2025-11-20,233,7.7,0.64,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,bcrypt-go,4.15.0,2025-05-26,411,13.5,1.13,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,json-iterator,2.9.7,2025-06-08,398,13.1,1.09,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,gorm,2.10.5,2025-01-30,527,17.3,1.44,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,go-jwt,1.6.3,2025-04-05,462,15.2,1.26,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,mux,5.11.5,2025-11-19,234,7.7,0.64,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,uuid-go,4.2.2,2025-03-06,492,16.2,1.35,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,chalk,1.12.8,2025-01-12,545,17.9,1.49,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,vue,1.2.3,2025-03-12,486,16.0,1.33,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,hibernate-validator,2.4.0,2024-09-27,652,21.4,1.79,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,tomcat-embed-core,3.5.1,2025-07-24,352,11.6,0.96,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,pip,3.5.0,2025-03-14,484,15.9,1.33,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,chi,1.11.6,2025-12-17,206,6.8,0.56,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,commons-codec,2.7.3,2025-07-10,366,12.0,1.0,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,certifi,2.7.3,2024-09-04,675,22.2,1.85,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,bcrypt,2.2.3,2024-06-22,749,24.6,2.05,Outdated,High,Prioritize an upgrade or identify a supported replacement.
+VendorGateway,crypto-go,4.10.3,2026-03-23,110,3.6,0.3,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,protobuf-java,4.1.8,2025-06-22,384,12.6,1.05,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,mux,4.0.1,2024-10-14,635,20.9,1.74,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,bouncycastle-bcprov,3.2.0,2025-12-08,215,7.1,0.59,Actively Maintained,Low,Continue monitoring releases and security advisories.
+VendorGateway,chai,3.11.1,2024-11-15,603,19.8,1.65,Moderately Outdated,Medium,Plan an upgrade review and confirm active upstream support.
+VendorGateway,nodemon,2.3.0,2020-04-01,2292,75.3,6.28,Unmaintained,Critical,Replace or isolate the dependency and obtain an approved exception.
